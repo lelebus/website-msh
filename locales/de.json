@@ -1,0 +1,194 @@
+{
+  "vinoteqa": {
+    "title": "Vinoteqa - Weinkeller-Management für Restaurants",
+    "description": "Vinoteqa ist eine digitale Plattform zur Weinkeller-Verwaltung, die für gehobene Restaurants und Weinbars entwickelt wurde. Digitalisiere deine Weinkarte, verwalte dein Inventar und greife auf detaillierte Daten zu, um fundierte Entscheidungen zu treffen.",
+    "mission": "Die Mission von Vinoteqa ist es, das Weinmanagement für gehobene Restaurants und Weinbars mit benutzerfreundlichen, effizienten und eleganten digitalen Lösungen zu revolutionieren.",
+    "location": "Südtirol, Italien"
+  },
+  "common": {
+    "discoverMore": "Mehr erfahren",
+    "viewExample": "Beispiel ansehen",
+    "location": "Standort",
+    "contacts": "Kontakte",
+    "errorPageTitle": "Ein Fehler ist aufgetreten",
+    "somethingWentWrong": "Etwas ist schief gelaufen. Bitte versuche es später erneut.",
+    "goBack": "Zurück"
+  },
+  "pageNotFound": {
+    "title": "Seite nicht gefunden",
+    "subtitle": "Die gesuchte Seite existiert nicht. Kehre zur Startseite zurück oder kontaktiere uns für Unterstützung.",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "cookies": {
+    "notice": "Wir verwenden Cookies, um Ihr Erlebnis auf unserer Website zu verbessern. Wie wir sie verwenden, finden Sie auf unsere",
+    "privacyPolicy": "Datenschutzrichtlinien"
+  },
+  "ctas": {
+    "bookDemo": "Buche eine kostenlose Demo",
+    "bookDemoBold": "Buche eine kostenlose Demo",
+    "contactUs": "Kontaktiere uns"
+  },
+  "navigation": {
+    "platform": "Plattform",
+    "features": "Funktionen",
+    "winelist": "Weinkarte",
+    "pricing": "Preise",
+    "faqs": "FAQ"
+  },
+  "hero": {
+    "titleLabel": "Für Betriebe mit über 300 Weinetiketten",
+    "title": "Digitalisiere deinen Weinkeller",
+    "subtitle": "Die beste Lösung, um deine Weinkollektion zu verwalten und zu präsentieren. Erstelle deine Weinkarte mit einem einzigen Klick. Jederzeit und überall."
+  },
+  "footer": {
+    "vinoteqa": {
+      "platform": "Plattform"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "blog": "Vinoteqa Blog"
+    },
+    "contacts": {
+      "title": "Kontakt"
+    }
+  },
+  "sections": {
+    "statistics": {
+      "title": "Greife von überall auf unsere Datenbank zu",
+      "wineries": "Weingüter",
+      "wines": "Weine",
+      "transactionsTracked": "in erfolgten Transaktionen"
+    },
+    "features": {
+      "integratedWorkflowTitleLabel": "Intelligentes Design",
+      "integratedWorkflowTitle": "Ein integrierter Workflow",
+      "integratedWorkflowSubtitle": "Verwalte deinen Weinkeller mühelos mit unserer benutzerfreundlichen Plattform. Kontrolliere deinen Bestand, erstelle beeindruckende Weinkarten und greife auf zuverlässige Daten zu.",
+      "extensiveWineDataTitle": "Umfangreiche Weindaten",
+      "extensiveWineDataSubtitle": "Zugang zu über eine Million Weindaten zu, einschließlich Gebiete, Rebsorten, Stile und mehr.",
+      "intuitiveUITitle": "Intuitive Struktur",
+      "intuitiveUISubtitle": "Navigiere mühelos durch eine nutzerfreundliche Oberfläche, die für Klarheit und Einfachheit entwickelt wurde.",
+      "inventoryManagementTitle": "Automatisiertes Bestandsmanagement",
+      "inventoryManagementSubtitle": "Behalte mühelos den Überblick über deinen gesamten Weinkeller und reduziere das Risiko von negativen Überraschungen für deine Gäste.",
+      "statisticsTitleLabel": "Überlegte Entscheidungen",
+      "statisticsTitle": "Alle Daten auf einen Blick",
+      "statisticsSubtitle": "Entdecke eine Fülle von Einblicken mit unseren detaillierten Statistiken, die dir helfen, deinen Bestand und deine Verkaufsleistung zu verstehen und zu optimieren.",
+      "liveStatisticsTitle": "Echtzeit-Statistiken",
+      "liveStatisticsSubtitle": "Überprüfe deine Statistiken jederzeit und von überall aus, um sicherzustellen, dass du immer weißt, was du im Keller hast.",
+      "reportingTitle": "Bestandsberichte",
+      "reportingSubtitle": "Erstelle umfassende Bestandsberichte mit Leichtigkeit und spare Zeit und Mühe.",
+      "dataDrivenDecisionsTitle": "Datenbasierte Entscheidungen",
+      "dataDrivenDecisionsSubtitle": "Nutze Einblicke, um Margen zu überprüfen, Gewinne vorherzusagen, wichtigste Lieferanten und beliebteste Weine zu identifizieren.",
+      "winelistTitle": "Deine personalisierte Weinkarte",
+      "winelistSubtitle": "Aktualisiere und gestalte deine Weinkarte automatisch mittels Bestandsynchronisierung in Echtzeit. Erstelle und drucke mühelos individuelle Weinkarten mit korrekt positionierten Weinen.",
+      "digitalWinelistTitle": "Digitale Weinkarte",
+      "digitalWinelistSubtitle": "Halte deine digitale Weinkarte mit automatischen Updates und Synchronisierungen auf dem neuesten Stand. Nach der Einrichtung werden deine Weine automatisch in ihre vorgesehenen Positionen gebracht, um deine Kollektion bestmöglich widerzuspiegeln.",
+      "digitalWinelistImgAlt": "Digitale Weinkarte von Vinoteqa auf Mobiltelefon und iPad",
+      "printWinelistTitle": "Gedruckte Weinkarte",
+      "printWinelistSubtitle": "Drucke deine Weinkarte mit einem Klick und erziele hochwertige Ergebnisse. Automatisch geordnet und professionell präsentiert, personalisierbar nach deinen Wünschen.",
+      "printWinelistImgAlt": "Restaurantgäste betrachten eine von Vinoteqa automatisch erstellte gedruckte Weinkarte"
+    },
+    "testimonial": {
+      "imgAlt": "Stefano Kratter vom Ristorante Mondschein über Vinoteqa",
+      "content": "Vinoteqa hat die Verwaltung unseres Inventars und unserer Weinkarte revolutioniert. Mit den bereits verfügbaren Weindaten und Echtzeit-Updates sind unsere Abläufe effizienter geworden und die Weinkarte bleibt automatisch auf dem neuesten Stand. Vinoteqa hilft uns maßgeblich, unseren Weinkeller im Griff zu halten und ermöglicht es, dass wir uns auf ein außergewöhnliches kulinarisches Erlebnis für unsere Gäste konzentrieren können."
+    },
+    "pricing": {
+      "titleLabel": "Preise",
+      "title": "Ein einfacher Preis für alle Funktionen",
+      "subtitle": "Erhalte alles, was du benötigst, um dein Weininventar und deine Weinkarte mit einem einzigen Plan zu meistern.",
+      "oneTimePayment": "einmalige Zahlung",
+      "perYear": "/Jahr",
+      "onboarding": {
+        "title": "Onboarding",
+        "subtitle": "Wir richten dich unkompliziert ein und machen dich startklar.",
+        "whiteGlove": "Persönlicher Onboarding-Service",
+        "inventoryImport": "Import deines aktuellen Inventars",
+        "supportAndTraining": "Umfassende Unterstützung und Schulung"
+      },
+      "license": {
+        "title": "Lizenz",
+        "subtitle": "Zugriff auf alle Funktionen mit inkludiertem Support und kontinuierlichen Updates.",
+        "accessToDatabase": "Zugriff auf über eine Million Weinetiketten",
+        "liveInventory": "Echtzeit-Bestandskontrolle",
+        "winelistGeneration": "Automatische Weinkartenerstellung",
+        "statistics": "Erweiterte Berichterstattung und Statistiken"
+      },
+      "custom": {
+        "title": "Individuell",
+        "subtitle": "Maßgeschneiderte Lösungen für deine einzigartigen Bedürfnisse.",
+        "integrationsPos": "POS-System-Integrationen",
+        "integrationsAccounting": "Integration von Buchhaltungssoftware",
+        "reporting": "Individuelle Berichterstattung und Statistiken"
+      }
+    },
+    "faqs": {
+      "title": "Häufig gestellte Fragen (FAQ)",
+      "questions": {
+        "hardware": {
+          "question": "Welche Hardware oder Software wird benötigt, um Vinoteqa zu nutzen?",
+          "answer": "Es sind keine zusätzlichen Hardware- oder Softwareanforderungen erforderlich. Vinoteqa ist eine cloudbasierte Plattform, die nur eine Internetverbindung und einen modernen Webbrowser benötigt."
+        },
+        "integrations": {
+          "question": "Kann Vinoteqa in meine bestehenden Systeme integriert werden?",
+          "answer": "Vinoteqa ist eine eigenständige Inventarverwaltung, die auch Verkäufe und Einkäufe verwaltet. Wir bieten maßgeschneiderte Integrationen mit POS- und PMS-Systemen an, um dein bestehendes Setup zu verbessern."
+        },
+        "setupFees": {
+          "question": "Gibt es Einrichtungsgebühren oder versteckte Supportkosten?",
+          "answer": "Unsere Preisgestaltung ist transparent und ohne versteckte Kosten. Die Onboarding-Gebühr beinhaltet Einrichtung, Schulung und anfängliche Unterstützung. Der fortlaufende Support ist in der Jahreslizenz enthalten."
+        },
+        "futureFeatures": {
+          "question": "Werden Updates meine aktuellen Daten beeinträchtigen und muss ich für neue Funktionen bezahlen?",
+          "answer": "Updates beeinträchtigen deine aktuelle Konfiguration oder Daten nicht. Alle neuen Funktionen und Updates sind in der Jahreslizenz enthalten."
+        },
+        "mobileApp": {
+          "question": "Ist Vinoteqa als mobile App verfügbar?",
+          "answer": "Vinoteqa ist als Progressive Web App (PWA) verfügbar, was bedeutet, dass es über moderne Webbrowser auf jedem Gerät zugänglich ist und ein app-ähnliches Erlebnis bietet, ohne eine eigenständige mobile App herunterladen zu müssen."
+        },
+        "onboarding": {
+          "question": "Wie sieht der Onboarding-Prozess aus und wie lange dauert es?",
+          "answer": "Der Onboarding-Prozess umfasst die anfängliche Einrichtung, den Import deines Inventars und eine umfassende Schulung. Die meisten Kunden sind innerhalb einer oder zwei Wochen betriebsbereit."
+        },
+        "users": {
+          "question": "Wer kann Vinoteqa in meinem Restaurant/Hotel nutzen?",
+          "answer": "Vinoteqa ist für Sommeliers, Restaurantmanager und Serviceleiter konzipiert. Mehrere Benutzer können gleichzeitig auf die Plattform zugreifen und es verwalten."
+        },
+        "onlyOnlineWinelist": {
+          "question": "Erhalte ich nur eine Online-Weinkarte?",
+          "answer": "Vinoteqa bietet sowohl digitale als auch druckbare Weinkarten, sodass jenes Format gewählt werden kann, das am besten zum Betrieb passt."
+        }
+      }
+    },
+    "newsletter": {
+      "title": "Erhalte die neuesten Produktnews und Updates",
+      "inputLabel": "E-Mail eingeben",
+      "subscribe": "Abonnieren",
+      "policyNotice": "Mit der Anmeldung stimmst du dem Erhalt unseres Newsletters zu",
+      "successMessage": "Vielen Dank für dein Interesse! Du hast dich angemeldet."
+    }
+  },
+  "blog": {
+    "title": "Vinoteqa Blog - Ressourcen für die Weinkeller-Verwaltung",
+    "description": "Der Blog von Vinoteqa bietet Experten-Tipps zu Weinerziehung, Kellerverwaltung und Weinkartenerstellung für Restaurants, Profis und private Weinliebhaber.",
+    "goToBlog": "Zum Blog",
+    "viewAll": "Alle anzeigen",
+    "nextPage": "Nächste",
+    "previousPage": "Vorherige",
+    "suggestedArticles": "Das könnte dich auch interessieren",
+    "navigation": {
+      "wineEducation": "Weinwissen",
+      "cellarManagement": "Weinkeller-Management",
+      "wineLists": "Weinkarten",
+      "discoverVinoteqa": "Entdecke Vinoteqa"
+    },
+    "categories": {
+      "wineEducation": "Erweitere Dein Weinwissen",
+      "wineEducationDescription": "Entdecke die Welt des Weins, von Rebsorten bis zu Verkostungstechniken. Erweitere dein Weinwissen mit den Experten von Vinoteqa",
+      "cellarManagement": "Verwalte Deinen Weinkeller wie ein Profi",
+      "cellarManagementDescription": "Tipps und Strategien zur Verwaltung deines Weinkellers. Optimiere Lagerung, Inventar und Pflege mit professionellen Ratschlägen von Vinoteqa.",
+      "wineLists": "Gestalte und Erstelle unvergessliche Weinkarten",
+      "wineListsDescription": "Meistere die Kunst der Erstellung und Organisation von Weinkarten. Entdecke Best Practices für die Kuratierung vielfältiger und ansprechender Weinauswahlen."
+    },
+    "newsletter": {
+      "title": "Hast du ein Hotel, Restaurant oder Weinbar? Bleibe auf dem Laufenden über die neuesten Produktneuheiten."
+    }
+  }
+}

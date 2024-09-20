@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Bricolage Grotesque';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/BricolageGrotesque.ttf) format('ttf');
+    }
+    @font-face {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        src: url(/fonts/Outfit.ttf) format('ttf'),
+        url(/fonts/Outfit.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        src: url(/fonts/Outfit.ttf) format('ttf'),
+        url(/fonts/Outfit.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 400;
+        /* font-display: swap; */
+        src: url(/fonts/FiraSans-Regular.ttf) format('ttf'),
+        url(/fonts/FiraSans-Regular.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 800;
+        /* font-display: swap; */
+        src: url(/fonts/FiraSans-Bold.ttf) format('ttf'),
+        url(/fonts/FiraSans-Bold.woff2) format('woff2');
+    }
+
+    html {
+        font-family: "Fira Sans", system-ui, sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply text-black font-bold;
+
+    font-family: "Outfit", system-ui, sans-serif;
+    }
+
+    h1 {
+        @apply text-4xl;
+    }
+
+    h2 {
+        @apply text-3xl;
+    }
+
+    h3 {
+        @apply text-xl;
+    }
+
+    h4 {
+        @apply text-lg;
+    }
+}
