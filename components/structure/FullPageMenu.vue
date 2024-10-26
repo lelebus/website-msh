@@ -18,10 +18,9 @@
                                             <div></div>
                                             <div class="ml-3 flex h-7 items-center">
                                                 <button type="button"
-                                                    class="relative rounded-md text-black/85 hover:text-black focus:outline-none"
+                                                    class="flex items-center relative rounded-md text-black/85 hover:text-black focus:outline-none"
                                                     @click="$emit('close')">
-                                                    <span class="absolute -inset-2.5" />
-                                                    <span class="sr-only">Close</span>
+                                                    <div class="mr-2">{{ $t('common.close') }}</div>
                                                     <XMarkIcon class="h-12 w-12" aria-hidden="true" />
                                                 </button>
                                             </div>

@@ -6,6 +6,8 @@
     "location": "Alto Adige, Italia"
   },
   "common": {
+    "menu": "Menu",
+    "close": "Chiudi",
     "discoverMore": "Scopri di più",
     "viewExample": "Vedi Esempio",
     "location": "Posizione",

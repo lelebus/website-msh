@@ -1,32 +1,29 @@
 <template>
     <div>
         <header class="fixed inset-x-0 top-0 z-40" :class="{ 'is-sticky': !atTopOfPage }">
+            <div class="mx-8 flex items-start justify-between p-6 lg:px-8">
+                <!-- logo -->
+                <div>
+                    <NuxtLink :to="localePath(homeLink)">
+                        <img src="/logo-msh.svg" :alt="logoAlt" :class="'h-36 p-2.5 mx-auto'" />
+                    </NuxtLink>
+                </div>
 
-            <!-- buttons to open menu -->
-            <div class="mx-auto max-w-7xl flex items-start justify-between p-6 lg:px-8">
-                <div></div>
+                <!-- buttons to open menu -->
                 <div class="flex items-center">
                     <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center">
-                        <!-- primary cta -->
                         <a :href="actionButtonLink" target="_blank"
-                            class="rounded-md bg-msh px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-msh-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-msh">{{
-            actionButtonLabel }} <span aria-hidden="true">&rarr;</span></a>
+                            class=" px-3.5 py-2.5 text-lg font text-white ">Prenota</a>
+                        <a :href="actionButtonLink" target="_blank"
+                            class=" px-3.5 py-2.5 text-lg font text-white ">Contatti</a>
                     </div>
 
                     <!-- mobile menu button -->
                     <button type="button"
-                        class="m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black/95"
+                        class="flex items-center ml-10 inline-flex items-center justify-center rounded-md p-2.5 text-white/95"
                         @click="menuOpen = true">
-                        <span class="sr-only">Open Menu</span>
-                        <Bars3Icon class="h-12   w-12" aria-hidden="true" />
-                    </button>
-
-                    <!-- mobile menu button -->
-                    <button type="button"
-                        class="m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black/95"
-                        @click="menuOpen = true">
-                        <span class="sr-only">Open Menu</span>
-                        <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+                        <div class="mr-2">{{ $t('common.menu') }}</div>
+                        <Bars3BottomRightIcon class="h-12 w-12" aria-hidden="true" />
                     </button>
                 </div>
             </div>
@@ -41,7 +38,8 @@
                     <div v-for="item in navigation" :key="item.name" class="my-10">
                         <NuxtLink :to="localePath(item.href)"
                             class="text-4xl font-semibold leading-6 text-black/90 hover:text-black focus:text-black"
-                            :class="{ 'is-home': $route.name.includes('index') }" @click="menuOpen = false">{{ item.name }}
+                            :class="{ 'is-home': $route.name.includes('index') }" @click="menuOpen = false">{{ item.name
+                            }}
                         </NuxtLink>
                     </div>
                 </nav>
@@ -60,7 +58,7 @@
 
 <script setup>
 import {
-    Bars3Icon,
+    Bars3BottomRightIcon,
 } from '@heroicons/vue/24/outline'
 
 const { locale, locales } = useI18n()
