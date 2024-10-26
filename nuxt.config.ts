@@ -37,9 +37,9 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://www.vinoteqa.com',
-    defaultLocale: 'en',
-    title: 'Vinoteqa',
+    url: 'https://www.monacosporthotel.com',
+    defaultLocale: 'it',
+    title: 'Monaco Sport Hotel',
   },
 
   ogImage: {
@@ -51,22 +51,22 @@ export default defineNuxtConfig({
       meta: [
         // Open Graph
         { property: 'og:title', content: 'Vinoteqa' },
-        { property: 'og:image', content: 'https://www.vinoteqa.com/screenshot.png' },
-        { property: 'og:url', content: 'https://www.vinoteqa.com/' },
+        { property: 'og:image', content: 'https://www.monacosporthotel.com/screenshot.png' },
+        { property: 'og:url', content: 'https://www.monacosporthotel.com/' },
         { property: 'og:type', content: 'website' },
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Vinoteqa' },
-        { property: 'twitter:domain', content: 'vinoteqa.com' },
-        { property: 'twitter:url', content: 'vinoteqa.com' },
-        { name: 'twitter:image', content: 'https://www.vinoteqa.com/screenshot.png' }
+        { property: 'twitter:domain', content: 'monacosporthotel.com' },
+        { property: 'twitter:url', content: 'monacosporthotel.com' },
+        { name: 'twitter:image', content: 'https://www.monacosporthotel.com/screenshot.png' }
       ]
     }
   },
 
   i18n: {
-    baseUrl: 'https://www.vinoteqa.com',
-    defaultLocale: 'en',
+    baseUrl: 'https://www.monacosporthotel.com',
+    defaultLocale: 'it',
     locales: [{
       code: 'en',
       iso: 'en',
@@ -85,7 +85,6 @@ export default defineNuxtConfig({
       name: 'Italiano',
       file: 'it.json',
     }],
-    strategy: 'prefix',
     lazy: false,
     langDir: 'locales/',
   },

@@ -7,9 +7,9 @@ export default {
     colors: {
       transparent: "transparent",
       black: "#0b1215",
-      white: "#fdfff7",
-      vinoteqa: "#8a101e",
-      "vinoteqa-hover": "#9c1222",
+      white: "#fbf4eb",
+      msh: "#8a1332",
+      "msh-hover": "#be1a45",
       accent: "#b3192b",
       "accent-hover": "#d51e33",
     },

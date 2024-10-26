@@ -65,9 +65,9 @@ export default {
   data() {
     return {
       title: 'Vinoteqa',
-      mission: this.$t('vinoteqa.mission'),
+      mission: this.$t('msh.mission'),
       logoSrc: '/logo.svg',
-      email: 'info@vinoteqa.com',
+      email: 'info@monacosporthotel.com',
 
       // hero
       hero: {
@@ -147,7 +147,7 @@ export default {
         leftTitle: this.$t('sections.features.digitalWinelistTitle'),
         leftDescription: this.$t('sections.features.digitalWinelistSubtitle'),
         leftButtonLabel: this.$t('common.viewExample'),
-        leftButtonLink: "https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8",
+        leftButtonLink: "https://app.msh.com/carte/01h08dydtpvr5yzdztjz8t5pf8",
         rightImgSrc: '/imgs/winelist-print.jpg',
         rightImgAlt: this.$t('sections.features.printWinelistImgAlt'),
         rightTitle: this.$t('sections.features.printWinelistTitle'),
@@ -201,7 +201,7 @@ export default {
             name: '',
             price: this.$t('sections.pricing.custom.title'),
             description: this.$t('sections.pricing.custom.subtitle'),
-            href: 'mailto:info@vinoteqa.com',
+            href: 'mailto:info@monacosporthotel.com',
             features: [
               this.$t('sections.pricing.custom.integrationsPos'),
               this.$t('sections.pricing.custom.integrationsAccounting'),

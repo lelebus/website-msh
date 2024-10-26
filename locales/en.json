@@ -1,9 +1,9 @@
 {
-  "vinoteqa": {
-    "title": "Vinoteqa - Wine Cellar Management for Restaurants",
+  "msh": {
+    "title": "Monaco Sport Hotel",
     "description": "Vinoteqa is a digital platform for wine cellar management designed for high-end restaurants and wine bars. Digitalize your wine menu, manage inventory, and access detailed data to make informed decisions.",
     "mission": "Vinoteqa's mission is to revolutionize wine management for high-end restaurants and wine bars with seamless, efficient, and elegant digital solutions.",
-    "location": "South Tyrol, Italy"
+    "location": "Santo Stefano di Cadore (BL)"
   },
   "common": {
     "discoverMore": "Discover More",
@@ -29,11 +29,12 @@
     "contactUs": "Contact Us"
   },
   "navigation": {
-    "platform": "Platform",
-    "features": "Features",
-    "winelist": "Wine Menu",
-    "pricing": "Pricing",
-    "faqs": "FAQs"
+    "hotel": "Hotel",
+    "restaurant": "Restaurant",
+    "winecellar": "Wine Cellar",
+    "spaAndPool": "SPA & Pool",
+    "summer": "Summer",
+    "winter": "Winter"
   },
   "hero": {
     "titleLabel": "For Establishments with 300+ Wine Labels",
@@ -41,7 +42,7 @@
     "subtitle": "The best way to manage and display your wine collection. Generate your wine list with one click. Accessible anytime, anywhere."
   },
   "footer": {
-    "vinoteqa": {
+    "msh": {
       "platform": "Platform"
     },
     "resources": {

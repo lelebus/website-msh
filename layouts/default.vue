@@ -1,6 +1,6 @@
 <template>
     <div class="page-ct bg-white">
-        <Header :logoSrc="logoSrc" logoAlt="Logo Vinoteqa" :navigation="navigation"
+        <Header :logoSrc="logoSrc" logoAlt="Logo Monaco Sport Hotel" :navigation="navigation"
             :actionButtonLabel="actionButtonLabel" :actionButtonLink="actionButtonLink" />
 
         <main>
@@ -24,13 +24,13 @@
 const { t } = useI18n()
 
 useHead({
-    titleTemplate: `%s | ${t('vinoteqa.title')}`,
+    titleTemplate: `%s | ${t('msh.title')}`,
     title: "Home",
 })
 
 useSeoMeta({
     title: "Home",
-    description: t('vinoteqa.description')
+    description: t('msh.description')
 }, {
     tagPriority: 'critical'
 })
@@ -46,44 +46,51 @@ export default {
 
     data() {
         return {
-            title: 'Vinoteqa',
-            mission: this.$t('vinoteqa.mission'),
+            title: 'Monaco Sport Hotel',
+            mission: this.$t('msh.mission'),
             logoSrc: '/logo.svg',
             whiteLogoSrc: '/logo-negative.svg',
-            email: 'info@vinoteqa.com',
+            email: 'info@monacosporthotel.com',
 
             // navigation
-            actionButtonLabel: this.$t('ctas.bookDemo'),
+            actionButtonLabel: this.$t('ctas.book'),
             actionButtonLink: runtimeConfig.public.demoBookingPageLink,
             navigation: [
-                { name: this.$t('navigation.platform'), href: '/#features' },
-                { name: this.$t('navigation.winelist'), href: '/#winelist' },
-                { name: this.$t('navigation.pricing'), href: '/#pricing' },
-                { name: this.$t('navigation.faqs'), href: '/#faqs' },
+                { name: this.$t('navigation.hotel'), href: '/hotel' },
+                { name: this.$t('navigation.restaurant'), href: '/ristorante-la-ziria' },
+                { name: this.$t('navigation.winecellar'), href: '/anguana-del-vin' },
+                { name: this.$t('navigation.spaAndPool'), href: '/spa-and-pool' },
+                { name: this.$t('navigation.summer'), href: '/summer' },
+                { name: this.$t('navigation.winter'), href: '/winter' },
             ],
             footerNavigation: {
                 resources: {
                     title: this.$t('footer.resources.title'),
                     items: [
-                        { name: this.$t('footer.resources.blog'), href: this.localePath('/blog') },
-                        { name: this.$t('ctas.bookDemo'), href: runtimeConfig.public.demoBookingPageLink },
+                        { name: this.$t('navigation.hotel'), href: '/hotel' },
+                        { name: this.$t('navigation.restaurant'), href: '/ristorante-la-ziria' },
+                        { name: this.$t('navigation.winecellar'), href: '/anguana-del-vin' },
+                        { name: this.$t('navigation.spaAndPool'), href: '/spa-and-pool' },
+                        { name: this.$t('navigation.summer'), href: '/summer' },
+                        { name: this.$t('navigation.winter'), href: '/winter' },
                     ],
                 },
                 contacts: {
                     title: this.$t('footer.contacts.title'),
                     items: [
-                        { name: 'info@vinoteqa.com', href: 'mailto:info@vinoteqa.com' }
+                        { name: '+39 0435 420440', href: 'tel:00390435420440' },
+                        { name: 'info@msh.com', href: 'mailto:info@msh.com' }
                     ],
                 },
                 location: [
                     {
-                        name: this.$t('vinoteqa.location'),
+                        name: this.$t('msh.location'),
                     }
                 ],
                 social: [
                     {
                         name: 'Instagram',
-                        href: 'https://www.instagram.com/vinoteqa/',
+                        href: 'https://www.instagram.com/msh/',
                         icon: defineComponent({
                             render: () =>
                                 h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -96,21 +103,7 @@ export default {
                         }),
                     },
                     {
-                        name: 'LinkedIn',
-                        href: 'https://www.linkedin.com/company/vinoteqa/',
-                        icon: defineComponent({
-                            render: () =>
-                                h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
-                                    h('path', {
-                                        'fill-rule': 'evenodd',
-                                        d: 'M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z',
-                                        'clip-rule': 'evenodd',
-                                    }),
-                                ]),
-                        }),
-                    },
-                    {
-                        name: 'Spotify',
+                        name: 'Facebook',
                         href: 'https://open.spotify.com/user/31eanqwhjwhmofl4wc26ye7r2heu/',
                         icon: defineComponent({
                             render: () =>
