@@ -1,6 +1,6 @@
 {
-  "vinoteqa": {
-    "title": "Vinoteqa - Gestionale cantina per ristoranti",
+  "msh": {
+    "title": "Monaco Sport Hotel - 3* nelle Dolomiti",
     "description": "Vinoteqa è una piattaforma digitale per la gestione della cantina, progettata per ristoranti e enoteche di alto livello. Digitalizza la tua carta dei vini, gestisci l'inventario e accedi a dati dettagliati per prendere decisioni informate.",
     "mission": "La missione di Vinoteqa è rivoluzionare la gestione del vino per ristoranti ed enoteche di alto livello con soluzioni digitali facili da usare, efficienti ed eleganti.",
     "location": "Alto Adige, Italia"
@@ -29,11 +29,12 @@
     "contactUs": "Contattaci"
   },
   "navigation": {
-    "platform": "Piattaforma",
-    "features": "Funzionalità",
-    "winelist": "Carta dei Vini",
-    "pricing": "Prezzi",
-    "faqs": "FAQ"
+    "hotel": "Hotel",
+    "restaurant": "Ristorante",
+    "winecellar": "Cantina Vini",
+    "spaAndPool": "SPA & Piscina",
+    "summer": "Estate",
+    "winter": "Inverno"
   },
   "hero": {
     "titleLabel": "Per Strutture con 300+ Etichette di Vino",
@@ -41,7 +42,7 @@
     "subtitle": "Il modo migliore per gestire e mettere in mostra la tua collezione di vini. Genera la tua lista dei vini con un clic. Accessibile sempre e ovunque."
   },
   "footer": {
-    "vinoteqa": {
+    "msh": {
       "platform": "Piattaforma"
     },
     "resources": {

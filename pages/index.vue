@@ -3,7 +3,7 @@
     <Hero :titleLabel="hero.titleLabel" :title="hero.title" :subtitle="hero.subtitle"
       :primaryButtonLabel="hero.primaryButtonLabel" :primaryButtonLink="hero.primaryButtonLink"
       :secondaryButtonLabel="hero.secondaryButtonLabel" :secondaryButtonLink="hero.secondaryButtonLink"
-      :imgSrc="hero.imgSrc" />
+      :videoSrc="hero.videoSrc" @scrollToNextSection="scrollToStart" />
     <Stats id="start" :title="stats.title" :stats="stats.stats" />
 
     <div class="content-ct">
@@ -71,14 +71,9 @@ export default {
 
       // hero
       hero: {
-        imgSrc: "/imgs/hero-img.jpg",
-        titleLabel: this.$t('hero.titleLabel'),
+        videoSrc: "/videos/home.mp4",
         title: this.$t('hero.title'),
         subtitle: this.$t('hero.subtitle'),
-        primaryButtonLabel: this.$t('ctas.bookDemoBold'),
-        primaryButtonLink: runtimeConfig.public.demoBookingPageLink,
-        secondaryButtonLabel: this.$t('common.discoverMore'),
-        secondaryButtonLink: '/#start',
       },
 
       // sections
@@ -259,6 +254,12 @@ export default {
         inputButtonLabel: this.$t('sections.newsletter.subscribe'),
         policyNotice: this.$t('sections.newsletter.policyNotice'),
       },
+    }
+  },
+
+  methods: {
+    scrollToStart() {
+      this.$router.push({ hash: '#start' })
     }
   }
 }

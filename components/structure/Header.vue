@@ -1,14 +1,12 @@
 <template>
     <div>
-        <header class="sticky inset-x-0 top-0" :class="{ 'is-sticky': !atTopOfPage }">
+        <header class="fixed inset-x-0 top-0 z-40" :class="{ 'is-sticky': !atTopOfPage }">
 
             <!-- buttons to open menu -->
-            <div class="mx-auto max-w-7xl z-50 flex items-start justify-between p-6 lg:px-8">
+            <div class="mx-auto max-w-7xl flex items-start justify-between p-6 lg:px-8">
                 <div></div>
                 <div class="flex items-center">
                     <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center">
-                        <LanguageSwitcherMenu :homeLink="homeLink" class="mr-5" />
-
                         <!-- primary cta -->
                         <a :href="actionButtonLink" target="_blank"
                             class="rounded-md bg-msh px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-msh-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-msh">{{
@@ -34,7 +32,7 @@
             </div>
         </header>
 
-        <FullPageMenu class="z-100" :open="menuOpen" @close="menuOpen = false">
+        <FullPageMenu class="z-50" :open="menuOpen" @close="menuOpen = false">
             <div class="h-full pb-16 flex flex-col text-center justify-between">
                 <!-- logo -->
                 <img :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" />
@@ -42,8 +40,8 @@
                 <nav class="py-30" aria-label="Global">
                     <div v-for="item in navigation" :key="item.name" class="my-10">
                         <NuxtLink :to="localePath(item.href)"
-                            class="text-4xl font-semibold leading-6 text-black/90 hover:text-black"
-                            :class="{ 'is-home': $route.name.includes('index') }">{{ item.name }}
+                            class="text-4xl font-semibold leading-6 text-black/90 hover:text-black focus:text-black"
+                            :class="{ 'is-home': $route.name.includes('index') }" @click="menuOpen = false">{{ item.name }}
                         </NuxtLink>
                     </div>
                 </nav>
@@ -109,36 +107,19 @@ export default {
             atTopOfPage: true
         }
     },
-
-    beforeMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    },
-
-    methods: {
-        handleScroll() {
-            // when the user scrolls, check the pageYOffset
-            if (window.pageYOffset > 0) {
-                // user is scrolled
-                if (this.atTopOfPage) this.atTopOfPage = false
-            } else {
-                // user is at top of page
-                if (!this.atTopOfPage) this.atTopOfPage = true
-            }
-        }
-    }
 }
 </script>
 
 <style scoped>
 header {
     &.is-sticky {
-        @apply border-b-2 border-msh shadow-md;
+        @apply shadow-md;
     }
 }
 
 nav {
     .router-link-active:not(.is-home) {
-        @apply underline text-white/95;
+        @apply underline text-black;
     }
 
     a {
