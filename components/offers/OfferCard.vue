@@ -2,7 +2,7 @@
     <article
         class="relative isolate flex flex-col justify-end overflow-hidden bg-grey px-8 pb-8 pt-80 sm:pt-48 lg:pt-80 group">
         <img :src="imgSrc" :alt="imgAlt"
-            class="absolute inset-0 -z-10 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+            class="absolute inset-0 -z-10 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
         <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/40" />
         <div class="absolute inset-0 -z-10" />
 
