@@ -48,7 +48,7 @@ export default {
         return {
             title: 'Monaco Sport Hotel',
             mission: this.$t('msh.mission'),
-            logoSrc: '/logo.svg',
+            logoSrc: '/logo-full.svg',
             whiteLogoSrc: '/logo-negative.svg',
             email: 'info@monacosporthotel.com',
 

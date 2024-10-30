@@ -26,8 +26,7 @@
     "privacyPolicy": "Informativa sulla privacy"
   },
   "ctas": {
-    "bookDemo": "Prenota una Demo Gratuita",
-    "bookDemoBold": "Prenota una Demo GRATUITA",
+    "book": "Prenota",
     "contactUs": "Contattaci"
   },
   "navigation": {

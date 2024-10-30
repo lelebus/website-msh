@@ -1,30 +1,66 @@
+```vue
 <template>
     <div>
-        <header class="fixed inset-x-0 top-0 z-40" :class="{ 'is-sticky': !atTopOfPage }">
-            <div class="mx-8 flex items-start justify-between p-6 lg:px-8">
-                <!-- logo -->
-                <div>
-                    <NuxtLink :to="localePath(homeLink)">
-                        <img src="/logo-msh.svg" :alt="logoAlt" :class="'h-36 p-2.5 mx-auto'" />
-                    </NuxtLink>
-                </div>
-
-                <!-- buttons to open menu -->
-                <div class="flex items-center">
-                    <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center">
-                        <a :href="actionButtonLink" target="_blank"
-                            class=" px-3.5 py-2.5 text-lg font text-white ">Prenota</a>
-                        <a :href="actionButtonLink" target="_blank"
-                            class=" px-3.5 py-2.5 text-lg font text-white ">Contatti</a>
+        <header>
+            <div class="absolute inset-x-0 top-0 z-40">
+                <div class="mx-8 flex items-start justify-between lg:px-8 p-6">
+                    <!-- logo -->
+                    <div>
+                        <NuxtLink :to="localePath(homeLink)">
+                            <img src="/logo-white.svg" :alt="logoAlt" class="h-36 p-2.5 mx-auto"
+                                :class="{ 'hidden': showFixedMenu }" />
+                        </NuxtLink>
                     </div>
+                    <!-- buttons to open menu -->
+                    <div class="flex items-center">
+                        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center text-white/95">
+                            <a :href="actionButtonLink" target="_blank"
+                                class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
+                            $t('ctas.book') }}</a>
+                            <a :href="actionButtonLink" target="_blank"
+                                class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
+                            $t('ctas.contactUs') }}</a>
+                        </div>
+                        <!-- mobile menu button -->
+                        <button type="button"
+                            class="flex items-center ml-10 inline-flex items-center justify-center rounded-md p-2.5 text-white/95 hover:text-white"
+                            @click="menuOpen = true">
+                            <div class="mr-2">{{ $t('common.menu') }}</div>
+                            <Bars3BottomRightIcon class="h-12 w-12" aria-hidden="true" />
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-                    <!-- mobile menu button -->
-                    <button type="button"
-                        class="flex items-center ml-10 inline-flex items-center justify-center rounded-md p-2.5 text-white/95"
-                        @click="menuOpen = true">
-                        <div class="mr-2">{{ $t('common.menu') }}</div>
-                        <Bars3BottomRightIcon class="h-12 w-12" aria-hidden="true" />
-                    </button>
+            <!-- Fixed Menu -->
+            <div class="fixed inset-x-0 top-0 z-40 bg-white fixed-menu shadow-md" :class="{
+                            'fixed-menu-active': showFixedMenu
+                        }">
+                <div class="mx-8 flex items-center justify-between lg:px-8 p-6">
+                    <!-- logo -->
+                    <div>
+                        <NuxtLink :to="localePath(homeLink)">
+                            <img src="/logo-min.svg" :alt="logoAlt" class="h-16 px-5 mx-auto" />
+                        </NuxtLink>
+                    </div>
+                    <!-- buttons to open menu -->
+                    <div class="flex items-center">
+                        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center text-black/95">
+                            <a :href="actionButtonLink" target="_blank"
+                                class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
+                            $t('ctas.book') }}</a>
+                            <a :href="actionButtonLink" target="_blank"
+                                class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
+                            $t('ctas.contactUs') }}</a>
+                        </div>
+                        <!-- mobile menu button -->
+                        <button type="button"
+                            class="flex items-center ml-10 inline-flex items-center justify-center rounded-md p-2.5 text-black/95 hover:text-black"
+                            @click="menuOpen = true">
+                            <div class="mr-2">{{ $t('common.menu') }}</div>
+                            <Bars3BottomRightIcon class="h-12 w-12" aria-hidden="true" />
+                        </button>
+                    </div>
                 </div>
             </div>
         </header>
@@ -33,7 +69,6 @@
             <div class="h-full pb-16 flex flex-col text-center justify-between">
                 <!-- logo -->
                 <img :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" />
-
                 <nav class="py-30" aria-label="Global">
                     <div v-for="item in navigation" :key="item.name" class="my-10">
                         <NuxtLink :to="localePath(item.href)"
@@ -43,7 +78,6 @@
                         </NuxtLink>
                     </div>
                 </nav>
-
                 <!-- language switcher -->
                 <nav>
                     <a v-for="l in locales" :key="l.code" :href="`/${l.code}${homeLink}`"
@@ -60,9 +94,7 @@
 import {
     Bars3BottomRightIcon,
 } from '@heroicons/vue/24/outline'
-
 const { locale, locales } = useI18n()
-
 </script>
 
 <script>
@@ -98,20 +130,38 @@ export default {
             required: true
         },
     },
-
     data() {
         return {
             menuOpen: false,
-            atTopOfPage: true
+            atTopOfPage: true,
+            showFixedMenu: false
         }
     },
+    mounted() {
+        window.addEventListener('scroll', this.handleScroll);
+    },
+    beforeDestroy() {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
+    methods: {
+        handleScroll() {
+            this.atTopOfPage = window.scrollY === 0;
+            this.showFixedMenu = window.scrollY > window.innerHeight * 0.9;
+        }
+    }
 }
 </script>
 
 <style scoped>
 header {
-    &.is-sticky {
-        @apply shadow-md;
+    & .fixed-menu {
+        transition: transform 0.3s ease-in-out;
+        transform: translateY(-100%);
+    }
+
+    & .fixed-menu.fixed-menu-active {
+        transition: transform 0.3s ease-in-out;
+        transform: translateY(0%);
     }
 }
 
