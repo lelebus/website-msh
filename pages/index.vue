@@ -12,6 +12,9 @@
 
       <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8 py-24 sm:py-32" />
 
+      <SectionHeaderWithBackground :title="winecellar.title" :subtitle="winecellar.subtitle"
+        :buttonLabel="winecellar.buttonLabel" :buttonLink="winecellar.buttonLink" :imgSrc="winecellar.imgSrc" />
+
     </div>
   </NuxtContent>
 </template>
@@ -61,30 +64,39 @@ export default {
           title: this.$t('pages.summer.title'),
           icon: '/icons/sun.svg',
           imgSrc: '/imgs/comelico-estate.jpg',
-          url: '/summer',
+          url: this.localePath('/summer'),
         },
         {
           title: this.$t('pages.winter.title'),
           icon: '/icons/snow.svg',
           imgSrc: '/imgs/comelico-inverno.jpg',
-          url: '/winter',
+          url: this.localePath('/winter'),
         },
         {
           title: this.$t('pages.restaurant.title'),
           icon: '/icons/restaurant.svg',
           imgSrc: '/imgs/comelico-estate.jpg',
-          url: '/restaurant',
+          url: this.localePath('/ristorante-la-ziria'),
         },
         {
           title: this.$t('pages.spaAndPool.title'),
           icon: '/icons/sauna.svg',
           imgSrc: '/imgs/comelico-inverno.jpg',
-          url: '/spa-and-pool',
+          url: this.localePath('/spa-and-pool'),
         },
       ],
 
       offers: {
         title: this.$t('pages.offers.title'),
+      },
+
+      winecellar: {
+        title: this.$t('pages.home.winecellarTitle'),
+        subtitle: this.$t('pages.home.winecellarText'),
+        buttonLabel: this.$t('pages.home.winecellarButtonLabel'),
+        buttonLink: this.localePath('/winecellar'),
+        imgSrc: '/imgs/comelico-estate.jpg',
+        imgAlt: this.$t('pages.home.winecellarTitle'),
       },
 
       newsletter: {

@@ -54,7 +54,10 @@
       "heroTitle": "Il cuore della montagna, la quiete dell'anima",
       "heroSubtitle": "Un rifugio di eleganza alpina nel cuore delle Dolomiti",
       "missionTitle": "Natura e Raffinatezza tra le Dolomiti",
-      "missionText": "Al Monaco Sport Hotel, l’eleganza incontra l’essenza pura della montagna. Qui ogni esperienza è pensata per rigenerare corpo e mente, immergendoti in un’atmosfera di pace e autenticità, dove la natura è protagonista."
+      "missionText": "Al Monaco Sport Hotel, l;eleganza incontra l'essenza pura della montagna. Qui ogni esperienza è pensata per rigenerare corpo e mente, immergendoti in un'atmosfera di pace e autenticità, dove la natura è protagonista.",
+      "winecellarTitle": "L'Anguana del Vin",
+      "winecellarText": "Oltre 1600 etichette selezionate per un viaggio enologico unico. Scopri vini straordinari, guidato dalla nostra esperienza.",
+      "winecellarButtonLabel": "Scopri la Cantina"
     },
     "restaurant": {
       "title": "Ristorante"
