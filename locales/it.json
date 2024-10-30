@@ -38,11 +38,6 @@
     "summer": "Estate",
     "winter": "Inverno"
   },
-  "hero": {
-    "titleLabel": "Per Strutture con 300+ Etichette di Vino",
-    "title": "Digitalizza la Gestione della Tua Cantina",
-    "subtitle": "Il modo migliore per gestire e mettere in mostra la tua collezione di vini. Genera la tua lista dei vini con un clic. Accessibile sempre e ovunque."
-  },
   "footer": {
     "msh": {
       "platform": "Piattaforma"
@@ -55,117 +50,12 @@
       "title": "Contatti"
     }
   },
-  "sections": {
-    "statistics": {
-      "title": "Accedi immediatamente al nostro database",
-      "wineries": "Cantine",
-      "wines": "Vini",
-      "transactionsTracked": "in transazioni tracciate"
-    },
-    "features": {
-      "integratedWorkflowTitleLabel": "Design intelligente",
-      "integratedWorkflowTitle": "Un flusso di lavoro integrato",
-      "integratedWorkflowSubtitle": "Gestisci senza sforzo la tua cantina con la nostra piattaforma intuitiva. Gestisci l'inventario, crea splendide carte dei vini e accedi a dati affidabili.",
-      "extensiveWineDataTitle": "Database globale",
-      "extensiveWineDataSubtitle": "Accedi a oltre 1 Milione di dati sui vini, tra cui territori, uve, stili e altro ancora.",
-      "intuitiveUITitle": "Struttura intuitiva",
-      "intuitiveUISubtitle": "Naviga facilmente attraverso un'interfaccia user-friendly progettata per chiarezza e semplicità.",
-      "inventoryManagementTitle": "Gestione automatica dell'inventario",
-      "inventoryManagementSubtitle": "Tieni traccia dell'intera cantina senza sforzo, riducendo il rischio di sorprese di esaurimento scorte per i vostri ospiti.",
-      "statisticsTitleLabel": "Decisioni più intelligenti",
-      "statisticsTitle": "Dati a colpo d'occhio",
-      "statisticsSubtitle": "Scopri statistiche dettagliate sulla tua cantina, studiate per aiutarti a comprendere e ottimizzare l'inventario e le performance di vendita.",
-      "liveStatisticsTitle": "Statistiche in tempo reale",
-      "liveStatisticsSubtitle": "Controlla le tue statistiche in qualsiasi momento e da qualsiasi luogo, assicurandoti di sapere sempre cosa hai in magazzino.",
-      "reportingTitle": "Report sull'inventario",
-      "reportingSubtitle": "Genera report completi sull'inventario con facilità, risparmiando tempo e fatica.",
-      "dataDrivenDecisionsTitle": "Decisioni basate sui dati",
-      "dataDrivenDecisionsSubtitle": "Usa i dati per proiettare i profitti, rivedere i margini e identificare i best-seller e i fornitori chiave.",
-      "winelistTitle": "La tua carta vini personalizzata",
-      "winelistSubtitle": "Aggiorna e organizza automaticamente la tua carta dei vini con la sincronizzazione in tempo reale, in base all'inventario. Genera e stampa la tua carta vini in ogni momento.",
-      "digitalWinelistTitle": "Carta digitale",
-      "digitalWinelistSubtitle": "Mantieni aggiornata la tua carta dei vini digitale con aggiornamenti e sincronizzazione automatici. Una volta configurata, i vini saranno posizionati automaticamente nelle loro posizioni designate, riflettendo accuratamente la tua collezione.",
-      "digitalWinelistImgAlt": "Lista dei vini digitali di Vinoteqa su mobile e iPad",
-      "printWinelistTitle": "Carta stampata",
-      "printWinelistSubtitle": "Stampa la tua carta dei vini con un solo clic, ottenendo risultati di alta qualità. Organizzata automaticamente e presentata professionalmente, sia in formato digitale che stampato.",
-      "printWinelistImgAlt": "Ospiti del ristorante che guardano una carta dei vini stampata generata automaticamente da Vinoteqa"
-    },
-    "testimonial": {
-      "imgAlt": "Stefano Kratter del Ristorante Mondschein parla di Vinoteqa",
-      "content": "Vinoteqa ha rivoluzionato la gestione del nostro inventario e della lista dei vini. Con i dati dei vini già a disposizione e aggiornamenti in tempo reale, le nostre operazioni sono efficienti e la carta è sempre aggiornata. Inoltre grazie ai dati statistici sappiamo sempre come migliorare la ricerca dei prodotti che risultano più apprezzati dalla nostra clientela. Vinoteqa mantiene davvero la nostra cantina a portata di mano, permettendoci di concentrarci sull'offrire un'esperienza culinaria eccezionale."
-    },
-    "pricing": {
-      "titleLabel": "Pricing",
-      "title": "Un prezzo unico per tutte le funzionalità",
-      "subtitle": "Ottieni tutto ciò di cui hai bisogno per gestire il tuo inventario e la tua carta vini con un unico piano.",
-      "oneTimePayment": "una tantum",
-      "perYear": "/anno",
-      "onboarding": {
-        "title": "Onboarding",
-        "subtitle": "Ti facciamo partire senza intoppi.",
-        "whiteGlove": "Servizio di configurazione personalizzato",
-        "inventoryImport": "importazione del tuo inventario attuale",
-        "supportAndTraining": "Supporto completo e formazione"
-      },
-      "license": {
-        "title": "Licenza",
-        "subtitle": "Accedi a tutte le funzionalità con supporto dedicato e aggiornamenti continui.",
-        "accessToDatabase": "Accesso a oltre 1 milione di vini",
-        "liveInventory": "Controllo dell'inventario in tempo reale",
-        "winelistGeneration": "Generazione automatica della carta vini",
-        "statistics": "Reportistica e analisi avanzate"
-      },
-      "custom": {
-        "title": "Custom",
-        "subtitle": "Soluzioni su misura per le tue esigenze uniche.",
-        "integrationsPos": "Integrazioni con sistemi POS",
-        "integrationsAccounting": "Integrazioni con software di contabilità",
-        "reporting": "Reportistica e analisi personalizzate"
-      }
-    },
-    "faqs": {
-      "title": "Domande Frequenti (FAQ)",
-      "questions": {
-        "hardware": {
-          "question": "Quali hardware o software sono necessari per utilizzare Vinoteqa?",
-          "answer": "Vinoteqa è una piattaforma basata su cloud che richiede solo una connessione internet e un browser web moderno. Non sono necessari hardware o software aggiuntivi."
-        },
-        "integrations": {
-          "question": "Vinoteqa può integrarsi con i miei sistemi esistenti?",
-          "answer": "Vinoteqa fornisce una gestione indipendente dell'inventario, vendite e acquisti. Offriamo comunque integrazioni personalizzate con sistemi POS e PMS per migliorare la tua configurazione esistente."
-        },
-        "setupFees": {
-          "question": "Ci sono costi di setup o costi di supporto nascosti?",
-          "answer": "I nostri prezzi sono trasparenti senza costi nascosti. La quota di onboarding copre l'installazione, la formazione e il supporto iniziale. Il supporto continuo è incluso nella licenza annuale."
-        },
-        "futureFeatures": {
-          "question": "Gli aggiornamenti influenzeranno la mia configurazione o i miei dati attuali e pagherò per nuove funzionalità?",
-          "answer": "Gli aggiornamenti non influenzeranno la tua configurazione o i tuoi dati attuali. Tutte le nuove funzionalità e gli aggiornamenti sono inclusi nella tariffa annuale della licenza."
-        },
-        "mobileApp": {
-          "question": "Vinoteqa è disponibile come app mobile?",
-          "answer": "Vinoteqa è disponibile come Progressive Web App (PWA), il che significa che è accessibile tramite browser web moderni su qualsiasi dispositivo e offre un'esperienza simile a un'app senza necessità di scaricare un'app dagli store."
-        },
-        "onboarding": {
-          "question": "Come si svolge il processo di onboarding e quanto tempo richiede?",
-          "answer": "Il processo di onboarding include l'installazione iniziale, l'importazione del tuo inventario e una formazione completa. La maggior parte dei clienti è operativa entro una o due settimane."
-        },
-        "users": {
-          "question": "Chi può utilizzare Vinoteqa nel mio ristorante/hotel?",
-          "answer": "Vinoteqa è progettata per sommelier, manager di ristoranti e proprietari di enoteche. Più utenti possono accedere e gestire il sistema contemporaneamente."
-        },
-        "onlyOnlineWinelist": {
-          "question": "Dal software ottengo solo una carta dei vini digitale?",
-          "answer": "Vinoteqa fornisce sia carte dei vini digitali che stampabili, permettendoti di scegliere il formato migliore per il tuo locale."
-        }
-      }
-    },
-    "newsletter": {
-      "title": "Rimani aggiornato sulle novità del prodotto",
-      "inputLabel": "Inserisci il tuo indirizzo email",
-      "subscribe": "Iscriviti",
-      "policyNotice": "Iscrivendoti, accetti di ricevere la nostra newsletter",
-      "successMessage": "Grazie per esserti iscritto alla nostra newsletter!"
+  "pages": {
+    "home": {
+      "heroTitle": "Il cuore della montagna, la quiete dell'anima",
+      "heroSubtitle": "Un rifugio di eleganza alpina nel cuore delle Dolomiti",
+      "missionTitle": "Natura e Raffinatezza tra le Dolomiti",
+      "missionText": "Al Monaco Sport Hotel, l’eleganza incontra l’essenza pura della montagna. Qui ogni esperienza è pensata per rigenerare corpo e mente, immergendoti in un’atmosfera di pace e autenticità, dove la natura è protagonista."
     }
   },
   "blog": {

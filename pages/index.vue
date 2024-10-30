@@ -4,7 +4,7 @@
       :primaryButtonLabel="hero.primaryButtonLabel" :primaryButtonLink="hero.primaryButtonLink"
       :secondaryButtonLabel="hero.secondaryButtonLabel" :secondaryButtonLink="hero.secondaryButtonLink"
       :videoSrc="hero.videoSrc" @scrollToNextSection="scrollToStart" />
-    <Stats id="start" :title="stats.title" :stats="stats.stats" />
+    <SectionHeader id="start" :title="mission.title" :subtitle="mission.subtitle" />
 
     <div class="content-ct">
       <div id="features" class="features-ct pt-[88px]">
@@ -64,7 +64,7 @@ const runtimeConfig = useRuntimeConfig()
 export default {
   data() {
     return {
-      title: 'Vinoteqa',
+      title: 'Monaco Sport Hotel',
       mission: this.$t('msh.mission'),
       logoSrc: '/logo.svg',
       email: 'info@monacosporthotel.com',
@@ -72,11 +72,16 @@ export default {
       // hero
       hero: {
         videoSrc: "/videos/home.mp4",
-        title: this.$t('hero.title'),
-        subtitle: this.$t('hero.subtitle'),
+        title: this.$t('pages.home.heroTitle'),
+        subtitle: this.$t('pages.home.heroSubtitle'),
       },
 
       // sections
+      mission: {
+        title: this.$t('pages.home.missionTitle'),
+        subtitle: this.$t('pages.home.missionText'),
+      },
+
       stats: {
         title: this.$t('sections.statistics.title'),
         stats: [
