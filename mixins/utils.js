@@ -11,14 +11,14 @@ export default {
       return new Date(date).toLocaleDateString(this.$i18n.locale, dateOtions);
     },
 
-    getArticleImageSrc(article) {
-      if (!article) return null;
+    getOfferImageSrc(offer) {
+      if (!offer) return null;
 
       // split path by / and get the last segment
-      const pathSegments = article._path.split("/");
+      const pathSegments = offer._path.split("/");
       const slug = pathSegments[pathSegments.length - 1];
 
-      return `/imgs-blog/${slug}.jpg`;
+      return `/imgs-offers/${slug}.jpg`;
     },
   },
 };

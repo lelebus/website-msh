@@ -56,7 +56,24 @@
       "heroSubtitle": "Un rifugio di eleganza alpina nel cuore delle Dolomiti",
       "missionTitle": "Natura e Raffinatezza tra le Dolomiti",
       "missionText": "Al Monaco Sport Hotel, l’eleganza incontra l’essenza pura della montagna. Qui ogni esperienza è pensata per rigenerare corpo e mente, immergendoti in un’atmosfera di pace e autenticità, dove la natura è protagonista."
+    },
+    "restaurant": {
+      "title": "Ristorante"
+    },
+    "spaAndPool": {
+      "title": "SPA & Piscina"
+    },
+    "summer": {
+      "title": "Estate in Montagna"
+    },
+    "winter": {
+      "title": "Inverno in Montagna"
     }
+  },
+  "offers": {
+    "title": "Le nostre offerte speciali per te",
+    "description": "Scopri le nostre offerte speciali per un soggiorno indimenticabile nelle Dolomiti.",
+    "viewAll": "Visualizza tutte"
   },
   "blog": {
     "title": "Vinoteqa Blog - Risorse per la gestione della cantina",
