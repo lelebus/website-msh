@@ -15,6 +15,9 @@
       <SectionHeaderWithBackground :title="winecellar.title" :subtitle="winecellar.subtitle"
         :buttonLabel="winecellar.buttonLabel" :buttonLink="winecellar.buttonLink" :imgSrc="winecellar.imgSrc" />
 
+      <Testimonial :title="owners.title" :quote="owners.quote" :signatureImgSrc="owners.signatureImgSrc"
+        :signatureAlt="owners.signatureAlt" :imgSrc="owners.imgSrc" :imgAlt="owners.signatureAlt" />
+
     </div>
   </NuxtContent>
 </template>
@@ -97,6 +100,14 @@ export default {
         buttonLink: this.localePath('/winecellar'),
         imgSrc: '/imgs/comelico-estate.jpg',
         imgAlt: this.$t('pages.home.winecellarTitle'),
+      },
+
+      owners: {
+        title: this.$t('pages.hotel.ownersTitle'),
+        quote: this.$t('pages.hotel.ownersQuote'),
+        signatureImgSrc: '/imgs/owners-signature.svg',
+        signatureAlt: 'Sergio & Angela',
+        imgSrc: '/imgs/signature.svg',
       },
 
       newsletter: {

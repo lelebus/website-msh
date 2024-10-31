@@ -4,18 +4,18 @@
 
 @layer base {
     @font-face {
-        font-family: 'Montserrat';
+        font-family: 'ITC Kabel';
         font-style: normal;
         font-weight: 400;
-        src: url(/fonts/Montserrat.ttf) format('ttf'),
-        url(/fonts/Montserrat.woff2) format('woff2');
+        src: url(/fonts/ITCKabelStdMedium.ttf) format('ttf'),
+        url(/fonts/ITCKabelStdMedium.woff2) format('woff2');
     }
     @font-face {
-        font-family: 'Montserrat';
+        font-family: 'ITC Kabel';
         font-style: normal;
         font-weight: 600;
-        src: url(/fonts/Montserrat.ttf) format('ttf'),
-        url(/fonts/Montserrat.woff2) format('woff2');
+        src: url(/fonts/ITCKabelStdBold.ttf) format('ttf'),
+        url(/fonts/ITCKabelStdBold.woff2) format('woff2');
     }
     @font-face {
         font-family: 'Fira Sans';
@@ -41,7 +41,7 @@
     h1, h2, h3, h4, h5, h6 {
         @apply text-black font-bold;
 
-        font-family: "Montserrat", system-ui, sans-serif;
+        font-family: "ITC Kabel", system-ui, sans-serif;
     }
 
     h1 {

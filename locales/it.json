@@ -31,6 +31,7 @@
   },
   "navigation": {
     "hotel": "Hotel",
+    "offers": "Offerte",
     "restaurant": "Ristorante",
     "winecellar": "Cantina Vini",
     "spaAndPool": "SPA & Piscina",
@@ -38,16 +39,10 @@
     "winter": "Inverno"
   },
   "footer": {
-    "msh": {
-      "platform": "Piattaforma"
-    },
-    "resources": {
-      "title": "Risorse",
-      "blog": "Vinoteqa Blog"
-    },
-    "contacts": {
-      "title": "Contatti"
-    }
+    "territory": "Territorio",
+    "territoryLinkLabel": "Scopri il Cadore",
+    "webcam": "Webcam",
+    "weather": "Meteo"
   },
   "pages": {
     "home": {
@@ -59,8 +54,27 @@
       "winecellarText": "Oltre 1600 etichette selezionate per un viaggio enologico unico. Scopri vini straordinari, guidato dalla nostra esperienza.",
       "winecellarButtonLabel": "Scopri la Cantina"
     },
+    "hotel": {
+      "title": "Hotel",
+      "heroTitle": "Monaco Sport Hotel",
+      "heroSubtitle": "Dove la tradizione di famiglia incontra il lusso della natura",
+      "ownersTitle": "I padroni di casa",
+      "ownersQuote": "Accogliere è la nostra tradizione; la montagna, il nostro amore. Al Monaco Sport Hotel troverai una casa lontano da casa, dove ogni dettaglio è pensato per il tuo benessere.",
+      "bannerTitle": "Un'oasi di benessere",
+      "bannerSubtitle": "Un soggiorno che è molto più di una vacanza. È un ritorno alle origini, alla quiete, alla bellezza.",
+      "historyTitle": "Una storia di famiglia",
+      "historySubtitle": "La famiglia De Candido, da oltre 40 anni custodi di un'ospitalità che nasce dal cuore e dalla passione per le Dolomiti.",
+      "historyText1": "Vergilio Bruno, originario di Santo Stefano di Cadore, ed Edda Antonietta, di Laste di Rocca Pietore, si incontrano in Svizzera nel 1961. Dopo anni all'estero, il loro sogno di riportare l'ospitalità alle radici li riporta in Italia.",
+      "historyText2": "Nel 1973 nasce la Pensione Monaco, davanti alle piste da sci, un piccolo rifugio per viaggiatori e appassionati di montagna. Con amore e dedizione, la struttura cresce: nel 1987 diventa il primo hotel a tre stelle in Comelico e Sappada. Nel 2001 viene costruita la Spa e nel 2003 siamo tra i fondatori degli Italy Wine Hotels, insieme all'albergatore Michil Costa del Perla di Corvara. Nel 2004 viene ampliata e ristrutturata la Cantina, alla quale viene attribuito il nome di 'L'Anguana del Vin' legato alla mitologia della valle: l'Anguana.",
+      "historyText3": "Oggi, il Monaco Sport Hotel è un luogo dove passato e presente si intrecciano, celebrando i valori di autenticità e ospitalità che da sempre caratterizzano la famiglia de Candido. Un'esperienza che onora la terra, la tradizione e il piacere di condividere momenti unici."
+    },
     "restaurant": {
-      "title": "Ristorante"
+      "title": "Ristorante",
+      "heroTitle": "Ristorante La Žiria",
+      "heroSubtitle": "Un viaggio culinario che celebra il territorio",
+      "foodTitle": "Cucina di Montagna",
+      "foodText": "Il nostro menù è un omaggio alla cucina italiana e locale, con ingredienti selezionati e ricette che uniscono innovazione e tradizione. Dall’orto al piatto, ogni sapore è pensato per raccontare l'autenticità del Comelico.",
+      "downloadMenu": "Scopri il Menù Stagionale"
     },
     "spaAndPool": {
       "title": "SPA & Piscina"
