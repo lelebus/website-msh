@@ -87,6 +87,10 @@ export default defineNuxtConfig({
     }],
     lazy: false,
     langDir: 'locales/',
+    compilation: {
+      strictMessage: false,
+      escapeHtml: false,
+    },  
   },
 
   tailwindcss: {

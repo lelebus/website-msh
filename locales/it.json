@@ -69,12 +69,29 @@
       "historyText3": "Oggi, il Monaco Sport Hotel è un luogo dove passato e presente si intrecciano, celebrando i valori di autenticità e ospitalità che da sempre caratterizzano la famiglia de Candido. Un'esperienza che onora la terra, la tradizione e il piacere di condividere momenti unici."
     },
     "restaurant": {
-      "title": "Ristorante",
+      "title": "Ristorante La Žiria",
       "heroTitle": "Ristorante La Žiria",
       "heroSubtitle": "Un viaggio culinario che celebra il territorio",
       "foodTitle": "Cucina di Montagna",
-      "foodText": "Il nostro menù è un omaggio alla cucina italiana e locale, con ingredienti selezionati e ricette che uniscono innovazione e tradizione. Dall’orto al piatto, ogni sapore è pensato per raccontare l'autenticità del Comelico.",
-      "downloadMenu": "Scopri il Menù Stagionale"
+      "foodText": "Il nostro menù è un omaggio alla cucina italiana e locale, con ingredienti selezionati e ricette che uniscono innovazione e tradizione. Dall'orto al piatto, ogni sapore è pensato per raccontare l'autenticità del Comelico.",
+      "downloadMenu": "Scopri il Menù Stagionale",
+      "wineTitle": "L'Anguana del Vin: L'Abbinamento Perfetto",
+      "wineText": "Ogni piatto del Ristorante La Žiria trova il suo ideale compagno nella nostra cantina. Con oltre 1500 etichette, L'Anguana del Vin offre abbinamenti studiati per esaltare i sapori del territorio, dal più delicato dei vini bianchi al più corposo dei rossi. Qui, l'arte culinaria incontra la passione enologica per regalare un'esperienza completa e indimenticabile.",
+      "openWinelist": "Apri la carta vini",
+      "discoverWinecellar": "Scopri l'Anguana"
+    },
+    "winecellar": {
+      "title": "Cantina L'Anguana del Vin",
+      "heroTitle": "L'Anguana del Vin",
+      "heroSubtitle": "Un viaggio tra i sapori e le leggende delle Dolomiti, dove ogni bottiglia racconta una storia",
+      "wineTitle": "Un Tesoro di Oltre 1500 Etichette",
+      "wineText": "Nascosta tra le montagne, L'Anguana del Vin è più di una semplice cantina: è un luogo dove la passione per il vino si unisce al rispetto per il territorio. Con oltre 1500 etichette e una selezione curata di più di 15,000 bottiglie, la nostra cantina è un invito a scoprire i sapori autentici e le tradizioni enologiche italiane.",
+      "openWinelist": "Apri la carta vini",
+      "mythologyTitle": "Mitologia e Tradizione",
+      "mythologyText": "L'Anguana del Vin prende il suo nome dalle antiche leggende delle Dolomiti, ispirate alle Anguane, figure mitologiche legate alle acque e alla natura misteriosa delle montagne. Si racconta che queste creature incantatrici, custodi di segreti e saggezze ancestrali, abitassero sorgenti e laghi, proteggendo i luoghi sacri della valle. <br><br>Come le Anguane, la nostra cantina custodisce un mondo di tesori e storie da scoprire: ogni bottiglia è scelta con cura per onorare la bellezza selvaggia e autentica del territorio, regalando agli ospiti un’esperienza che unisce mitologia, vino e tradizione in un incontro unico.",
+      "ctaTitle": "Vivi l'Esperienza dell'Anguana",
+      "ctaSubtitle": "...dove ogni calice esalta i sapori autentici del Ristorante La Žiria",
+      "ctaButtonLabel": "Prenota" 
     },
     "spaAndPool": {
       "title": "SPA & Piscina"

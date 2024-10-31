@@ -15,11 +15,16 @@
                             <h3 v-if="title"
                                 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-black/90 sm:text-5xl">
                                 {{ title }}</h3>
-                            <p class="mt-6">{{ text }}</p>
-                            <div v-if="buttonLabel" class="mt-5 flex items-center gap-x-6">
-                                <a :href="buttonLink" target="_blank"
+                            <p v-html="text" class="mt-6"></p>
+                            <div v-if="buttonLabel || primaryButtonLabel" class="mt-5 flex items-center gap-x-6">
+                                <a v-if="primaryButtonLabel" :href="primaryButtonLink" target="_blank"
+                                    class="py-2.5 px-5 text-normal font-semibold bg-msh hover:bg-msh-hover text-white">
+                                    {{ primaryButtonLabel }}
+                                    <span aria-hidden="true"> &rarr;</span>
+                                </a>
+                                <a v-if="secondaryButtonLabel" :href="secondaryButtonLink" target="_blank"
                                     class="py-2.5 text-normal font-semibold text-black/90 hover:text-black">
-                                    {{ buttonLabel }}
+                                    {{ secondaryButtonLabel }}
                                     <span aria-hidden="true"> &rarr;</span>
                                 </a>
                             </div>
@@ -51,11 +56,11 @@ export default {
             type: String,
             required: true,
         },
-        buttonLabel: {
+        primaryButtonLabel: {
             type: String,
             default: null
         },
-        buttonLink: {
+        primaryButtonLink: {
             type: String,
             default: null
         },

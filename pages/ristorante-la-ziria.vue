@@ -9,11 +9,13 @@
       <div class="py-24 sm:py-32">
         <SectionHeader :title="food.title" />
 
-        <ContentLxPicture :text="food.text" :imgSrc="food.imgSrc" :imgAlt="food.imgAlt" :buttonLabel="food.buttonLabel"
-          :buttonLink="food.buttonLink" />
+        <ContentLxPicture :text="food.text" :imgSrc="food.imgSrc" :imgAlt="food.imgAlt"
+          :primaryButtonLabel="food.buttonLabel" :primaryButtonLink="food.buttonLink" />
       </div>
       <ContentRxPicture :title="wine.title" :text="wine.text" :imgSrc="wine.imgSrc" :imgAlt="wine.imgAlt"
-        :buttonLabel="wine.buttonLabel" :buttonLink="wine.buttonLink" class="pb-24 sm:pb-32" />
+        :primaryButtonLabel="wine.primaryButtonLabel" :primaryButtonLink="wine.primaryButtonLink"
+        :secondaryButtonLabel="wine.secondaryButtonLabel" :secondaryButtonLink="wine.secondaryButtonLink"
+        class="pb-24 sm:pb-32" />
 
       <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
     </div>
@@ -66,9 +68,12 @@ export default {
         text: this.$t('pages.restaurant.wineText'),
         imgSrc: '/imgs/comelico-estate.jpg',
         imgAlt: this.$t('pages.restaurant.wineTitle'),
-        buttonLabel: this.$t('pages.restaurant.openWinelist'),
-        buttonLink: 'https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8',
+        primaryButtonLabel: this.$t('pages.restaurant.openWinelist'),
+        primaryButtonLink: 'https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8',
+        secondaryButtonLabel: this.$t('pages.restaurant.discoverWinecellar'),
+        secondaryButtonLink: this.localePath('/anguana-del-vin'),
       },
+
 
       offers: {
         title: this.$t('pages.offers.title'),
