@@ -17,12 +17,12 @@
 
                     <div class="mt-6">
                         <p class="text-xl leading-8 text-white/85">{{ subtitle }}</p>
-                        <div class="mt-5 flex items-center gap-x-6">
-                            <NuxtLink v-if="buttonLabel" :to="buttonLink"
+                        <div v-if="buttonLabel" class="mt-5 flex items-center gap-x-6">
+                            <a :href="buttonLink" target="_blank"
                                 class="py-2.5 text-normal font-semibold text-white/95 hover:text-white">
                                 {{ buttonLabel }}
                                 <span aria-hidden="true"> &rarr;</span>
-                            </NuxtLink>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,6 @@
         :pictures="history.multiPictures" />
 
       <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
-
     </div>
   </NuxtContent>
 </template>

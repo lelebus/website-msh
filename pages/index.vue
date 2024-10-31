@@ -6,7 +6,7 @@
       :videoSrc="hero.videoSrc" @scrollToNextSection="scrollToStart" />
 
     <div id="start" class="content-ct">
-      <SectionHeader :title="mission.title" :subtitle="mission.subtitle" />
+      <SectionHeader :title="mission.title" :subtitle="mission.subtitle" class="py-24 sm:py-32" />
 
       <FourColBanner :cols="fourCols" />
 

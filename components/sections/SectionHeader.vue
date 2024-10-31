@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div class="bg-white px-6 pb-16 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
             <p v-if="titleLabel" class="text-base/7 font-semibold text-msh">{{ titleLabel }}</p>
             <h2 class="mt-2 text-3xl font-semibold tracking-tight text-black/90 sm:text-7xl">{{ title }}</h2>
