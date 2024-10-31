@@ -91,10 +91,34 @@
       "mythologyText": "L'Anguana del Vin prende il suo nome dalle antiche leggende delle Dolomiti, ispirate alle Anguane, figure mitologiche legate alle acque e alla natura misteriosa delle montagne. Si racconta che queste creature incantatrici, custodi di segreti e saggezze ancestrali, abitassero sorgenti e laghi, proteggendo i luoghi sacri della valle. <br><br>Come le Anguane, la nostra cantina custodisce un mondo di tesori e storie da scoprire: ogni bottiglia è scelta con cura per onorare la bellezza selvaggia e autentica del territorio, regalando agli ospiti un’esperienza che unisce mitologia, vino e tradizione in un incontro unico.",
       "ctaTitle": "Vivi l'Esperienza dell'Anguana",
       "ctaSubtitle": "...dove ogni calice esalta i sapori autentici del Ristorante La Žiria",
-      "ctaButtonLabel": "Prenota" 
+      "ctaButtonLabel": "Prenota"
     },
     "spaAndPool": {
-      "title": "SPA & Piscina"
+      "title": "SPA & Piscina",
+      "heroTitle": "Lasciatevi Coccolare",
+      "heroSubtitle": "Dopo una giornata in montagna, un momento di relax totale nel cuore delle Dolomiti",
+      "poolTitle": "Area Piscina",
+      "poolText": "La nostra piscina coperta, con vista sul giardino e temperatura a 30°C, è disponibile dalle 7:00 alle 8:30 e dalle 11:00 alle 20:00. <br><br> <i>Orari dedicati a bambini e ragazzi (fino a 18 anni): 13:30 - 18:30.</i>",
+      "spaTitle": "SPA Privata su Prenotazione",
+      "spaText": "La nostra area wellness può essere riservata esclusivamente per il vostro nucleo familiare, con un costo di €40 per due ore, su prenotazione e disponibilità.",
+      "featuresTitle": "Il Mondo del Benessere",
+      "featuresSubtitle": "Riscopri il tuo equilibrio tra natura e relax",
+      "saunaTitle": "Sauna Finlandese",
+      "saunaText": "Ideale per rafforzare il sistema immunitario e stimolare cuore e circolazione.",
+      "bagnoTurcoTitle": "Bagno Turco",
+      "bagnoTurcoText": "Per attivare la circolazione e purificare le vie respiratorie.",
+      "bagnoMediterraneoTitle": "Bagno Mediterraneo",
+      "bagnoMediterraneoText": "Un bagno di calore avvolgente per un benessere totale.",
+      "docciaTropicaleTitle": "Doccia Tropicale",
+      "docciaTropicaleText": "Gocce sottili e aromi esotici che rilassano e rigenerano.",
+      "secchiataSiberianaTitle": "Secchiata Siberiana",
+      "secchiataSiberianaText": "Il contrasto termico ideale per tonificare e richiudere i pori.",
+      "cascataGhiaccioTitle": "Cascata di Ghiaccio",
+      "cascataGhiaccioText": "Un'esperienza rinfrescante per stimolare corpo e mente.",
+      "areaRelaxTitle": "Area Relax",
+      "areaRelaxText": "Godetevi le sdraio sospese per una pausa rigenerante e rilassante.",
+      "piscinaTitle": "Piscina",
+      "piscinaText": "Piscina coperta a 30°C con vista sul giardino, ideale per nuotate rilassanti."
     },
     "summer": {
       "title": "Estate in Montagna"
