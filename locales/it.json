@@ -27,7 +27,13 @@
   },
   "ctas": {
     "book": "Prenota",
-    "contactUs": "Contattaci"
+    "contactUs": "Contattaci",
+    "newsletterTitle": "Ricevi le nostre offerte speciali",
+    "newsletterSubtitle": "Iscriviti alla nostra newsletter per ricevere aggiornamenti e offerte esclusive.",
+    "newsletterEmailLabel": "Indirizzo Email",
+    "newsletterEmailPlaceholder": "Inserisci il tuo indirizzo Email",
+    "newsletterPrivacyNotice": "Iscrivendoti, accetti di ricevere la nostra newsletter.",
+    "newsletterButton": "Iscriviti"
   },
   "navigation": {
     "hotel": "Hotel",
@@ -39,8 +45,10 @@
     "winter": "Inverno"
   },
   "footer": {
+    "viewOnMaps": "Vedi su Maps",
+    "explore": "Scopri la struttura",
     "territory": "Territorio",
-    "territoryLinkLabel": "Scopri il Cadore",
+    "territoryLinkLabel": "Scopri il Comelico",
     "webcam": "Webcam",
     "weather": "Meteo"
   },
@@ -75,8 +83,8 @@
       "foodTitle": "Cucina di Montagna",
       "foodText": "Il nostro menù è un omaggio alla cucina italiana e locale, con ingredienti selezionati e ricette che uniscono innovazione e tradizione. Dall'orto al piatto, ogni sapore è pensato per raccontare l'autenticità del Comelico.",
       "downloadMenu": "Scopri il Menù Stagionale",
-      "stuaTitle": "Intimità e Calore per Momenti Speciali",
-      "stuaText": "Nascosta nel cuore del nostro ristorante, <b>La Stua</b> è una piccola saletta rustica con camino, ideale per chi cerca un'atmosfera più raccolta e intima. Con le sue luci soffuse e il calore della legna che arde, è il luogo perfetto per una cena romantica, dove ogni piatto si accompagna alla bellezza del fuoco e alla quiete dell'ambiente montano.",
+      "stuaTitle": "La Stua",
+      "stuaText": "Un angolo intimo per cene romantiche davanti al caminetto.",
       "wineTitle": "L'Anguana del Vin: L'Abbinamento Perfetto",
       "wineText": "Ogni piatto del Ristorante La Žiria trova il suo ideale compagno nella nostra cantina. Con <b>oltre 1500 etichette</b>, L'Anguana del Vin offre abbinamenti studiati per esaltare i sapori del territorio, dal più delicato dei vini bianchi al più corposo dei rossi. Qui, l'arte culinaria incontra la passione enologica per regalare un'esperienza completa e indimenticabile.",
       "openWinelist": "Apri la carta vini",

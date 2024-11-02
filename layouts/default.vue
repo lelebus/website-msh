@@ -6,17 +6,16 @@
         <main>
             <slot />
 
-            <div class="newsletter-ct py-16 sm:py-24">
+            <!-- <div class="newsletter-ct py-16 sm:py-24">
                 <NewsletterForm :loading="true" :subscribed="!!newsletter.subscriberEmail" :title="newsletter.title"
                     :policyNotice="newsletter.policyNotice" :inputLabel="newsletter.inputLabel"
                     :inputPlaceholder="newsletter.inputPlaceholder" :inputButtonLabel="newsletter.inputButtonLabel"
                     @subscribe="subscribeVisitor($event)" />
-            </div>
+            </div> -->
         </main>
 
-        <Footer :pageTitle="title" :logoSrc="whiteLogoSrc" :mission="mission" :menu2="footerNavigation.resources"
-            :menu3="footerNavigation.contacts" :location="footerNavigation.location"
-            :socials="footerNavigation.social" />
+        <Footer :logoSrc="hotelLogoSrc" :logoAlt="title" :contacts="contacts" :socials="socials"
+            :navigation="footerNavigation" />
     </div>
 </template>
 
@@ -49,6 +48,7 @@ export default {
             title: 'Monaco Sport Hotel',
             mission: this.$t('msh.mission'),
             logoSrc: '/logo-full.svg',
+            hotelLogoSrc: '/logo.svg',
             whiteLogoSrc: '/logo-negative.svg',
             email: 'info@monacosporthotel.com',
 
@@ -63,59 +63,64 @@ export default {
                 { name: this.$t('navigation.summer'), href: '/summer' },
                 { name: this.$t('navigation.winter'), href: '/winter' },
             ],
-            footerNavigation: {
-                resources: {
-                    title: this.$t('footer.resources.title'),
+
+            // footer
+            contacts: `
+                <b>Monaco Sport Hotel</b>
+            `,
+
+            socials: [
+                {
+                    name: 'Facebook',
+                    href: 'https://www.facebook.com/monacosporthotel',
+                    icon: defineComponent({
+                        render: () =>
+                            h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
+                                h('path', {
+                                    'fill-rule': 'evenodd',
+                                    d: 'M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z',
+                                    'clip-rule': 'evenodd',
+                                }),
+                            ]),
+                    }),
+                },
+                {
+                    name: 'Instagram',
+                    href: 'https://www.instagram.com/monaco_sport_hotel/',
+                    icon: defineComponent({
+                        render: () =>
+                            h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
+                                h('path', {
+                                    'fill-rule': 'evenodd',
+                                    d: 'M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z',
+                                    'clip-rule': 'evenodd',
+                                }),
+                            ]),
+                    }),
+                },
+            ],
+            footerNavigation: [
+                {
+                    title: this.$t('footer.explore'),
                     items: [
                         { name: this.$t('navigation.hotel'), href: '/hotel' },
                         { name: this.$t('navigation.restaurant'), href: '/ristorante-la-ziria' },
                         { name: this.$t('navigation.winecellar'), href: '/anguana-del-vin' },
                         { name: this.$t('navigation.spaAndPool'), href: '/spa-and-pool' },
-                        { name: this.$t('navigation.summer'), href: '/summer' },
-                        { name: this.$t('navigation.winter'), href: '/winter' },
-                    ],
+                        { name: this.$t('navigation.offers'), href: '/offers' },
+                    ]
                 },
-                contacts: {
-                    title: this.$t('footer.contacts.title'),
+                {
+                    title: this.$t('footer.territory'),
                     items: [
-                        { name: '+39 0435 420440', href: 'tel:00390435420440' },
-                        { name: 'info@msh.com', href: 'mailto:info@msh.com' }
-                    ],
+                        { name: this.$t('footer.territoryLinkLabel'), href: 'https://www.dolomitivalcomelico.it/' },
+                        { name: this.$t('pages.summer.title'), href: '/summer' },
+                        { name: this.$t('pages.winter.title'), href: '/winter' },
+                        { name: this.$t('footer.webcam'), href: '#' },
+                        { name: this.$t('footer.weather'), href: '#' },
+                    ]
                 },
-                location: [
-                    {
-                        name: this.$t('msh.location'),
-                    }
-                ],
-                social: [
-                    {
-                        name: 'Instagram',
-                        href: 'https://www.instagram.com/msh/',
-                        icon: defineComponent({
-                            render: () =>
-                                h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
-                                    h('path', {
-                                        'fill-rule': 'evenodd',
-                                        d: 'M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077',
-                                        'clip-rule': 'evenodd',
-                                    }),
-                                ]),
-                        }),
-                    },
-                    {
-                        name: 'Facebook',
-                        href: 'https://open.spotify.com/user/31eanqwhjwhmofl4wc26ye7r2heu/',
-                        icon: defineComponent({
-                            render: () =>
-                                h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
-                                    h('path', {
-                                        d: 'M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z',
-                                    }),
-                                ]),
-                        }),
-                    },
-                ],
-            },
+            ],
 
             newsletter: {
                 title: this.$t('sections.newsletter.title'),

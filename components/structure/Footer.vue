@@ -1,91 +1,111 @@
 <template>
-    <footer class="bg-black pt-10" aria-labelledby="footer-heading">
-        <div class="mx-auto max-w-7xl px-6 pb-0 pt-10 sm:pt-10 lg:px-8 lg:pt-10">
+    <footer class="bg-msh/20 border-solid border-t-2 border-black">
+        <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div class="space-y-8">
-                    <img class="h-7" :src="logoSrc" :alt="pageTitle" />
-                    <p class="text-sm leading-6 text-white/70">{{ mission }}</p>
-                    <!-- <div class="flex space-x-6">
-                        <a v-for="item in navigation" :key="item.name" :href="item.href"
-                            class="text-gray-400 hover:text-gray-500">
-                            <span class="sr-only">{{ item.name }}</span>
-                            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+                    <img class="h-32" :src="logoSrc" :alt="logoAlt" />
+                    <div class="text-sm/6 text-black/90">
+                        <div class="text-base font-semibold">Monaco Sport Hotel ***</div>
+                        <div>Via Lungopiave, 60</div>
+                        <div>I-32045 Santo Stefano di Cadore (BL)</div>
+                        <div>P.Iva IT00659590251</div>
+                        <a :href="googleMapsLink" target="_blank" class="font-semibold">
+                            {{ $t('footer.viewOnMaps') }}<span aria-hidden="true">&rarr;</span>
                         </a>
-                    </div> -->
-                </div>
-                <div class="mt-8 grid grid-cols-1 gap-8 xl:grid-cols-2 xl:col-span-2 xl:mt-0 ">
-                    <div class="grid-cols-2 md:grid md:grid-cols-2 md:gap-8">
-                        <div class="hidden lg:block">
-                            <div v-if="menu1 && menu1.items.length > 0">
-                                <h3 class="text-sm font-semibold leading-6 text-white/90">{{ menu1.title }}
-                                </h3>
-                                <ul role="list" class="mt-6 space-y-4">
-                                    <li v-for="item in menu1.items" :key="item.name">
-                                        <a v-if="item.href" :href="item.href"
-                                            class="text-sm leading-6 text-white/70 hover:text-white">{{ item.name }}
-                                        </a>
-                                        <span v-else class="text-sm leading-6 text-white/70">{{ item.name }}</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="mt-10 md:mt-0">
-                            <div v-if="menu2 && menu2.items.length > 0">
-                                <h3 class="text-sm font-semibold leading-6 text-white/90">{{ menu2.title }}
-                                </h3>
-                                <ul role="list" class="mt-6 space-y-4">
-                                    <li v-for="item in menu2.items" :key="item.name">
-                                        <a v-if="item.href" :href="item.href"
-                                            class="text-sm leading-6 text-white/70 hover:text-white">{{ item.name }}
-                                        </a>
-                                        <span v-else class="text-sm leading-6 text-white/70">{{ item.name }}</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
-                    <div class="grid-cols-2 md:grid md:grid-cols-2 md:gap-8 ">
+                </div>
+                <div class="mt-16 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
+
+                    <div class="md:grid md:grid-cols md:gap-8">
                         <div>
-                            <div v-if="menu3 && menu3.items.length > 0" class="mt-10 md:mt-0">
-                                <h3 class="text-sm font-semibold leading-6 text-white/90">{{ menu3.title }}
-                                </h3>
-                                <ul role="list" class="mt-6 space-y-4">
-                                    <li v-for="item in menu3.items" :key="item.name">
-                                        <a v-if="item.href" :href="item.href"
-                                            class="text-sm leading-6 text-white/70 hover:text-white">{{ item.name }}
-                                        </a>
-                                        <span v-else class="text-sm leading-6 text-white/70">{{ item.name }}</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="mt-10 md:mt-0">
-                            <h3 class="text-sm font-semibold leading-6 text-white/90">{{ $t('common.location') }}</h3>
-                            <ul role="list" class="mt-6 space-y-4">
-                                <li v-for="item in location" :key="item.name">
-                                    <a v-if="item.href" :href="item.href"
-                                        class="text-sm leading-6 text-white/70 hover:text-white">{{ item.name }}
-                                    </a>
-                                    <span v-else class="text-sm leading-6 text-white/70">{{ item.name }}</span>
+                            <h6 class="text-sm/6 font-semibold text-black">{{ navigation[0].title }}</h6>
+                            <ul role="list" class="mt-6 space-y-1">
+                                <li v-for="item in navigation[0].items" :key="item.name">
+                                    <a :href="item.href" target="_blank"
+                                        class="text-sm/6 text-black/85 hover:text-black">{{ item.name
+                                        }}</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
+                    <div class="md:grid md:grid-cols md:gap-8">
+                        <div class="mt-10 md:mt-0">
+                            <h6 class="text-sm/6 font-semibold text-black">{{ navigation[1].title }}</h6>
+                            <ul role="list" class="mt-6 space-y-1">
+                                <li v-for="item in navigation[1].items" :key="item.name">
+                                    <a :href="item.href" target="_blank"
+                                        class="text-sm/6 text-black/85 hover:text-black">{{ item.name
+                                        }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:grid md:grid-cols md:gap-8">
+                        <div>
+                            <h6 class="text-sm/6 font-semibold text-black">{{ $t('ctas.contactUs') }}</h6>
+                            <div class="mt-5 text-sm/6 text-black/80 ">
+                                <div>
+                                    <span class="text-black/90 font-semibold">E: </span>
+                                    <a :href="`mailto:${email}`" class="hover:text-black/90">{{ email }}</a>
+                                </div>
+                                <div>
+                                    <span class="text-black/90 font-semibold">T: </span>
+                                    <a :href="`tel:${phone}`" class="hover:text-black/90">{{ phone }}</a>
+                                </div>
+                                <div>
+                                    <span class="text-black/90 font-semibold">F: </span>
+                                    <a href="" class="hover:text-black/90">+39 0435 420440</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- newsletter -->
             <div
-                class="border-t border-black/30 mx-auto max-w-7xl mt-16 px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
-                <div class="flex justify-center space-x-6 md:order-2">
-                    <a v-for="item in socials" :key="item.name" :href="item.href" target="_blank"
-                        class="text-white/90 hover:text-white">
+                class="mt-8 border-t border-black/10 pt-8 sm:mt-16 lg:mt-24 lg:flex lg:items-center lg:justify-between">
+                <div>
+                    <h3 class="text-normal font-semibold text-black/90">{{ $t('ctas.newsletterTitle') }}</h3>
+                    <p class="mt-2 text-base text-black/60">{{ $t('ctas.newsletterSubtitle') }}</p>
+                </div>
+                <div>
+                    <form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
+                        <label for="email-address" class="sr-only">{{ $t('ctas.newsletterEmailLabel') }}</label>
+                        <input type="email" name="email-address" id="email-address" autocomplete="email" required="true"
+                            class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-black shadow-sm ring-1 ring-inset ring-msh placeholder:text-black/90 focus:ring-2 focus:ring-inset focus:ring-msh sm:w-56 sm:text-sm/6"
+                            :placeholder="$t('ctas.newsletterEmailPlaceholder')" />
+                        <div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
+                            <button type="submit"
+                                class="flex w-full items-center justify-center rounded-md bg-msh px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-msh-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-msh">{{
+                        $t('ctas.newsletterButton') }}</button>
+                        </div>
+                    </form>
+                    <div class="mt-2 text-xs text-black/60">{{ $t('ctas.newsletterPrivacyNotice') }}</div>
+                </div>
+            </div>
+
+            <!-- copyright -->
+            <div class="mt-8 border-t border-black/10 pt-8 sm:mt-20 lg:mt-8 md:flex md:items-center md:justify-between">
+                <div class="text-sm/6">
+                    <div class="text-black/90">
+                        &copy; {{ currentYear }} Monaco Sport Hotel - All rights reserved.
+                    </div>
+
+                    <div>
+                        <span v-for="item in legalLinks" :key="item.name" class="text-black/60">
+                            <a :href="item.href" class="hover:text-black/70">{{ item.name }}</a>
+                            <span aria-hidden="true"> . </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="flex gap-x-6 md:order-2">
+                    <a v-for="item in socials" :key="item.name" :href="item.href"
+                        class="text-black/90 hover:text-black/">
                         <span class="sr-only">{{ item.name }}</span>
                         <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
                     </a>
-                </div>
-                <div class="mt-8 md:order-1 md:mt-0">
-                    <p class="text-center text-xs leading-5 text-white/90">&copy; {{ currentYear }} Vinoteqa - All
-                        rights
-                        reserved.</p>
                 </div>
             </div>
         </div>
@@ -95,42 +115,53 @@
 <script>
 export default {
     props: {
-        pageTitle: {
-            type: String,
-            required: true,
-        },
         logoSrc: {
             type: String,
             required: true,
         },
-        mission: {
+        logoAlt: {
             type: String,
             required: true,
         },
-        menu1: {
-            type: Object,
-            default: null,
+        contacts: {
+            type: String,
+            required: true,
         },
-        menu2: {
-            type: Object,
-            default: null,
-        },
-        menu3: {
-            type: Object,
-            default: null,
-        },
-        location: {
-            type: Object,
+        navigation: {
+            type: Array,
             required: true,
         },
         socials: {
-            type: Object,
+            type: Array,
             required: true,
         },
     },
     data() {
         return {
             currentYear: new Date().getFullYear(),
+
+            googleMapsLink: "https://maps.app.goo.gl/2cNZSexXfUBQLZPD9",
+            email: "info@monacosporthotel.com",
+            phone: "+39 0435 420440",
+
+            legalLinks: [
+                {
+                    name: 'Sitemap',
+                    href: '/sitemap.xml',
+                },
+                {
+                    name: 'Credits',
+                    href: '/credits',
+                },
+                {
+                    name: 'Cookie Policy',
+                    href: '/cookie',
+                },
+                {
+                    name: 'Privacy Policy',
+                    href: '/privacy',
+                },
+            ]
         }
     },
 }
