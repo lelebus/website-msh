@@ -12,6 +12,10 @@
         <ContentLxPicture :text="food.text" :imgSrc="food.imgSrc" :imgAlt="food.imgAlt"
           :primaryButtonLabel="food.buttonLabel" :primaryButtonLink="food.buttonLink" />
       </div>
+
+      <ContentRxPicture :title="stua.title" :text="stua.text" :imgSrc="stua.imgSrc" :imgAlt="stua.imgAlt"
+        class="pb-24 sm:pb-32" />
+
       <ContentRxPicture :title="wine.title" :text="wine.text" :imgSrc="wine.imgSrc" :imgAlt="wine.imgAlt"
         :primaryButtonLabel="wine.primaryButtonLabel" :primaryButtonLink="wine.primaryButtonLink"
         :secondaryButtonLabel="wine.secondaryButtonLabel" :secondaryButtonLink="wine.secondaryButtonLink"
@@ -62,6 +66,12 @@ export default {
         imgAlt: this.$t('pages.restaurant.foodTitle'),
         buttonLabel: this.$t('pages.restaurant.downloadMenu'),
         buttonLink: '/static/menu.pdf',
+      },
+      stua: {
+        title: this.$t('pages.restaurant.stuaTitle'),
+        text: this.$t('pages.restaurant.stuaText'),
+        imgSrc: '/imgs/comelico-estate.jpg',
+        imgAlt: this.$t('pages.restaurant.stuaTitle'),
       },
       wine: {
         title: this.$t('pages.restaurant.wineTitle'),
