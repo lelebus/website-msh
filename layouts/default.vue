@@ -117,7 +117,7 @@ export default {
                         { name: this.$t('pages.summer.title'), href: '/summer' },
                         { name: this.$t('pages.winter.title'), href: '/winter' },
                         { name: this.$t('footer.webcam'), href: '#' },
-                        { name: this.$t('footer.weather'), href: '#' },
+                        { name: this.$t('footer.weather'), href: 'https://wwwold.arpa.veneto.it/previsioni/it/html/mtg_01.html' },
                     ]
                 },
             ],

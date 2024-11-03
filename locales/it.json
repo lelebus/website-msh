@@ -133,10 +133,36 @@
       "piscinaText": "Piscina coperta a 30°C con vista sul giardino, ideale per nuotate rilassanti."
     },
     "summer": {
-      "title": "Estate in Montagna"
+      "title": "Estate in Montagna",
+      "hikingTitle": "Escursioni nelle Dolomiti",
+      "hikingText": "Scopri una varietà di percorsi adatti a tutti i livelli, dalle passeggiate panoramiche ai trekking più impegnativi. Ogni sentiero offre panorami indimenticabili e la possibilità di riconnettersi con la natura.",
+      "hikingButtonLabel": "Scopri i sentieri",
+      "bikingTitle": "Avventure in Mountain Bike",
+      "bikingText": "Che tu sia un biker esperto o un principiante, le Dolomiti offrono sentieri per ogni livello di abilità. Presso la nostra struttura puoi noleggiare una mountain bike o un'e-bike e partire per un viaggio emozionante tra boschi, prati e strade di montagna.",
+      "bikingButtonLabel": "Scopri i percorsi",
+      "climbingTitle": "Vie Ferrate e Arrampicata",
+      "climbingText": "Le Dolomiti sono rinomate per le loro vie ferrate, sistemi di cavi e scalette che guidano gli arrampicatori lungo percorsi sicuri ma avvincenti sulle pareti montuose. Per una sfida maggiore, prova una delle tante opzioni di arrampicata, adatta sia ai principianti che agli esperti.",
+      "climbingButtonLabel": "Scopri le vie ferrate",
+      "paraglidingTitle": "Parapendio sulle Vette",
+      "paraglidingText": "Prova l'ebbrezza di sorvolare le montagne in parapendio, ammirando dall'alto valli e laghi. Le compagnie locali offrono voli in tandem con istruttori esperti, così puoi rilassarti e goderti il panorama. <br><br><i>Informazioni alla reception</i>",
+      "golfTitle": "Golf con Vista",
+      "golfText": "Il golf nelle Dolomiti è un'esperienza unica, che unisce il piacere del gioco a panorami montani spettacolari. I campi da golf nelle vicinanze offrono fairway stimolanti e green perfetti, incorniciati da incredibili viste alpine. <br><br><i>Informazioni alla reception</i>",
+      "horsebackRidingTitle": "Escursioni a cavallo",
+      "horsebackRidingText": "Le passeggiate a cavallo sono un modo rilassante per esplorare le Dolomiti. Attraversa splendidi sentieri tra prati e boschi e vivi il paesaggio montano da una nuova prospettiva. <br><br><i>Informazioni alla reception</i>"
     },
     "winter": {
-      "title": "Inverno in Montagna"
+      "title": "Inverno in Montagna",
+      "skiTitle": "Sci nelle Dolomiti",
+      "skiText": "Le Dolomiti offrono alcune delle migliori piste da sci d'Europa, adatte a tutti i livelli. Dalle discese tecniche alle piste per famiglie, troverai tutto ciò che serve per una giornata perfetta sulla neve.",
+      "skiButtonLabel": "Comprensorio Tre Cime",
+      "ciaspoleTitle": "Escursioni con le Ciaspole",
+      "ciaspoleText": "Scopri sentieri invernali attraverso boschi incantati e praterie innevate. Le escursioni con le ciaspole sono l'ideale per chi cerca un'esperienza autentica a contatto con la natura, lontano dalle piste affollate.",
+      "ciaspoleButtonLabel": "Scopri i percorsi",
+      "iceclimbingTitle": "Arrampicata su Ghiaccio",
+      "iceclimbingText": "Per gli amanti dell'avventura, le Dolomiti offrono incredibili possibilità per l'arrampicata su ghiaccio. Scala cascate e pareti ghiacciate sotto la guida di esperti, immergendoti in un paesaggio invernale spettacolare e vivendo un'esperienza intensa e unica.",
+      "iceclimbingButtonLabel": "Scopri",
+      "dogsleddingTitle": "Sleddog",
+      "dogsleddingText": "Il sleddog offre un'esperienza unica, permettendoti di esplorare la natura innevata in modo autentico e avventuroso. Lasciati guidare da un team di husky e prova la magia di questa attività nordica. <br><br><i>Informazioni alla reception</i>",
     }
   },
   "offers": {

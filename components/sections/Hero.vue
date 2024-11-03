@@ -1,5 +1,9 @@
 <template>
-  <div class="h-screen overflow-hidden relative z-10">
+  <div class="overflow-hidden relative z-10" :class="{
+    'h-screen': size === 'screen',
+    'h-[60vh]': size === '60vh',
+  }
+    ">
     <!-- background -->
     <template v-if="videoSrc">
       <video :src="videoSrc" autoplay muted loop class="absolute inset-0 h-full w-full object-cover -z-10"></video>
@@ -20,7 +24,7 @@
             </span>
 
             <h1 class="mt-10 max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-6xl xl:col-auto">{{
-      title }}</h1>
+    title }}</h1>
           </div>
 
           <div class="mt-6">
@@ -28,7 +32,7 @@
             <div class="mt-10 flex items-center gap-x-6">
               <a v-if="primaryButtonLabel" :href="primaryButtonLink" target="_blank"
                 class="rounded-md bg-msh px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-msh-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-msh">{{
-      primaryButtonLabel }}</a>
+    primaryButtonLabel }}</a>
               <NuxtLink v-if="secondaryButtonLabel" :to="localePath(secondaryButtonLink)"
                 class="text-sm font-semibold leading-6 text-gray-900">{{ secondaryButtonLabel }}<span
                   aria-hidden="true">→</span></NuxtLink>
@@ -53,6 +57,11 @@ import { ChevronDownIcon } from '@heroicons/vue/24/outline'
 <script>
 export default {
   props: {
+    size: {
+      type: String,
+      default: 'screen',
+      validator: (value) => ['screen', '50vh'].includes(value),
+    },
     titleLabel: {
       type: String,
       default: null,
