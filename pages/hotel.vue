@@ -12,6 +12,9 @@
       <SectionHeaderWithBackground :title="hotelBanner.title" :subtitle="hotelBanner.subtitle"
         :imgSrc="hotelBanner.imgSrc" />
 
+      <ContentLxPicture :title="hotelRoom.title" :text="hotelRoom.text" :imgSrc="hotelRoom.imgSrc"
+        :imgAlt="hotelRoom.title" class="pt-24 sm:pt-32" />
+
       <ContentMultiPictures :title="history.title" :subtitle="history.subtitle" :text1="history.text1" :text2="history.text2" :text3="history.text3"
         :pictures="history.multiPictures" />
 
@@ -65,6 +68,11 @@ export default {
         title: this.$t('pages.hotel.bannerTitle'),
         subtitle: this.$t('pages.hotel.bannerSubtitle'),
         imgSrc: '/imgs/hotel-banner-2.jpg',
+      },
+      hotelRoom: {
+        title: this.$t('pages.hotel.roomsTitle'),
+        text: this.$t('pages.hotel.roomsText'),
+        imgSrc: '/imgs/hotel-room.jpg',
       },
       history: {
         title: this.$t('pages.hotel.historyTitle'),
