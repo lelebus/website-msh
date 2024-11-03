@@ -21,16 +21,17 @@
     </div>
   </NuxtContent>
 </template>
-
 <script setup>
+const { t } = useI18n()
+
 useHead({
-  title: "SPA & Pool"
+  title: t('pages.spaAndPool.title')
 }, {
   tagPriority: 'critical'
 })
 
 useSeoMeta({
-  title: "SPA & Pool"
+  title: t('pages.spaAndPool.title')
 }, {
   tagPriority: 'critical'
 })

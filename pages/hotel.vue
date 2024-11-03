@@ -15,8 +15,8 @@
       <ContentLxPicture :title="hotelRoom.title" :text="hotelRoom.text" :imgSrc="hotelRoom.imgSrc"
         :imgAlt="hotelRoom.title" class="pt-24 sm:pt-32" />
 
-      <ContentMultiPictures :title="history.title" :subtitle="history.subtitle" :text1="history.text1" :text2="history.text2" :text3="history.text3"
-        :pictures="history.multiPictures" />
+      <ContentMultiPictures :title="history.title" :subtitle="history.subtitle" :text1="history.text1"
+        :text2="history.text2" :text3="history.text3" :pictures="history.multiPictures" />
 
       <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
     </div>
@@ -26,14 +26,16 @@
 <script setup>
 import ContentMultiPictures from '~/components/sections/ContentMultiPictures.vue';
 
+const { t } = useI18n()
+
 useHead({
-  title: "Hotel"
+  title: t('pages.hotel.title')
 }, {
   tagPriority: 'critical'
 })
 
 useSeoMeta({
-  title: "Hotel"
+  title: t('pages.hotel.title')
 }, {
   tagPriority: 'critical'
 })

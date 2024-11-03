@@ -12,23 +12,23 @@
       <ContentLxPicture :title="mythology.title" :text="mythology.text" :imgSrc="mythology.imgSrc"
         :imgAlt="mythology.title" class="pb-24 sm:pb-32" />
 
-
       <SectionHeaderWithBackground :title="ctaBanner.title" :subtitle="ctaBanner.subtitle"
         :buttonLabel="ctaBanner.buttonLabel" :buttonLink="ctaBanner.buttonLink" :imgSrc="ctaBanner.imgSrc" />
 
     </div>
   </NuxtContent>
 </template>
-
 <script setup>
+const { t } = useI18n()
+
 useHead({
-  title: "Hotel"
+  title: t('pages.winecellar.title')
 }, {
   tagPriority: 'critical'
 })
 
 useSeoMeta({
-  title: "Hotel"
+  title: t('pages.winecellar.title')
 }, {
   tagPriority: 'critical'
 })

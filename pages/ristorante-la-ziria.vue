@@ -28,14 +28,16 @@
 <script setup>
 import SectionHeader from '~/components/sections/SectionHeader.vue';
 
+const { t } = useI18n()
+
 useHead({
-  title: "Ristorante La Žiria "
+  title: t('pages.restaurant.title')
 }, {
   tagPriority: 'critical'
 })
 
 useSeoMeta({
-  title: "Ristorante La Žiria"
+  title: t('pages.restaurant.title')
 }, {
   tagPriority: 'critical'
 })
