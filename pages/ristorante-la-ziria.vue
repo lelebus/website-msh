@@ -15,8 +15,7 @@
 
       <ContentRxPicture :title="wine.title" :text="wine.text" :imgSrc="wine.imgSrc" :imgAlt="wine.imgAlt"
         :primaryButtonLabel="wine.primaryButtonLabel" :primaryButtonLink="wine.primaryButtonLink"
-        :secondaryButtonLabel="wine.secondaryButtonLabel" :secondaryButtonLink="wine.secondaryButtonLink"
-        />
+        :secondaryButtonLabel="wine.secondaryButtonLabel" :secondaryButtonLink="wine.secondaryButtonLink" />
 
       <SectionHeaderWithBackground :title="stua.title" :subtitle="stua.subtitle" :imgSrc="stua.imgSrc"
         :imgAlt="stua.imgAlt" class="my-24 sm:my-32" />
@@ -62,28 +61,27 @@ export default {
       food: {
         title: this.$t('pages.restaurant.foodTitle'),
         text: this.$t('pages.restaurant.foodText'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/restaurant-food-3.jpg',
         imgAlt: this.$t('pages.restaurant.foodTitle'),
         buttonLabel: this.$t('pages.restaurant.downloadMenu'),
         buttonLink: '/static/menu.pdf',
       },
-      stua: {
-        title: this.$t('pages.restaurant.stuaTitle'),
-        subtitle: this.$t('pages.restaurant.stuaText'),
-        imgSrc: '/imgs/comelico-estate.jpg',
-        imgAlt: this.$t('pages.restaurant.stuaTitle'),
-      },
       wine: {
         title: this.$t('pages.restaurant.wineTitle'),
         text: this.$t('pages.restaurant.wineText'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/restaurant-wine.jpg',
         imgAlt: this.$t('pages.restaurant.wineTitle'),
         primaryButtonLabel: this.$t('pages.restaurant.openWinelist'),
         primaryButtonLink: 'https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8',
         secondaryButtonLabel: this.$t('pages.restaurant.discoverWinecellar'),
         secondaryButtonLink: this.localePath('/anguana-del-vin'),
       },
-
+      stua: {
+        title: this.$t('pages.restaurant.stuaTitle'),
+        subtitle: this.$t('pages.restaurant.stuaText'),
+        imgSrc: '/imgs/la-stua.jpg',
+        imgAlt: this.$t('pages.restaurant.stuaTitle'),
+      },
 
       offers: {
         title: this.$t('pages.offers.title'),

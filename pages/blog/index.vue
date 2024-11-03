@@ -6,7 +6,7 @@
                 date: -1
             }" :limit="1" v-slot="{ data }">
                 <NuxtLink :to="data[0]._path"
-                    class="block md:flex relative group p-6 lg:p-10 space-y-6 md:space-x-6 my-14 bg-vinoteqa/5 rounded-3xl hover:bg-vinoteqa/10">
+                    class="block md:flex relative group p-6 lg:p-10 space-y-6 md:space-x-6 my-14 bg-msh/5 rounded-3xl hover:bg-msh/10">
                     <figure class="basis-1/2 w-full aspect-video overflow-hidden rounded-2xl">
                         <img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer"
                             :src="getArticleImageSrc(data[0])" :alt="data[0].title"
@@ -29,7 +29,7 @@
                     <div class="flex items-center mb-6">
                         <h2 class="text-3xl md:text-4xl font-bold mr-auto">{{ category.label }}</h2>
                         <NuxtLink
-                            class="border border-black/40 rounded-full py-2 px-4 md:px-6 hover:bg-vinoteqa/5 invisible lg:visible"
+                            class="border border-black/40 rounded-full py-2 px-4 md:px-6 hover:bg-msh/5 invisible lg:visible"
                             :to="localePath(`/blog/${category.key}`)">{{ $t('blog.viewAll') }}</NuxtLink>
                     </div>
 
@@ -39,7 +39,7 @@
                     </ContentQuery>
 
                     <div class="flex text-center my-6 visible lg:invisible">
-                        <NuxtLink class="border border-black/40 rounded-full py-2 px-4 md:px-6 hover:bg-vinoteqa/5 "
+                        <NuxtLink class="border border-black/40 rounded-full py-2 px-4 md:px-6 hover:bg-msh/5 "
                             :to="localePath(`/blog/${category.key}`)">{{ $t('blog.viewAll') }}</NuxtLink>
                     </div>
 

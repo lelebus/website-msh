@@ -16,7 +16,7 @@
         :buttonLabel="winecellar.buttonLabel" :buttonLink="winecellar.buttonLink" :imgSrc="winecellar.imgSrc" />
 
       <Testimonial :title="owners.title" :quote="owners.quote" :signatureImgSrc="owners.signatureImgSrc"
-        :signatureAlt="owners.signatureAlt" :imgSrc="owners.imgSrc" :imgAlt="owners.signatureAlt" />
+        :signatureAlt="owners.signatureAlt" :imgSrc="owners.imgSrc" :imgAlt="owners.imgAlt" />
 
     </div>
   </NuxtContent>
@@ -66,25 +66,25 @@ export default {
         {
           title: this.$t('pages.summer.title'),
           icon: '/icons/sun.svg',
-          imgSrc: '/imgs/comelico-estate.jpg',
+          imgSrc: '/imgs/home-summer.jpg',
           url: this.localePath('/summer'),
         },
         {
           title: this.$t('pages.winter.title'),
           icon: '/icons/snow.svg',
-          imgSrc: '/imgs/comelico-inverno.jpg',
+          imgSrc: '/imgs/home-winter.jpg',
           url: this.localePath('/winter'),
         },
         {
           title: this.$t('pages.restaurant.title'),
           icon: '/icons/restaurant.svg',
-          imgSrc: '/imgs/comelico-estate.jpg',
+          imgSrc: '/imgs/home-restaurant.jpg',
           url: this.localePath('/ristorante-la-ziria'),
         },
         {
           title: this.$t('pages.spaAndPool.title'),
           icon: '/icons/sauna.svg',
-          imgSrc: '/imgs/comelico-inverno.jpg',
+          imgSrc: '/imgs/home-pool.jpg',
           url: this.localePath('/spa-and-pool'),
         },
       ],
@@ -97,8 +97,8 @@ export default {
         title: this.$t('pages.home.winecellarTitle'),
         subtitle: this.$t('pages.home.winecellarText'),
         buttonLabel: this.$t('pages.home.winecellarButtonLabel'),
-        buttonLink: this.localePath('/winecellar'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        buttonLink: this.localePath('/anguana-del-vin'),
+        imgSrc: '/imgs/home-winecellar.jpg',
         imgAlt: this.$t('pages.home.winecellarTitle'),
       },
 
@@ -107,7 +107,8 @@ export default {
         quote: this.$t('pages.hotel.ownersQuote'),
         signatureImgSrc: '/imgs/owners-signature.svg',
         signatureAlt: 'Sergio & Angela',
-        imgSrc: '/imgs/signature.svg',
+        imgSrc: '/imgs/the-owners.jpg',
+        imgAlt: `${this.$t('pages.hotel.ownersTitle')}: Sergio & Angela`,
       },
 
       newsletter: {

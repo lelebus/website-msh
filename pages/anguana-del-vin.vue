@@ -54,21 +54,21 @@ export default {
       wine: {
         title: this.$t('pages.winecellar.wineTitle'),
         text: this.$t('pages.winecellar.wineText'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/winecellar-bottles.jpg',
         buttonLabel: this.$t('pages.winecellar.openWinelist'),
         buttonLink: 'https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8',
       },
       mythology: {
         title: this.$t('pages.winecellar.mythologyTitle'),
         text: this.$t('pages.winecellar.mythologyText'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/winecellar-anguana.jpg',
       },
       ctaBanner: {
         title: this.$t('pages.winecellar.ctaTitle'),
         subtitle: this.$t('pages.winecellar.ctaSubtitle'),
         buttonLabel: this.$t('pages.winecellar.ctaButtonLabel'),
         buttonLink: "mailto:info@monacosporthotel.com",
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/winecellar-food.jpg',
         imgAlt: this.$t('pages.restaurant.title'),
       }
     }

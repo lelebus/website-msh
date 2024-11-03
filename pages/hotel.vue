@@ -58,12 +58,13 @@ export default {
         quote: this.$t('pages.hotel.ownersQuote'),
         signatureImgSrc: '/imgs/owners-signature.svg',
         signatureAlt: 'Sergio & Angela',
-        imgSrc: '/imgs/signature.svg',
+        imgSrc: '/imgs/the-owners.jpg',
+        imgAlt: `${this.$t('pages.hotel.ownersTitle')}: Sergio & Angela`,
       },
       hotelBanner: {
         title: this.$t('pages.hotel.bannerTitle'),
         subtitle: this.$t('pages.hotel.bannerSubtitle'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/hotel-banner-2.jpg',
       },
       history: {
         title: this.$t('pages.hotel.historyTitle'),

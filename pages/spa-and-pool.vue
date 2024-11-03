@@ -56,12 +56,12 @@ export default {
       pool: {
         title: this.$t('pages.spaAndPool.poolTitle'),
         text: this.$t('pages.spaAndPool.poolText'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/spa-pool.jpg',
       },
       spa: {
         title: this.$t('pages.spaAndPool.spaTitle'),
         text: this.$t('pages.spaAndPool.spaText'),
-        imgSrc: '/imgs/comelico-estate.jpg',
+        imgSrc: '/imgs/spa-sauna.jpg',
       },
       features: {
         title: this.$t('pages.spaAndPool.featuresTitle'),

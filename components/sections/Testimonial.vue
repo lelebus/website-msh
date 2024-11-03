@@ -25,10 +25,8 @@
                         <p>{{ quote }}</p>
                     </blockquote>
                 </div>
-                <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
-                    <img class="bg-grey rounded-xl lg:rounded-xl"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80"
-                        alt="" />
+                <div class="col-end-1 w-full lg:row-span-4 lg:w-96 mx-3">
+                    <img class="bg-grey rounded-xl lg:rounded-xl" :src="imgSrc" :alt="imgAlt" />
                 </div>
                 <figcaption class="text-base lg:col-start-1 lg:row-start-3">
                     <!-- signature image -->
