@@ -68,7 +68,9 @@
         <FullPageMenu class="z-50" :open="menuOpen" @close="menuOpen = false">
             <div class="h-full pb-16 flex flex-col text-center justify-between">
                 <!-- logo -->
-                <img :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" />
+                <NuxtLink :to="localePath('/')">
+                    <img :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" @click="menuOpen = false" />
+                </NuxtLink>
                 <nav class="py-30" aria-label="Global">
                     <div v-for="item in navigation" :key="item.name" class="my-10">
                         <NuxtLink :to="localePath(item.href)"
