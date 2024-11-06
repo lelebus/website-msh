@@ -6,22 +6,27 @@
                 <div class="mx-8 flex items-start justify-between lg:px-8 p-6">
                     <!-- logo -->
                     <div>
-                        <NuxtLink :to="localePath(homeLink)">
+                        <NuxtLink :to="localePath('/')">
                             <img src="/logo-white.svg" :alt="logoAlt" class="h-36 p-2.5 mx-auto"
                                 :class="{ 'hidden': showFixedMenu || onlyFixedMenu }" />
                         </NuxtLink>
                     </div>
-                    <!-- buttons to open menu -->
+
                     <div class="flex items-center">
+                        <!-- ctas -->
                         <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center text-white/95">
-                            <a :href="actionButtonLink" target="_blank"
+                            <a :href="bookingLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
                             $t('ctas.book') }}</a>
-                            <a :href="actionButtonLink" target="_blank"
+                            <a :href="contactLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
                             $t('ctas.contactUs') }}</a>
+                            <a :href="localePath('/vouchers')" target="_blank"
+                                class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
+                            $t('navigation.vouchers') }}</a>
                         </div>
-                        <!-- mobile menu button -->
+
+                        <!-- open menu -->
                         <button type="button"
                             class="flex items-center ml-10 inline-flex items-center justify-center rounded-md p-2.5 text-white/95 hover:text-white"
                             @click="menuOpen = true">
@@ -39,21 +44,25 @@
                 <div class="mx-8 flex items-center justify-between lg:px-8 p-6">
                     <!-- logo -->
                     <div>
-                        <NuxtLink :to="localePath(homeLink)">
+                        <NuxtLink :to="localePath('/')">
                             <img src="/logo-min.svg" :alt="logoAlt" class="h-16 px-5 mx-auto" />
                         </NuxtLink>
                     </div>
-                    <!-- buttons to open menu -->
                     <div class="flex items-center">
-                        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center text-black/95">
-                            <a :href="actionButtonLink" target="_blank"
+                        <!-- ctas -->
+                        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center text-black/90">
+                            <a :href="bookingLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
                             $t('ctas.book') }}</a>
-                            <a :href="actionButtonLink" target="_blank"
+                            <a :href="contactLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
                             $t('ctas.contactUs') }}</a>
+                            <a :href="localePath('/vouchers')" target="_blank"
+                                class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
+                            $t('navigation.vouchers') }}</a>
                         </div>
-                        <!-- mobile menu button -->
+                        
+                        <!-- open menu -->
                         <button type="button"
                             class="flex items-center ml-10 inline-flex items-center justify-center rounded-md p-2.5 text-black/95 hover:text-black"
                             @click="menuOpen = true">
@@ -82,7 +91,7 @@
                 </nav>
                 <!-- language switcher -->
                 <nav>
-                    <a v-for="l in locales" :key="l.code" :href="`/${l.code}${homeLink}`"
+                    <a v-for="l in locales" :key="l.code" :href="`/${l.code}/`"
                         class="text-base px-2 font-bold text-black/90 hover:text-black"
                         :class="{ 'underline text-black/95': l.code === locale }">{{ l.code }}
                     </a>
@@ -100,37 +109,10 @@ const { locale, locales } = useI18n()
 </script>
 
 <script>
+const runtimeConfig = useRuntimeConfig()
+
 export default {
     props: {
-        homeLink: {
-            type: String,
-            default: "/"
-        },
-        logoSrc: {
-            type: String,
-            default: "/logo.svg"
-        },
-        logoAlt: {
-            type: String,
-            default: "Logo Vinoteqa"
-        },
-        logoSize: {
-            type: String,
-            default: "7",
-            validator: (value) => ['7', '11'].includes(value) // adapt in :class 
-        },
-        navigation: {
-            type: Array,
-            default: () => []
-        },
-        actionButtonLabel: {
-            type: String,
-            required: true
-        },
-        actionButtonLink: {
-            type: String,
-            required: true
-        },
         onlyFixedMenu: {
             type: Boolean,
             default: false
@@ -140,7 +122,21 @@ export default {
         return {
             menuOpen: false,
             atTopOfPage: true,
-            showFixedMenu: false
+            showFixedMenu: false,
+
+            logoSrc: '/logo-full.svg',
+            logoAlt: 'Logo Monaco Sport Hotel',
+
+            bookingLink: '#',
+            contactLink: '#',
+            navigation: [
+                { name: this.$t('navigation.hotel'), href: '/hotel' },
+                { name: this.$t('navigation.restaurant'), href: '/ristorante-la-ziria' },
+                { name: this.$t('navigation.winecellar'), href: '/anguana-del-vin' },
+                { name: this.$t('navigation.spaAndPool'), href: '/spa-and-pool' },
+                { name: this.$t('navigation.summer'), href: '/summer' },
+                { name: this.$t('navigation.winter'), href: '/winter' },
+            ],
         }
     },
     mounted() {
