@@ -147,19 +147,15 @@ export default {
             legalLinks: [
                 {
                     name: 'Sitemap',
-                    href: '/sitemap.xml',
+                    href: this.localePath('/sitemap.xml'),
                 },
                 {
                     name: 'Credits',
-                    href: '/credits',
+                    href: this.localePath('/credits'),
                 },
                 {
-                    name: 'Cookie Policy',
-                    href: '/cookie',
-                },
-                {
-                    name: 'Privacy Policy',
-                    href: '/privacy',
+                    name: 'Cookie & Privacy',
+                    href: this.localePath('/privacy'),
                 },
             ]
         }

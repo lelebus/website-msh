@@ -12,9 +12,13 @@
     </div>
 </template>
 
-<script>
+<script setup>
+definePageMeta({
+    layout: 'content',
+})
+
 useHead({
-    titleTemplate: '%s | Vinoteqa',
+    titleTemplate: '%s',
 })
 </script>
 

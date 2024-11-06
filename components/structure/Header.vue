@@ -8,7 +8,7 @@
                     <div>
                         <NuxtLink :to="localePath(homeLink)">
                             <img src="/logo-white.svg" :alt="logoAlt" class="h-36 p-2.5 mx-auto"
-                                :class="{ 'hidden': showFixedMenu }" />
+                                :class="{ 'hidden': showFixedMenu || onlyFixedMenu }" />
                         </NuxtLink>
                     </div>
                     <!-- buttons to open menu -->
@@ -34,7 +34,7 @@
 
             <!-- Fixed Menu -->
             <div class="fixed inset-x-0 top-0 z-40 bg-white fixed-menu shadow-md" :class="{
-                            'fixed-menu-active': showFixedMenu
+                            'fixed-menu-active': showFixedMenu || onlyFixedMenu
                         }">
                 <div class="mx-8 flex items-center justify-between lg:px-8 p-6">
                     <!-- logo -->
@@ -131,6 +131,10 @@ export default {
             type: String,
             required: true
         },
+        onlyFixedMenu: {
+            type: Boolean,
+            default: false
+        }
     },
     data() {
         return {
