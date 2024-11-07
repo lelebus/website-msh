@@ -1,7 +1,7 @@
 <template>
     <div class="relative isolate overflow-hidden bg-gray px-6 py-24 sm:py-32 lg:px-8 h-[80vh]">
         <img :src="imgSrc" :alt="imgAlt" class="absolute inset-0 -z-10 h-full w-full object-cover" />
-        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/40" />
+        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/80 via-black/10" />
         <div class="absolute inset-0 -z-10" />
 
         <div class="absolute bottom-0 mx-auto max-w-7xl z-10 px-6 mb-16 lg:px-8">

@@ -59,4 +59,8 @@
     h4 {
         @apply text-lg;
     }
+
+    .max-w-7xl {
+        max-width: 90rem !important;
+    }
 }
