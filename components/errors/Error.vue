@@ -1,10 +1,10 @@
 <template>
     <div class="mx-auto flex w-full max-w-7xl flex-auto flex-col justify-center px-6 py-24 sm:py-64 lg:px-8">
-        <p class="text-base font-semibold leading-8 text-vinoteqa">{{ errorCode }}</p>
+        <p class="text-base font-semibold leading-8 text-msh">{{ errorCode }}</p>
         <h1 class="mt-4 text-3xl font-bold tracking-tight text-black sm:text-5xl">{{ errorTitle }}</h1>
         <p class="mt-6 text-base leading-7 text-black/80">{{ errorSubtitle }}</p>
         <div class="mt-10">
-            <a :href="backToLink" class="text-sm font-semibold leading-7 text-vinoteqa"><span
+            <a :href="backToLink" class="text-sm font-semibold leading-7 text-msh"><span
                     aria-hidden="true">&larr;</span>
                 {{ backToButtonLabel }}</a>
         </div>
