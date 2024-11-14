@@ -2,7 +2,7 @@
     <div class="page-ct bg-white">
         <Header onlyFixedMenu />
 
-        <main class="py-32">
+        <main>
             <slot />
         </main>
 

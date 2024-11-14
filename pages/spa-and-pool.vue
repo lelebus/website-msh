@@ -17,7 +17,7 @@
       <ContentRxPicture :title="spa.title" :text="spa.text" :imgSrc="spa.imgSrc" :imgAlt="spa.title"
         class="pb-24 sm:pb-32" />
 
-      <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
+      <LatestOffers category="spa" class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
     </div>
   </NuxtContent>
 </template>

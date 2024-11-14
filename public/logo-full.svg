@@ -7,7 +7,7 @@
    width="1400"
    height="350"
    viewBox="0 0 1400 350"
-   sodipodi:docname="logo-ink-2.svg"
+   sodipodi:docname="logo-full.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -43,15 +43,15 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.85834194"
-     inkscape:cx="761.93411"
-     inkscape:cy="460.18956"
+     inkscape:zoom="0.67690531"
+     inkscape:cx="558.42375"
+     inkscape:cy="36.932787"
      inkscape:window-width="1920"
      inkscape:window-height="1131"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g833" />
+     inkscape:current-layer="g8" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -77,67 +77,67 @@
            style="font-weight:500;font-size:49.2848px;font-family:'ITCKabel LT Medium';-inkscape-font-specification:ItcKabelLT-Medium;fill:#871431;stroke-width:1.11198">
           <path
              d="m 0.45867841,-534.91189 4.63277139,0.59142 3.8442145,-21.19247 10.2512387,21.34032 9.561251,-21.34032 4.041354,20.99533 4.829911,-0.49285 -7.146296,-34.30222 -11.335505,25.38167 -11.9269218,-25.33239 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4828" />
           <path
              d="m 40.576534,-551.71801 c 0,5.12562 1.774253,9.46268 5.076334,12.81405 3.302082,3.30208 7.49129,4.92848 12.715479,4.92848 5.224189,0 9.364112,-1.6264 12.666194,-4.92848 3.351367,-3.35137 5.076335,-7.68843 5.076335,-12.81405 0,-5.12562 -1.724968,-9.4134 -5.076335,-12.76476 -3.302082,-3.30209 -7.442005,-4.92848 -12.666194,-4.92848 -5.224189,0 -9.413397,1.62639 -12.715479,4.92848 -3.302081,3.35136 -5.076334,7.63914 -5.076334,12.76476 z m 17.791813,13.25761 c -7.29415,0 -12.715479,-5.47061 -12.715479,-13.25761 0,-7.787 5.421329,-13.25761 12.715479,-13.25761 7.294151,0 12.715479,5.47061 12.715479,13.25761 0,7.787 -5.421328,13.25761 -12.715479,13.25761 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4830" />
           <path
              d="m 81.335083,-534.32047 4.879196,-0.44357 v -22.67101 l 22.030301,23.50885 v -35.18934 l -4.92848,0.49284 v 22.62173 l -21.981017,-23.50885 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4832" />
           <path
              d="m 110.41311,-535.40474 4.48491,1.23212 5.91418,-11.97621 h 13.40546 l 5.91418,11.92692 4.73134,-1.23212 -17.20039,-34.20365 z m 12.37048,-14.83473 4.68206,-9.65982 4.73134,9.65982 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4834" />
           <path
              d="m 170.88559,-535.25689 0.6407,-5.27347 c -0.78855,0.44356 -1.52782,0.83784 -2.2671,1.13355 -1.52783,0.59142 -3.00637,0.78856 -4.68205,0.78856 -3.10495,0 -6.30846,-1.33069 -8.57556,-3.64708 -2.36567,-2.41495 -3.59779,-5.66775 -3.59779,-9.46268 0,-7.68843 5.37204,-13.15904 12.41977,-13.15904 2.36567,0 4.48492,0.59142 6.25917,1.6264 l -0.73927,-5.27348 c -1.97139,-0.59141 -3.84422,-0.88712 -5.71704,-0.88712 -4.73134,0 -9.01912,1.72496 -12.22263,4.92848 -3.35136,3.35136 -5.07633,7.63914 -5.07633,12.76476 0,6.30845 2.66138,11.48336 7.442,14.78544 2.75995,1.87282 6.20989,2.9078 10.10339,2.9078 2.16853,0 4.09063,-0.39427 6.01274,-1.23212 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4836" />
           <path
              d="m 175.61695,-551.71801 c 0,5.12562 1.77425,9.46268 5.07633,12.81405 3.30208,3.30208 7.49129,4.92848 12.71548,4.92848 5.22419,0 9.36411,-1.6264 12.66619,-4.92848 3.35137,-3.35137 5.07634,-7.68843 5.07634,-12.81405 0,-5.12562 -1.72497,-9.4134 -5.07634,-12.76476 -3.30208,-3.30209 -7.442,-4.92848 -12.66619,-4.92848 -5.22419,0 -9.4134,1.62639 -12.71548,4.92848 -3.30208,3.35136 -5.07633,7.63914 -5.07633,12.76476 z m 17.79181,13.25761 c -7.29415,0 -12.71548,-5.47061 -12.71548,-13.25761 0,-7.787 5.42133,-13.25761 12.71548,-13.25761 7.29415,0 12.71548,5.47061 12.71548,13.25761 0,7.787 -5.42133,13.25761 -12.71548,13.25761 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4838" />
           <path
              d="m 229.78099,-539.69252 c 2.51352,3.64708 6.06203,5.56918 10.39909,5.56918 6.20988,0 10.54695,-4.38634 10.54695,-9.85696 0,-5.86489 -3.00638,-8.27984 -9.21626,-10.59623 -3.84422,-1.42926 -6.06203,-2.46424 -6.06203,-5.66775 0,-2.71066 2.02068,-4.68206 5.07633,-4.68206 2.31639,0 4.28778,1.18284 6.5056,3.59779 l 3.15422,-3.44993 c -2.9078,-3.15423 -5.91417,-4.63277 -9.61053,-4.63277 -5.86489,0 -10.15267,4.09063 -10.15267,9.31482 0,5.32276 2.71066,7.63915 8.72341,9.80768 4.33706,1.57711 6.55488,2.61209 6.55488,6.11131 0,3.10495 -2.31639,5.37205 -5.61847,5.37205 -2.2671,0 -4.58349,-1.42926 -6.50559,-4.04136 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4840" />
           <path
              d="m 256.49335,-534.32047 4.87919,-0.44357 v -11.18765 h 2.66138 c 7.04773,0 11.53265,-4.5342 11.53265,-11.3355 0,-6.8013 -4.48492,-11.33551 -11.53265,-11.33551 h -7.54057 z m 4.87919,-29.96516 h 2.11925 c 4.48492,0 7.04773,2.66138 7.04773,6.99844 0,4.38634 -2.56281,6.94915 -7.04773,6.94915 h -2.11925 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4842" />
           <path
              d="m 280.49503,-551.71801 c 0,5.12562 1.77425,9.46268 5.07633,12.81405 3.30209,3.30208 7.49129,4.92848 12.71548,4.92848 5.22419,0 9.36411,-1.6264 12.6662,-4.92848 3.35136,-3.35137 5.07633,-7.68843 5.07633,-12.81405 0,-5.12562 -1.72497,-9.4134 -5.07633,-12.76476 -3.30209,-3.30209 -7.44201,-4.92848 -12.6662,-4.92848 -5.22419,0 -9.41339,1.62639 -12.71548,4.92848 -3.30208,3.35136 -5.07633,7.63914 -5.07633,12.76476 z m 17.79181,13.25761 c -7.29415,0 -12.71548,-5.47061 -12.71548,-13.25761 0,-7.787 5.42133,-13.25761 12.71548,-13.25761 7.29415,0 12.71548,5.47061 12.71548,13.25761 0,7.787 -5.42133,13.25761 -12.71548,13.25761 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4844" />
           <path
              d="m 321.25357,-534.32047 4.8792,-0.44357 v -16.26398 l 11.82835,17.05254 4.78062,-1.97139 -9.80767,-13.50404 c 4.18921,-1.23212 6.60416,-4.43563 6.60416,-8.92055 0,-6.20988 -4.23849,-10.25124 -11.3355,-10.25124 h -6.94916 z m 4.8792,-30.01445 h 1.9221 c 4.13993,0 6.5056,2.36567 6.5056,6.11132 0,3.74564 -2.36567,6.01274 -6.5056,6.01274 h -1.9221 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4846" />
           <path
              d="m 352.0073,-534.32047 4.8792,-0.44357 v -29.37374 h 7.93485 v -4.48492 h -19.91106 l -1.67568,4.48492 h 8.77269 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4848" />
           <path
              d="m 384.14096,-534.32047 4.8792,-0.44357 v -15.13043 H 405.432 v 15.574 l 4.92848,-0.44357 v -34.3515 l -4.92848,0.49284 v 14.24331 h -16.41184 v -14.73615 l -4.8792,0.49284 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4850" />
           <path
              d="m 416.37329,-551.71801 c 0,5.12562 1.77426,9.46268 5.07634,12.81405 3.30208,3.30208 7.49129,4.92848 12.71548,4.92848 5.22419,0 9.36411,-1.6264 12.66619,-4.92848 3.35137,-3.35137 5.07634,-7.68843 5.07634,-12.81405 0,-5.12562 -1.72497,-9.4134 -5.07634,-12.76476 -3.30208,-3.30209 -7.442,-4.92848 -12.66619,-4.92848 -5.22419,0 -9.4134,1.62639 -12.71548,4.92848 -3.30208,3.35136 -5.07634,7.63914 -5.07634,12.76476 z m 17.79182,13.25761 c -7.29415,0 -12.71548,-5.47061 -12.71548,-13.25761 0,-7.787 5.42133,-13.25761 12.71548,-13.25761 7.29415,0 12.71548,5.47061 12.71548,13.25761 0,7.787 -5.42133,13.25761 -12.71548,13.25761 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4852" />
           <path
              d="m 462.35603,-534.32047 4.87919,-0.44357 v -29.37374 h 7.93485 v -4.48492 h -19.91106 l -1.67568,4.48492 h 8.7727 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4854" />
           <path
              d="m 479.9014,-534.76404 h 18.58037 l 1.42926,-4.68205 h -15.13044 v -10.89195 h 11.13837 v -4.43563 h -11.13837 v -9.41339 h 13.99689 l -1.08427,-4.43564 H 479.9014 Z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4856" />
           <path
              d="m 505.52951,-534.76404 h 17.29896 l 1.6264,-4.58348 h -13.99688 v -29.76802 l -4.92848,0.49284 z"
-             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel'"
+             style="font-weight:normal;font-family:'ITC Kabel';-inkscape-font-specification:'ITC Kabel';fill:#000000"
              id="path4858" />
         </g>
         <g

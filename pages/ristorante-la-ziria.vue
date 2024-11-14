@@ -20,7 +20,7 @@
       <SectionHeaderWithBackground :title="stua.title" :subtitle="stua.subtitle" :imgSrc="stua.imgSrc"
         :imgAlt="stua.imgAlt" class="my-24 sm:my-32" />
 
-      <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
+      <LatestOffers category="restaurant" class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
     </div>
   </NuxtContent>
 </template>

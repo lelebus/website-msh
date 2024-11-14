@@ -59,7 +59,7 @@ export default {
         @apply text-black/80 leading-7 mb-4;
 
         a {
-            @apply text-vinoteqa/85 hover:text-vinoteqa/95 font-semibold underline;
+            @apply text-msh/85 hover:text-msh/95 font-semibold underline;
         }
     }
 

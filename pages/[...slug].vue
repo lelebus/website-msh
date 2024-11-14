@@ -1,5 +1,5 @@
 <template>
-    <div class="px-8 mx-auto max-w-7xl">
+    <div class="py-32 px-8 mx-auto max-w-7xl">
         <ContentDoc>
             <template v-slot="{ doc }">
                 <Content :doc="doc" />

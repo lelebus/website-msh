@@ -18,7 +18,7 @@
       <ContentMultiPictures :title="history.title" :subtitle="history.subtitle" :text1="history.text1"
         :text2="history.text2" :text3="history.text3" :pictures="history.multiPictures" />
 
-      <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
+      <LatestOffers category="hotel" class="mx-auto max-w-7xl sm:px-6 lg:px-8" />
     </div>
   </NuxtContent>
 </template>

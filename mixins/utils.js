@@ -20,5 +20,15 @@ export default {
 
       return `/imgs-offers/${slug}.jpg`;
     },
+
+    getOfferImage2Src(offer) {
+      if (!offer) return null;
+
+      // split path by / and get the last segment
+      const pathSegments = offer._path.split("/");
+      const slug = pathSegments[pathSegments.length - 1];
+
+      return `/imgs-offers/${slug}-2.jpg`;
+    },
   },
 };
