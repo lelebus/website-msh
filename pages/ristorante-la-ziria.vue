@@ -63,7 +63,7 @@ export default {
       food: {
         title: this.$t('pages.restaurant.foodTitle'),
         text: this.$t('pages.restaurant.foodText'),
-        imgSrc: '/imgs/restaurant-food-3.jpg',
+        imgSrc: '/imgs/restaurant-food.jpg',
         imgAlt: this.$t('pages.restaurant.foodTitle'),
         buttonLabel: this.$t('pages.restaurant.downloadMenu'),
         buttonLink: '/static/menu.pdf',
@@ -81,7 +81,7 @@ export default {
       stua: {
         title: this.$t('pages.restaurant.stuaTitle'),
         subtitle: this.$t('pages.restaurant.stuaText'),
-        imgSrc: '/imgs/la-stua.jpg',
+        imgSrc: '/imgs/restaurant-la-stua.jpg',
         imgAlt: this.$t('pages.restaurant.stuaTitle'),
       },
 

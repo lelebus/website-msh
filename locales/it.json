@@ -98,7 +98,7 @@
       "heroTitle": "L'Anguana del Vin",
       "heroSubtitle": "Un viaggio tra i sapori e le leggende delle Dolomiti, dove ogni bottiglia racconta una storia",
       "wineTitle": "Un Tesoro di Oltre 1500 Etichette",
-      "wineText": "Nascosta tra le montagne, L'Anguana del Vin è più di una semplice cantina: è un luogo dove la passione per il vino si unisce al rispetto per il territorio. Con oltre 1500 etichette e una selezione curata di più di 15,000 bottiglie, la nostra cantina è un invito a scoprire i sapori autentici e le tradizioni enologiche italiane.",
+      "wineText": "Nascosta tra le montagne, L'Anguana del Vin è più di una cantina: è un luogo dove la passione per il vino incontra il rispetto per il territorio. Con oltre 1500 etichette e una selezione di oltre 15.000 bottiglie, vi invitiamo a scoprire i sapori e le tradizioni enologiche italiane. Sergio, sommelier e padrone di casa, saprà sempre consigliarvi il meglio per un viaggio enologico unico.",
       "openWinelist": "Apri la carta vini",
       "mythologyTitle": "Mitologia e Tradizione",
       "mythologyText": "L'Anguana del Vin prende il suo nome dalle antiche leggende delle Dolomiti, ispirate alle Anguane, figure mitologiche legate alle acque e alla natura misteriosa delle montagne. Si racconta che queste creature incantatrici, custodi di segreti e saggezze ancestrali, abitassero sorgenti e laghi, proteggendo i luoghi sacri della valle. <br><br>Come le Anguane, la nostra cantina custodisce un mondo di tesori e storie da scoprire: ogni bottiglia è scelta con cura per onorare la bellezza selvaggia e autentica del territorio, regalando agli ospiti un’esperienza che unisce mitologia, vino e tradizione in un incontro unico.",
@@ -159,42 +159,26 @@
       "ciaspoleTitle": "Escursioni con le Ciaspole",
       "ciaspoleText": "Scopri sentieri invernali attraverso boschi incantati e praterie innevate. Le escursioni con le ciaspole sono l'ideale per chi cerca un'esperienza autentica a contatto con la natura, lontano dalle piste affollate.",
       "ciaspoleButtonLabel": "Scopri i percorsi",
+      "bikingTitle": "Avventure in Fat Bike",
+      "bikingText": "Scopri la magia dell'inverno in sella a una fat bike! Con le sue ruote larghe e resistenti, la fat bike ti permette di affrontare senza problemi i sentieri innevati e le strade di montagna, anche nei giorni più freddi. Che tu stia cercando un'avventura nel paesaggio innevato o un modo divertente per esplorare la montagna d'inverno, le nostre bike a noleggio sono la scelta perfetta per vivere la stagione fredda in modo attivo ed emozionante.  <br><br><i>Informazioni alla reception</i>",
       "iceclimbingTitle": "Arrampicata su Ghiaccio",
       "iceclimbingText": "Per gli amanti dell'avventura, le Dolomiti offrono incredibili possibilità per l'arrampicata su ghiaccio. Scala cascate e pareti ghiacciate sotto la guida di esperti, immergendoti in un paesaggio invernale spettacolare e vivendo un'esperienza intensa e unica.",
       "iceclimbingButtonLabel": "Scopri",
       "dogsleddingTitle": "Sleddog",
       "dogsleddingText": "Il sleddog offre un'esperienza unica, permettendoti di esplorare la natura innevata in modo autentico e avventuroso. Lasciati guidare da un team di husky e prova la magia di questa attività nordica. <br><br><i>Informazioni alla reception</i>",
+    },
+    "vouchers": {
+      "title": "Voucher Regalo",
+      "heroTitle": "Regala un'Esperienza Indimenticabile",
+      "heroSubtitle": "Regala un'Esperienza Indimenticabile"
     }
   },
   "offers": {
     "title": "Le nostre offerte speciali per te",
     "description": "Scopri le nostre offerte speciali per un soggiorno indimenticabile nelle Dolomiti.",
-    "viewAll": "Visualizza tutte"
-  },
-  "blog": {
-    "title": "Vinoteqa Blog - Risorse per la gestione della cantina",
-    "description": "Il blog di Vinoteqa offre consigli esperti su educazione al vino, gestione della cantina e creazione di carte dei vini per ristoranti, professionisti e appassionati privati.",
-    "goToBlog": "Vai al Blog",
-    "viewAll": "Visualizza tutti",
-    "nextPage": "Prossima",
-    "previousPage": "Precedente",
-    "suggestedArticles": "Ti potrebbe interessare anche",
-    "navigation": {
-      "wineEducation": "Sul vino",
-      "cellarManagement": "Gestione cantina",
-      "wineLists": "Carte vini",
-      "discoverVinoteqa": "Scopri Vinoteqa"
-    },
-    "categories": {
-      "wineEducation": "Approfondisci la tua conoscenza sul vino",
-      "wineEducationDescription": "Esplora il mondo del vino, dalle varietà di uva alle tecniche di degustazione. Approfondisci la tua conoscenza del vino con gli esperti di Vinoteqa.",
-      "cellarManagement": "Gestisci la tua cantina come un professionista",
-      "cellarManagementDescription": "Scopri consigli e strategie per gestire la tua cantina. Ottimizza lo stoccaggio, l'inventario e la manutenzione con i consigli professionali di Vinoteqa.",
-      "wineLists": "Progetta una carta vini memorabile",
-      "wineListsDescription": "Diventa un maestro nella creazione e organizzazione di carte vini. Scopri le migliori pratiche per curare selezioni di vini diverse e accattivanti."
-    },
-    "newsletter": {
-      "title": "Hai un hotel, ristorante o enoteca? Rimani aggiornato sulle novità del prodotto."
-    }
+    "viewAll": "Visualizza tutte",
+    "requestBooking": "Invia richiesta senza impegno",
+    "bookingRequestSubject": "Richiesta Prenotazione Offerta: {title}",
+    "suggestedOffers": "Altre offerte che potrebbero interessarti"
   }
 }

@@ -105,9 +105,9 @@ export default {
       owners: {
         title: this.$t('pages.hotel.ownersTitle'),
         quote: this.$t('pages.hotel.ownersQuote'),
-        signatureImgSrc: '/imgs/owners-signature.svg',
+        signatureImgSrc: '/imgs/hotel-owners-signature.svg',
         signatureAlt: 'Sergio & Angela',
-        imgSrc: '/imgs/the-owners.jpg',
+        imgSrc: '/imgs/hotel-owners.jpg',
         imgAlt: `${this.$t('pages.hotel.ownersTitle')}: Sergio & Angela`,
       },
 

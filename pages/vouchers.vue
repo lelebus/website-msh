@@ -43,7 +43,7 @@ export default {
         return {
             // hero
             hero: {
-                imgSrc: `/imgs/vouchers-hero-3.jpg`,
+                imgSrc: `/imgs/vouchers-hero.jpg`,
                 title: this.$t('pages.vouchers.title'),
                 subtitle: this.$t('pages.vouchers.heroSubtitle'),
             },

@@ -61,15 +61,15 @@ export default {
       owners: {
         title: this.$t('pages.hotel.ownersTitle'),
         quote: this.$t('pages.hotel.ownersQuote'),
-        signatureImgSrc: '/imgs/owners-signature.svg',
+        signatureImgSrc: '/imgs/hotel-owners-signature.svg',
         signatureAlt: 'Sergio & Angela',
-        imgSrc: '/imgs/the-owners.jpg',
+        imgSrc: '/imgs/hotel-owners.jpg',
         imgAlt: `${this.$t('pages.hotel.ownersTitle')}: Sergio & Angela`,
       },
       hotelBanner: {
         title: this.$t('pages.hotel.bannerTitle'),
         subtitle: this.$t('pages.hotel.bannerSubtitle'),
-        imgSrc: '/imgs/hotel-banner-2.jpg',
+        imgSrc: '/imgs/hotel-banner.jpg',
       },
       hotelRoom: {
         title: this.$t('pages.hotel.roomsTitle'),
@@ -84,15 +84,15 @@ export default {
         text3: this.$t('pages.hotel.historyText3'),
         multiPictures: [
           {
-            src: '/imgs/msh-history-1.jpg',
+            src: '/imgs/hotel-history-1.jpg',
             alt: 'Chalet Piste Bianche - Monaco Sport Hotel 1967'
           },
           {
-            src: '/imgs/msh-history-2.jpg',
+            src: '/imgs/hotel-history-2.jpg',
             alt: 'Monaco Sport Hotel 1973'
           },
           {
-            src: '/imgs/msh-history-3.jpg',
+            src: '/imgs/hotel-history-3.jpg',
             alt: 'Monaco Sport Hotel 2000'
           },
         ],
