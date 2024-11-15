@@ -5,7 +5,7 @@
             :secondaryButtonLink="hero.secondaryButtonLink" :imgSrc="hero.imgSrc"
             @scrollToNextSection="scrollToStart" />
 
-        <div id="start" class="content-ct py-32 px-8 mx-auto max-w-7xl">
+        <div id="start" class="content-ct py-16 lg:py-32 px-8 mx-auto max-w-7xl">
 
             <ContentQuery :path="localePath('/offers')" :where="filters" :sort="{ date: 1 }"
                 v-slot="{ data }">

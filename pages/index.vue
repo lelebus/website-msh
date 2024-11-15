@@ -10,7 +10,7 @@
 
       <FourColBanner :cols="fourCols" />
 
-      <LatestOffers class="mx-auto max-w-7xl sm:px-6 lg:px-8 py-24 sm:py-32" />
+      <LatestOffers class="mx-auto max-w-7xl px-6 lg:px-8 py-24 sm:py-32" />
 
       <SectionHeaderWithBackground :title="winecellar.title" :subtitle="winecellar.subtitle"
         :buttonLabel="winecellar.buttonLabel" :buttonLink="winecellar.buttonLink" :imgSrc="winecellar.imgSrc" />

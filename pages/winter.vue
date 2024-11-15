@@ -24,7 +24,7 @@
       <ContentRxPicture :title="dogsledding.title" :text="dogsledding.text" :imgSrc="dogsledding.imgSrc"
         :imgAlt="dogsledding.title" class="py-12 sm:py-16 border-b border-solid border-black/40" />
 
-      <LatestOffers category="winter" class="mx-auto max-w-7xl sm:px-6 lg:px-8 py-24 sm:py-32" />
+      <LatestOffers category="winter" class="mx-auto max-w-7xl px-6 lg:px-8 py-24" />
 
     </div>
   </NuxtContent>

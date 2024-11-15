@@ -3,11 +3,11 @@
     <div>
         <header>
             <div class="absolute inset-x-0 top-0 z-40">
-                <div class="mx-8 flex items-start justify-between lg:px-8 p-6">
+                <div class="mx-2 lg:mx-8 flex items-start justify-between lg:px-8 py-6">
                     <!-- logo -->
                     <div>
                         <NuxtLink :to="localePath('/')">
-                            <img src="/logo-white.svg" :alt="logoAlt" class="h-36 p-2.5 mx-auto"
+                            <img src="/logo-white.svg" :alt="logoAlt" class="h-24 lg:h-36 p-2.5 mx-auto"
                                 :class="{ 'hidden': showFixedMenu || onlyFixedMenu }" />
                         </NuxtLink>
                     </div>
@@ -41,7 +41,7 @@
             <div class="fixed inset-x-0 top-0 z-40 bg-white fixed-menu shadow-md" :class="{
                             'fixed-menu-active': showFixedMenu || onlyFixedMenu
                         }">
-                <div class="mx-8 flex items-center justify-between lg:px-8 p-6">
+                <div class="mx-2 lg:mx-8 flex items-center justify-between lg:px-8 p-6">
                     <!-- logo -->
                     <div>
                         <NuxtLink :to="localePath('/')">

@@ -4,8 +4,8 @@
         <SectionHeaderWithBackground :title="doc.title" :subtitle="doc.description" :imgSrc="getOfferImageSrc(doc)"
             :alt="doc.title" />
 
-        <div class="mx-auto max-w-7xl text-black/60">
-            <article class="relative grid grid-cols-2 mt-5 mb-24">
+        <div class="mx-auto max-w-7xl text-black/60 px-6 lg:p-0">
+            <article class="relative grid grid-cols-1 lg:grid-cols-2 mt-5 mb-24">
                 <div class="content-ct mt-5 prose grid-cols">
                     <ContentRendererMarkdown :value="doc" :components="components" class="content" />
 
@@ -18,7 +18,7 @@
                     </div>
 
                 </div>
-                <div class="mt-10 grid-cols">
+                <div class="mt-10 grid-cols hidden lg:block">
                     <div class="pl-32">
                         <div
                             class="relative overflow-hidden bg-black/10 w-full aspect-square shadow-2xl sm:px-12 lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">

@@ -2,7 +2,7 @@
     <NuxtLayout>
         <CookieControl :locale="$i18n.locale">
             <template #bar>
-                <p class="text-sm text-white/90">{{ $t('cookies.notice') }} <a :href="localePath('/privacy-policy')"
+                <p class="text-sm text-white/90">{{ $t('cookies.notice') }} <a :href="localePath('/privacy')"
                         class="font-semibold text-white">{{ $t('cookies.privacyPolicy') }}</a></p>
             </template>
 

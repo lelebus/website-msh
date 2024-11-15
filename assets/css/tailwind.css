@@ -34,8 +34,9 @@
         url(/fonts/FiraSans-Bold.woff2) format('woff2');
     }
 
-    html {
+    html, body {
         font-family: "Fira Sans", system-ui, sans-serif;
+        overflow-x: hidden !important;
     }
 
     h1, h2, h3, h4, h5, h6 {

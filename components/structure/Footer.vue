@@ -1,6 +1,6 @@
 <template>
     <footer class="bg-msh/20 border-solid border-t-2 border-black">
-        <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+        <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-24">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div class="space-y-8">
                     <img class="h-32" :src="logoSrc" :alt="logoAlt" />
@@ -13,11 +13,19 @@
                             {{ $t('footer.viewOnMaps') }}<span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
+
+                    <div class="gap-x-6 flex md:hidden">
+                        <a v-for="item in socials" :key="item.name" :href="item.href"
+                            class="text-black/90 hover:text-black/">
+                            <span class="sr-only">{{ item.name }}</span>
+                            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+                        </a>
+                    </div>
                 </div>
-                <div class="mt-16 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
+                <div class="mt-16 grid grid-cols-2 lg:grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
 
                     <div class="md:grid md:grid-cols md:gap-8">
-                        <div>
+                        <div class="mt-10 md:mt-0">
                             <h6 class="text-sm/6 font-semibold text-black">{{ navigation[0].title }}</h6>
                             <ul role="list" class="mt-6 space-y-1">
                                 <li v-for="item in navigation[0].items" :key="item.name">
@@ -41,12 +49,13 @@
                         </div>
                     </div>
                     <div class="md:grid md:grid-cols md:gap-8">
-                        <div>
+                        <div class="mt-10 md:mt-0">
                             <h6 class="text-sm/6 font-semibold text-black">{{ $t('ctas.contactUs') }}</h6>
                             <div class="mt-5 text-sm/6 text-black/80 ">
-                                <div>
+                                <div class="flex items-center sm:block">
                                     <span class="text-black/90 font-semibold">E: </span>
-                                    <a :href="`mailto:${email}`" class="hover:text-black/90">{{ email }}</a>
+                                    <a :href="`mailto:${email}`" class="hover:text-black/90 ml-1 sm:ml-0">{{ email
+                                        }}</a>
                                 </div>
                                 <div>
                                     <span class="text-black/90 font-semibold">T: </span>
@@ -63,7 +72,7 @@
             </div>
 
             <!-- newsletter -->
-            <div
+            <!-- <div
                 class="mt-8 border-t border-black/10 pt-8 sm:mt-16 lg:mt-24 lg:flex lg:items-center lg:justify-between">
                 <div>
                     <h3 class="text-normal font-semibold text-black/90">{{ $t('ctas.newsletterTitle') }}</h3>
@@ -83,7 +92,7 @@
                     </form>
                     <div class="mt-2 text-xs text-black/60">{{ $t('ctas.newsletterPrivacyNotice') }}</div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- copyright -->
             <div class="mt-8 border-t border-black/10 pt-8 sm:mt-20 lg:mt-8 md:flex md:items-center md:justify-between">
@@ -100,7 +109,7 @@
                     </div>
                 </div>
 
-                <div class="flex gap-x-6 md:order-2">
+                <div class="gap-x-6 hidden md:flex">
                     <a v-for="item in socials" :key="item.name" :href="item.href"
                         class="text-black/90 hover:text-black/">
                         <span class="sr-only">{{ item.name }}</span>
@@ -186,7 +195,7 @@ export default {
                         { name: this.$t('footer.territoryLinkLabel'), href: 'https://www.dolomitivalcomelico.it/' },
                         { name: this.$t('pages.summer.title'), href: '/summer' },
                         { name: this.$t('pages.winter.title'), href: '/winter' },
-                        { name: this.$t('footer.webcam'), href: '#' },
+                        // { name: this.$t('footer.webcam'), href: '#' },
                         { name: this.$t('footer.weather'), href: 'https://wwwold.arpa.veneto.it/previsioni/it/html/mtg_01.html' },
                     ]
                 },
