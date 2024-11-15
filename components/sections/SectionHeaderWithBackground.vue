@@ -1,10 +1,10 @@
 <template>
-    <div class="relative isolate overflow-hidden bg-gray px-6 py-24 sm:py-32 lg:px-8 h-[70vh] lg:h-[80vh]">
+    <div class="relative isolate overflow-hidden bg-gray py-24 sm:py-32 h-[70vh] lg:h-[80vh]">
         <img :src="imgSrc" :alt="imgAlt" class="absolute inset-0 -z-10 h-full w-full object-cover object-right" />
         <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/80 via-black/60 lg:via-black/10" />
         <div class="absolute inset-0 -z-10" />
 
-        <div class="absolute bottom-0 mx-auto max-w-7xl z-10 px-6 mb-16 lg:px-8">
+        <div class="absolute bottom-0 mx-auto max-w-7xl z-10 px-3 sm:px-6 md:px-8 mb-16 lg:px-8">
             <div
                 class="mx-auto lg:pl-32 max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                 <div class="title-ct max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
