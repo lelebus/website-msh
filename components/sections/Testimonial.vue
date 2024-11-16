@@ -23,15 +23,12 @@
                     </svg>
                     <blockquote class="text-xl/8 font-semibold text-black/90 sm:text-2xl/9">
                         <p>{{ quote }}</p>
+                        <img :src="signatureImgSrc" :alt="signatureAlt" class="w-52 mt-5" />
                     </blockquote>
                 </div>
                 <div class="col-end-1 w-full lg:row-span-4 lg:w-96 mx-3">
                     <img class="bg-grey rounded-xl lg:rounded-xl" :src="imgSrc" :alt="imgAlt" />
                 </div>
-                <figcaption class="text-base lg:col-start-1 lg:row-start-3">
-                    <!-- signature image -->
-                    <img :src="signatureImgSrc" :alt="signatureAlt" class="w-52" />
-                </figcaption>
             </figure>
         </div>
     </section>
