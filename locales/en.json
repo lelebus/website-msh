@@ -1,14 +1,12 @@
 {
   "msh": {
-    "title": "Monaco Sport Hotel",
-    "description": "Vinoteqa is a digital platform for wine cellar management designed for high-end restaurants and wine bars. Digitalize your wine menu, manage inventory, and access detailed data to make informed decisions.",
-    "mission": "Vinoteqa's mission is to revolutionize wine management for high-end restaurants and wine bars with seamless, efficient, and elegant digital solutions.",
-    "location": "Santo Stefano di Cadore (BL)"
+    "title": "Monaco Sport Hotel - 3* in the Dolomites",
+    "description": "Monaco Sport Hotel, nestled in the Belluno Dolomites, near the Puster Valley: relaxation and adventure amidst unspoiled nature, traditional cuisine, and a wellness center. Perfect for vacations featuring skiing, hiking, and breathtaking landscapes."
   },
   "common": {
+    "menu": "Menu",
+    "close": "Close",
     "discoverMore": "Discover More",
-    "viewExample": "View Example",
-    "location": "Location",
     "contacts": "Contacts",
     "errorPageTitle": "An Error Occurred",
     "somethingWentWrong": "Something went wrong. Please try again later.",
@@ -20,176 +18,163 @@
     "backToHome": "Back to Home"
   },
   "cookies": {
-    "notice": "We use cookies to improve your experience on our website. To find out how we use them, please read our",
+    "notice": "We use cookies to improve your experience on our website. To learn more, read our",
     "privacyPolicy": "Privacy Policy"
   },
   "ctas": {
-    "bookDemo": "Book a Free Demo",
-    "bookDemoBold": "Book a FREE Demo",
-    "contactUs": "Contact Us"
+    "book": "Book Now",
+    "contactUs": "Contact Us",
+    "newsletterTitle": "Receive Our Special Offers",
+    "newsletterSubtitle": "Subscribe to our newsletter for updates and exclusive offers.",
+    "newsletterEmailLabel": "Email Address",
+    "newsletterEmailPlaceholder": "Enter your Email Address",
+    "newsletterPrivacyNotice": "By subscribing, you agree to receive our newsletter.",
+    "newsletterButton": "Subscribe"
   },
   "navigation": {
     "hotel": "Hotel",
+    "offers": "Offers",
+    "vouchers": "Vouchers",
     "restaurant": "Restaurant",
     "winecellar": "Wine Cellar",
     "spaAndPool": "SPA & Pool",
     "summer": "Summer",
     "winter": "Winter"
   },
-  "hero": {
-    "titleLabel": "For Establishments with 300+ Wine Labels",
-    "title": "Digitalize Your Wine Cellar Management",
-    "subtitle": "The best way to manage and display your wine collection. Generate your wine list with one click. Accessible anytime, anywhere."
-  },
   "footer": {
-    "msh": {
-      "platform": "Platform"
+    "viewOnMaps": "View on Maps",
+    "explore": "Explore the Property",
+    "territory": "Territory",
+    "territoryLinkLabel": "Discover Comelico",
+    "webcam": "Webcam",
+    "weather": "Weather"
+  },
+  "pages": {
+    "home": {
+      "heroTitle": "The Heart of the Mountains, the Quiet of the Soul",
+      "heroSubtitle": "An Alpine Elegance Retreat in the Heart of the Dolomites",
+      "missionTitle": "Nature and Refinement in the Dolomites",
+      "missionText": "At Monaco Sport Hotel, elegance meets the pure essence of the mountains. Every experience is designed to rejuvenate your body and mind, immersing you in an atmosphere of peace and authenticity, where nature takes center stage.",
+      "winecellarTitle": "L'Anguana del Vin",
+      "winecellarText": "Over 1,500 curated wine labels for a unique enological journey. Discover extraordinary wines guided by our expertise.",
+      "winecellarButtonLabel": "Discover the Cellar"
     },
-    "resources": {
-      "title": "Resources",
-      "blog": "Vinoteqa Blog"
+    "hotel": {
+      "title": "Hotel",
+      "heroTitle": "Monaco Sport Hotel",
+      "heroSubtitle": "Where Family Tradition Meets the Luxury of Nature",
+      "ownersTitle": "The Hosts",
+      "ownersQuote": "Hospitality is our tradition; the mountains, our love. At Monaco Sport Hotel, you'll find a home away from home, where every detail is crafted for your well-being.",
+      "bannerTitle": "An Oasis of Well-Being",
+      "bannerSubtitle": "A stay that is more than just a vacation. It is a return to the roots, to tranquility, to beauty.",
+      "roomsTitle": "Our Rooms",
+      "roomsText": "Our rooms provide a comfortable and relaxing environment, perfect for unwinding after a day immersed in nature. Each room reflects the authentic character of the mountains, with simple furnishings and details that narrate the traditions of our territory. Here, you'll find a minimalist refuge, without frills, where you can rediscover the joy of simplicity.",
+      "historyTitle": "A Family Story",
+      "historySubtitle": "The De Candido family, for over 40 years, custodians of hospitality born from a love of the Dolomites.",
+      "historyText1": "Vergilio Bruno, from Santo Stefano di Cadore, and Edda Antonietta, from Laste di Rocca Pietore, met in Switzerland in 1961. After years abroad, their dream of bringing hospitality back to its roots brought them to Italy.",
+      "historyText2": "In 1973, Pensione Monaco was born, a small refuge for travelers and mountain enthusiasts near the ski slopes. With dedication, the structure grew: in 1987, it became the first three-star hotel in Comelico and Sappada. In 2001, the Spa was built, and in 2003, they became founding members of Italy Wine Hotels, alongside Michil Costa of Hotel Perla in Corvara. In 2004, the Wine Cellar was expanded and renamed 'L'Anguana del Vin,' inspired by valley mythology.",
+      "historyText3": "Today, Monaco Sport Hotel intertwines past and present, celebrating the authenticity and hospitality that have always defined the De Candido family. It is an experience honoring the land, tradition, and the joy of sharing unique moments."
     },
-    "contacts": {
-      "title": "Contacts"
+    "restaurant": {
+      "title": "Restaurant La Žiria",
+      "heroTitle": "Restaurant La Žiria",
+      "heroSubtitle": "A Culinary Journey Celebrating the Territory",
+      "foodTitle": "Mountain Cuisine",
+      "foodText": "Our menu pays homage to Italian and local cuisine with carefully selected ingredients and recipes combining innovation and tradition. From garden to plate, every flavor narrates the authenticity of Comelico.",
+      "downloadMenu": "Discover the Seasonal Menu",
+      "stuaTitle": "La Stua",
+      "stuaText": "An intimate nook for romantic dinners by the fireplace.",
+      "wineTitle": "L'Anguana del Vin: The Perfect Pairing",
+      "wineText": "Every dish at Restaurant La Žiria finds its perfect companion in our wine cellar. With <b>over 1,500 labels</b>, L'Anguana del Vin offers pairings crafted to enhance the flavors of the region, from the most delicate whites to the fullest-bodied reds. Here, culinary art meets enological passion for a complete and unforgettable experience.",
+      "openWinelist": "Open the Wine List",
+      "discoverWinecellar": "Discover L'Anguana"
+    },
+    "winecellar": {
+      "title": "Wine Cellar L'Anguana del Vin",
+      "heroTitle": "L'Anguana del Vin",
+      "heroSubtitle": "A Journey Through the Flavors and Legends of the Dolomites, Where Every Bottle Tells a Story",
+      "wineTitle": "A Treasure of Over 1,500 Labels",
+      "wineText": "Hidden among the mountains, L'Anguana del Vin is more than just a cellar: it's a place where passion for wine meets respect for the land. With over 1,500 labels and a selection of more than 15,000 bottles, we invite you to explore the flavors and traditions of Italian winemaking. Sergio, our sommelier and host, is always ready to recommend the best for a unique wine journey.",
+      "openWinelist": "Open the Wine List",
+      "mythologyTitle": "Mythology and Tradition",
+      "mythologyText": "L'Anguana del Vin takes its name from the ancient legends of the Dolomites, inspired by the Anguane, mythological figures tied to water and the mysterious nature of the mountains. It is said these enchanting creatures, guardians of secrets and ancestral wisdom, inhabited springs and lakes, protecting the sacred places of the valley. <br><br> Like the Anguane, our cellar safeguards a world of treasures and stories to be discovered: every bottle is carefully chosen to honor the wild, authentic beauty of the land, offering guests an experience that blends mythology, wine, and tradition in a unique encounter.",
+      "ctaTitle": "Experience L'Anguana",
+      "ctaSubtitle": "...where every glass enhances the authentic flavors of Restaurant La Žiria",
+      "ctaButtonLabel": "Book Now"
+    },
+    "spaAndPool": {
+      "title": "SPA & Pool",
+      "heroTitle": "Let Yourself Be Pampered",
+      "heroSubtitle": "After a day in the mountains, enjoy a moment of complete relaxation in the heart of the Dolomites",
+      "poolTitle": "Pool Area",
+      "poolText": "Our indoor pool, overlooking the garden and kept at 30°C, is available from 7:00 to 8:30 and from 11:00 to 20:00. <br><br> <i>Dedicated hours for children and teenagers (up to 18 years): 13:30 - 18:30.</i>",
+      "spaTitle": "Private SPA by Reservation",
+      "spaText": "Our wellness area can be reserved exclusively for your family group at a cost of €40 for two hours, subject to availability.",
+      "featuresTitle": "The World of Wellness",
+      "featuresSubtitle": "Rediscover your balance between nature and relaxation",
+      "saunaTitle": "Finnish Sauna",
+      "saunaText": "Perfect for strengthening the immune system and stimulating the heart and circulation.",
+      "bagnoTurcoTitle": "Turkish Bath",
+      "bagnoTurcoText": "Helps activate circulation and purify the respiratory tract.",
+      "bagnoMediterraneoTitle": "Mediterranean Bath",
+      "bagnoMediterraneoText": "A gentle heat bath for total well-being.",
+      "docciaTropicaleTitle": "Tropical Shower",
+      "docciaTropicaleText": "Fine drops and exotic aromas that relax and rejuvenate.",
+      "secchiataSiberianaTitle": "Siberian Bucket",
+      "secchiataSiberianaText": "The ideal thermal shock to tone and close pores.",
+      "cascataGhiaccioTitle": "Ice Cascade",
+      "cascataGhiaccioText": "A refreshing experience to stimulate body and mind.",
+      "areaRelaxTitle": "Relaxation Area",
+      "areaRelaxText": "Enjoy suspended loungers for a regenerating and relaxing break.",
+      "piscinaTitle": "Pool",
+      "piscinaText": "Indoor pool at 30°C with a garden view, perfect for relaxing swims."
+    },
+    "summer": {
+      "title": "Summer in the Mountains",
+      "hikingTitle": "Hiking in the Dolomites",
+      "hikingText": "Discover a variety of trails suitable for all levels, from panoramic walks to more challenging treks. Each trail offers unforgettable views and the chance to reconnect with nature.",
+      "hikingButtonLabel": "Explore the trails",
+      "bikingTitle": "Mountain Biking Adventures",
+      "bikingText": "Whether you’re an expert biker or a beginner, the Dolomites offer trails for every skill level. At our facility, you can rent a mountain bike or an e-bike and embark on an exciting journey through forests, meadows, and mountain roads.",
+      "bikingButtonLabel": "Explore the routes",
+      "climbingTitle": "Via Ferrata and Climbing",
+      "climbingText": "The Dolomites are renowned for their via ferrata, systems of cables and ladders guiding climbers along safe yet thrilling routes on mountain walls. For a greater challenge, try one of the many climbing options suitable for both beginners and experts.",
+      "climbingButtonLabel": "Explore via ferrata",
+      "paraglidingTitle": "Paragliding over the Peaks",
+      "paraglidingText": "Experience the thrill of soaring over the mountains in a paraglider, admiring valleys and lakes from above. Local companies offer tandem flights with expert instructors so you can relax and enjoy the view. <br><br><i>Information at reception</i>",
+      "golfTitle": "Golf with a View",
+      "golfText": "Golfing in the Dolomites is a unique experience, combining the pleasure of the game with spectacular mountain views. Nearby golf courses offer challenging fairways and perfect greens framed by incredible alpine scenery. <br><br><i>Information at reception</i>",
+      "horsebackRidingTitle": "Horseback Riding Excursions",
+      "horsebackRidingText": "Horseback riding is a relaxing way to explore the Dolomites. Travel along beautiful trails through meadows and forests and experience the mountain landscape from a new perspective. <br><br><i>Information at reception</i>"
+    },
+    "winter": {
+      "title": "Winter in the Mountains",
+      "skiTitle": "Skiing in the Dolomites",
+      "skiText": "The Dolomites offer some of the best ski slopes in Europe, suitable for all levels. From technical descents to family-friendly runs, you’ll find everything you need for a perfect day on the snow.",
+      "skiButtonLabel": "Tre Cime Ski Area",
+      "ciaspoleTitle": "Snowshoeing Excursions",
+      "ciaspoleText": "Explore winter trails through enchanted forests and snowy meadows. Snowshoeing is ideal for those seeking an authentic experience in close contact with nature, away from crowded slopes.",
+      "ciaspoleButtonLabel": "Explore the trails",
+      "bikingTitle": "Fat Bike Adventures",
+      "bikingText": "Discover the magic of winter on a fat bike! With its wide, durable wheels, the fat bike lets you tackle snowy trails and mountain roads with ease, even on the coldest days. Whether you’re looking for an adventure in the snowy landscape or a fun way to explore the winter mountains, our rental bikes are the perfect choice to enjoy the cold season actively and thrillingly. <br><br><i>Information at reception</i>",
+      "iceclimbingTitle": "Ice Climbing",
+      "iceclimbingText": "For adventure lovers, the Dolomites offer incredible opportunities for ice climbing. Scale frozen waterfalls and icy walls under the guidance of experts, immersing yourself in a spectacular winter landscape and experiencing a unique and intense adventure.",
+      "iceclimbingButtonLabel": "Discover",
+      "dogsleddingTitle": "Sleddog",
+      "dogsleddingText": "Sleddog offers a unique experience, allowing you to explore snowy nature authentically and adventurously. Let a team of huskies guide you and experience the magic of this Nordic activity. <br><br><i>Information at reception</i>"
+    },
+    "vouchers": {
+      "title": "Gift Vouchers",
+      "heroTitle": "Give an Unforgettable Experience",
+      "heroSubtitle": "Give an Unforgettable Experience"
     }
   },
-  "sections": {
-    "statistics": {
-      "title": "Gain immediate access to our database",
-      "wineries": "Wineries",
-      "wines": "Wines",
-      "transactionsTracked": "in tracked transactions"
-    },
-    "features": {
-      "integratedWorkflowTitleLabel": "Smart Design",
-      "integratedWorkflowTitle": "An Integrated Workflow",
-      "integratedWorkflowSubtitle": "Effortlessly manage your wine cellar with our intuitive platform. Control inventory, create stunning wine menus, and access reliable data.",
-      "extensiveWineDataTitle": "Extensive Wine Data",
-      "extensiveWineDataSubtitle": "Access over 1 Million wine data points, including territories, grapes, styles, and more.",
-      "intuitiveUITitle": "Intuitive Structure",
-      "intuitiveUISubtitle": "Navigate with ease through a user-friendly interface designed for clarity and simplicity.",
-      "inventoryManagementTitle": "Automatic Inventory Management",
-      "inventoryManagementSubtitle": "Keep track of your entire cellar effortlessly, reducing the risk of out-of-stock surprises for your guests.",
-      "statisticsTitleLabel": "Decide Smarter",
-      "statisticsTitle": "Data at a Glance",
-      "statisticsSubtitle": "Discover a wealth of insights with our detailed wine cellar statistics, designed to help you understand and optimize your inventory and sales performance.",
-      "liveStatisticsTitle": "Real-Time Statistics",
-      "liveStatisticsSubtitle": "Review your statistics anytime and from anywhere, ensuring you always know what you have in stock.",
-      "reportingTitle": "Inventory Reports",
-      "reportingSubtitle": "Generate comprehensive inventory reports with ease, saving time and effort.",
-      "dataDrivenDecisionsTitle": "Data-Driven Decisions",
-      "dataDrivenDecisionsSubtitle": "Use insights to project profits, review margins, and identify best-sellers and key suppliers.",
-      "winelistTitle": "Your Personalized Wine List",
-      "winelistSubtitle": "Automatically update and organize your wine list with real-time inventory sync. Effortlessly create and print customized wine menus with wines placed in their correct positions.",
-      "digitalWinelistTitle": "Digital Wine List",
-      "digitalWinelistSubtitle": "Keep your digital wine list current with automatic updates and synchronization. Once set up, wines will be automatically placed in their designated positions, reflecting your collection accurately.",
-      "digitalWinelistImgAlt": "Vinoteqa's digital wine list on mobile and iPad",
-      "printWinelistTitle": "Printed Wine List",
-      "printWinelistSubtitle": "Print your wine list with a single click, achieving high-quality results. Automatically organized and professionally presented, both digitally and in print.",
-      "printWinelistImgAlt": "Restaurant's guests looking through a printed wine list automatically generated by Vinoteqa"
-    },
-    "testimonial": {
-      "imgAlt": "Stefano Kratter from Ristorante Mondschein talks about Vinoteqa",
-      "content": "    Vinoteqa has revolutionized the management of our inventory and wine list. With wine data already available and real-time updates, our operations are efficient and the list is always up-to-date. Vinoteqa truly keeps our wine cellar at our fingertips, allowing us to focus on delivering an exceptional dining experience."
-    },
-    "pricing": {
-      "titleLabel": "Pricing",
-      "title": "One simple Price for All Features",
-      "subtitle": "Get Everything you need to Master your Wine Inventory and Wine List with a Single Plan.",
-      "oneTimePayment": "one-time",
-      "perYear": "/year",
-      "onboarding": {
-        "title": "Onboarding",
-        "subtitle": "We'll set you up and get you started smoothly.",
-        "whiteGlove": "White-Glove Onboarding",
-        "inventoryImport": "Import of your current inventory",
-        "supportAndTraining": "Comprehensive support and training"
-      },
-      "license": {
-        "title": "License",
-        "subtitle": "Access All Deatures with Dedicated Support and continuous Updates.",
-        "accessToDatabase": "Access to 1M+ Wine Labels",
-        "liveInventory": "Real-Time Inventory Control",
-        "winelistGeneration": "Automatic Wine List Generation",
-        "statistics": "Advanced Reporting and Analytics"
-      },
-      "custom": {
-        "title": "Custom",
-        "subtitle": "Tailored solutions to fit your unique needs.",
-        "integrationsPos": "POS System Integrations",
-        "integrationsAccounting": "Accounting Software Integrations",
-        "reporting": "Custom Reporting and Analytics"
-      }
-    },
-    "faqs": {
-      "title": "Frequently Asked Questions (FAQs)",
-      "questions": {
-        "hardware": {
-          "question": "What hardware or software is required to use Vinoteqa?",
-          "answer": "Vinoteqa is a cloud-based platform that requires only an internet connection and a modern web browser. No additional hardware or software is needed."
-        },
-        "integrations": {
-          "question": "Can Vinoteqa integrate with my existing systems?",
-          "answer": "Vinoteqa is a standalone inventory manager that handles sales and purchases. We offer personalized integrations with POS and PMS systems to enhance your existing setup."
-        },
-        "setupFees": {
-          "question": "Are there any setup fees or hidden support costs?",
-          "answer": "Our pricing is transparent with no hidden costs. The onboarding fee covers setup, training, and initial support. Ongoing support is included in the annual license."
-        },
-        "futureFeatures": {
-          "question": "Will updates affect my current setup or data and will I pay for new features?",
-          "answer": "Updates will not disrupt your current setup or data. All new features and updates are included in the annual license fee."
-        },
-        "mobileApp": {
-          "question": "Is Vinoteqa available as a mobile app?",
-          "answer": "Vinoteqa is available as a Progressive Web App (PWA), which means it is accessible through modern web browsers on any device and offers an app-like experience without needing a standalone mobile app."
-        },
-        "onboarding": {
-          "question": "What does the onboarding process look like and how long does it take?",
-          "answer": "The onboarding process includes initial setup, importing your inventory, and comprehensive training. Most customers are up and running within a week or two."
-        },
-        "users": {
-          "question": "Who can use Vinoteqa in my restaurant/hotel?",
-          "answer": "Vinoteqa is designed for sommeliers, restaurant managers, and wine bar owners. Multiple users can access and manage the system."
-        },
-        "onlyOnlineWinelist": {
-          "question": "Do I only get an online wine list from the software?",
-          "answer": "Vinoteqa provides both digital and printable wine lists, allowing you to choose the best format for your establishment."
-        }
-      }
-    },
-    "newsletter": {
-      "title": "Stay updated with the latest Product News",
-      "inputLabel": "Enter your email",
-      "subscribe": "Subscribe",
-      "policyNotice": "By subscribing, you agree to receive our newsletter",
-      "successMessage": "Thank you for subscribing to our newsletter!"
-    }
-  },
-  "blog": {
-    "title": "Vinoteqa Blog - Resources for Wine Cellar Management",
-    "description": "Vinoteqa's blog offers expert tips on wine education, cellar management, and wine list creation for restaurants, professionals, and private enthusiasts.",
-    "goToBlog": "Go to Blog",
-    "viewAll": "View All",
-    "nextPage": "Next",
-    "previousPage": "Previous",
-    "suggestedArticles": "You may also like",
-    "navigation": {
-      "wineEducation": "Wine Education",
-      "cellarManagement": "Cellar Management",
-      "wineLists": "Wine Lists",
-      "discoverVinoteqa": "Discover Vinoteqa"
-    },
-    "categories": {
-      "wineEducation": "Expand Your Wine Knowledge",
-      "wineEducationDescription": "Explore the world of wine, from grape varieties to tasting techniques. Enhance your wine knowledge with Vinoteqa's expert insights.",
-      "cellarManagement": "Master Your Wine Cellar Like a Pro",
-      "cellarManagementDescription": "Learn how to manage your wine cellar efficiently and effectively. Discover the best practices for inventory control, organization, and more.",
-      "wineLists": "Design and Create Memorable Wine Menus",
-      "wineListsDescription": "Master the art of creating and organizing wine lists. Discover best practices for curating diverse and appealing wine selections."
-    },
-    "newsletter": {
-      "title": "Are you a hotel, restaurant, or wine bar owner? Stay updated with the latest product news."
-    }
+  "offers": {
+    "title": "Our Special Offers for You",
+    "description": "Discover our special offers for an unforgettable stay in the Dolomites.",
+    "viewAll": "View all",
+    "requestBooking": "Send a non-binding request",
+    "bookingRequestSubject": "Booking Request for Offer: {title}",
+    "suggestedOffers": "Other offers you might like"
   }
 }

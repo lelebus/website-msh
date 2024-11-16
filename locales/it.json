@@ -1,16 +1,12 @@
 {
   "msh": {
     "title": "Monaco Sport Hotel - 3* nelle Dolomiti",
-    "description": "Vinoteqa è una piattaforma digitale per la gestione della cantina, progettata per ristoranti e enoteche di alto livello. Digitalizza la tua carta dei vini, gestisci l'inventario e accedi a dati dettagliati per prendere decisioni informate.",
-    "mission": "La missione di Vinoteqa è rivoluzionare la gestione del vino per ristoranti ed enoteche di alto livello con soluzioni digitali facili da usare, efficienti ed eleganti.",
-    "location": "Alto Adige, Italia"
+    "description": "Monaco Sport Hotel, immerso nelle Dolomiti Bellunesi a un passo dalla Val Pusteria: relax e avventura tra natura incontaminata, cucina tipica e centro benessere. Perfetto per vacanze tra sci, trekking e paesaggi mozzafiato.",
   },
   "common": {
     "menu": "Menu",
     "close": "Chiudi",
     "discoverMore": "Scopri di più",
-    "viewExample": "Vedi Esempio",
-    "location": "Posizione",
     "contacts": "Contatti",
     "errorPageTitle": "Si è verificato un errore",
     "somethingWentWrong": "Qualcosa è andato storto. Riprova più tardi.",
@@ -60,7 +56,7 @@
       "missionTitle": "Natura e Raffinatezza tra le Dolomiti",
       "missionText": "Al Monaco Sport Hotel, l'eleganza incontra l'essenza pura della montagna. Qui ogni esperienza è pensata per rigenerare corpo e mente, immergendoti in un'atmosfera di pace e autenticità, dove la natura è protagonista.",
       "winecellarTitle": "L'Anguana del Vin",
-      "winecellarText": "Oltre 1600 etichette selezionate per un viaggio enologico unico. Scopri vini straordinari, guidato dalla nostra esperienza.",
+      "winecellarText": "Oltre 1500 etichette selezionate per un viaggio enologico unico. Scopri vini straordinari, guidato dalla nostra esperienza.",
       "winecellarButtonLabel": "Scopri la Cantina"
     },
     "hotel": {

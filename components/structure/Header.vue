@@ -61,7 +61,7 @@
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
                             $t('navigation.vouchers') }}</a>
                         </div>
-                        
+
                         <!-- open menu -->
                         <button type="button"
                             class="flex items-center ml-10 inline-flex items-center justify-center rounded-md p-2.5 text-black/95 hover:text-black"
@@ -91,10 +91,11 @@
                 </nav>
                 <!-- language switcher -->
                 <nav>
-                    <a v-for="l in locales" :key="l.code" :href="`/${l.code}/`"
+                    <NuxtLink v-for="l in locales" :key="l.code"
                         class="text-base px-2 font-bold text-black/90 hover:text-black"
-                        :class="{ 'underline text-black/95': l.code === locale }">{{ l.code }}
-                    </a>
+                        :class="{ 'underline text-black/95': l.code === locale }" :to="switchLocalePath(l.code)"
+                        @click="menuOpen = false">{{ l.code }}
+                    </NuxtLink>
                 </nav>
             </div>
         </FullPageMenu>

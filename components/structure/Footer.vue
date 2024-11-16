@@ -182,19 +182,19 @@ export default {
                     title: this.$t('footer.explore'),
                     items: [
                         { name: this.$t('navigation.hotel'), href: '/hotel' },
-                        { name: this.$t('navigation.restaurant'), href: '/ristorante-la-ziria' },
-                        { name: this.$t('navigation.winecellar'), href: '/anguana-del-vin' },
-                        { name: this.$t('navigation.spaAndPool'), href: '/spa-and-pool' },
-                        { name: this.$t('navigation.offers'), href: '/offers' },
-                        { name: this.$t('navigation.vouchers'), href: '/vouchers' },
+                        { name: this.$t('navigation.restaurant'), href: this.localePath('/ristorante-la-ziria') },
+                        { name: this.$t('navigation.winecellar'), href: this.localePath('/anguana-del-vin') },
+                        { name: this.$t('navigation.spaAndPool'), href: this.localePath('/spa-and-pool') },
+                        { name: this.$t('navigation.offers'), href: this.localePath('/offers') },
+                        { name: this.$t('navigation.vouchers'), href: this.localePath('/vouchers') },
                     ]
                 },
                 {
                     title: this.$t('footer.territory'),
                     items: [
                         { name: this.$t('footer.territoryLinkLabel'), href: 'https://www.dolomitivalcomelico.it/' },
-                        { name: this.$t('pages.summer.title'), href: '/summer' },
-                        { name: this.$t('pages.winter.title'), href: '/winter' },
+                        { name: this.$t('pages.summer.title'), href: this.localePath('/summer') },
+                        { name: this.$t('pages.winter.title'), href: this.localePath('/winter') },
                         // { name: this.$t('footer.webcam'), href: '#' },
                         { name: this.$t('footer.weather'), href: 'https://wwwold.arpa.veneto.it/previsioni/it/html/mtg_01.html' },
                     ]

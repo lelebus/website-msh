@@ -1,0 +1,180 @@
+{
+  "msh": {
+    "title": "Monaco Sport Hotel - 3* en los Dolomitas",
+    "description": "Monaco Sport Hotel, ubicado en los Dolomitas de Belluno, cerca del Valle de Pusteria: relajación y aventura en plena naturaleza, cocina tradicional y un centro de bienestar. Perfecto para vacaciones de esquí, senderismo y paisajes impresionantes."
+  },
+  "common": {
+    "menu": "Menú",
+    "close": "Cerrar",
+    "discoverMore": "Descubre Más",
+    "contacts": "Contactos",
+    "errorPageTitle": "Ocurrió un Error",
+    "somethingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
+    "goBack": "Volver"
+  },
+  "pageNotFound": {
+    "title": "Página No Encontrada",
+    "subtitle": "La página que buscas no existe. Regresa a la página de inicio o contáctanos para obtener ayuda.",
+    "backToHome": "Volver al Inicio"
+  },
+  "cookies": {
+    "notice": "Utilizamos cookies para mejorar tu experiencia en nuestro sitio web. Para más información, lee nuestra",
+    "privacyPolicy": "Política de Privacidad"
+  },
+  "ctas": {
+    "book": "Reserva Ahora",
+    "contactUs": "Contáctanos",
+    "newsletterTitle": "Recibe Nuestras Ofertas Especiales",
+    "newsletterSubtitle": "Suscríbete a nuestro boletín para recibir actualizaciones y ofertas exclusivas.",
+    "newsletterEmailLabel": "Dirección de Correo Electrónico",
+    "newsletterEmailPlaceholder": "Ingresa tu Dirección de Correo Electrónico",
+    "newsletterPrivacyNotice": "Al suscribirte, aceptas recibir nuestro boletín.",
+    "newsletterButton": "Suscribirse"
+  },
+  "navigation": {
+    "hotel": "Hotel",
+    "offers": "Ofertas",
+    "vouchers": "Vales",
+    "restaurant": "Restaurante",
+    "winecellar": "Bodega",
+    "spaAndPool": "SPA & Piscina",
+    "summer": "Verano",
+    "winter": "Invierno"
+  },
+  "footer": {
+    "viewOnMaps": "Ver en Maps",
+    "explore": "Explora la Propiedad",
+    "territory": "Territorio",
+    "territoryLinkLabel": "Descubre Comelico",
+    "webcam": "Webcam",
+    "weather": "Clima"
+  },
+  "pages": {
+    "home": {
+      "heroTitle": "El Corazón de las Montañas, la Quietud del Alma",
+      "heroSubtitle": "Un Retiro de Elegancia Alpina en el Corazón de los Dolomitas",
+      "missionTitle": "Naturaleza y Refinamiento en los Dolomitas",
+      "missionText": "En el Monaco Sport Hotel, la elegancia se encuentra con la esencia pura de las montañas. Cada experiencia está diseñada para rejuvenecer tu cuerpo y mente, sumergiéndote en una atmósfera de paz y autenticidad, donde la naturaleza es la protagonista.",
+      "winecellarTitle": "L'Anguana del Vin",
+      "winecellarText": "Más de 1,500 etiquetas seleccionadas para un viaje enológico único. Descubre vinos extraordinarios guiado por nuestra experiencia.",
+      "winecellarButtonLabel": "Descubre la Bodega"
+    },
+    "hotel": {
+      "title": "Hotel",
+      "heroTitle": "Monaco Sport Hotel",
+      "heroSubtitle": "Donde la Tradición Familiar Se Encuentra con el Lujo de la Naturaleza",
+      "ownersTitle": "Los Anfitriones",
+      "ownersQuote": "La hospitalidad es nuestra tradición; las montañas, nuestro amor. En el Monaco Sport Hotel encontrarás un hogar lejos de casa, donde cada detalle está pensado para tu bienestar.",
+      "bannerTitle": "Un Oasis de Bienestar",
+      "bannerSubtitle": "Una estancia que es más que unas vacaciones. Es un regreso a las raíces, a la tranquilidad, a la belleza.",
+      "roomsTitle": "Nuestras Habitaciones",
+      "roomsText": "Nuestras habitaciones ofrecen un entorno cómodo y relajante, perfecto para descansar después de un día inmerso en la naturaleza. Cada habitación refleja el carácter auténtico de las montañas, con muebles sencillos y detalles que narran las tradiciones de nuestro territorio. Aquí encontrarás un refugio minimalista, sin adornos, donde podrás redescubrir la alegría de la simplicidad.",
+      "historyTitle": "Una Historia Familiar",
+      "historySubtitle": "La familia De Candido, desde hace más de 40 años, guardianes de una hospitalidad nacida del amor por los Dolomitas.",
+      "historyText1": "Vergilio Bruno, de Santo Stefano di Cadore, y Edda Antonietta, de Laste di Rocca Pietore, se conocieron en Suiza en 1961. Después de años en el extranjero, su sueño de devolver la hospitalidad a sus raíces los llevó a Italia.",
+      "historyText2": "En 1973 nació la Pensione Monaco, un pequeño refugio para viajeros y amantes de la montaña cerca de las pistas de esquí. Con dedicación, la estructura creció: en 1987 se convirtió en el primer hotel de tres estrellas en Comelico y Sappada. En 2001 se construyó el Spa, y en 2003 se convirtieron en miembros fundadores de los Italy Wine Hotels, junto a Michil Costa del Hotel Perla en Corvara. En 2004, se amplió la Bodega y se renombró 'L'Anguana del Vin', inspirada en la mitología del valle.",
+      "historyText3": "Hoy, el Monaco Sport Hotel entrelaza pasado y presente, celebrando la autenticidad y hospitalidad que siempre han definido a la familia De Candido. Es una experiencia que honra la tierra, la tradición y la alegría de compartir momentos únicos."
+    },
+    "restaurant": {
+      "title": "Restaurante La Žiria",
+      "heroTitle": "Restaurante La Žiria",
+      "heroSubtitle": "Un Viaje Gastronómico que Celebra el Territorio",
+      "foodTitle": "Cocina de Montaña",
+      "foodText": "Nuestro menú rinde homenaje a la cocina italiana y local con ingredientes cuidadosamente seleccionados y recetas que combinan innovación y tradición. De la huerta al plato, cada sabor narra la autenticidad del Comelico.",
+      "downloadMenu": "Descubre el Menú de Temporada",
+      "stuaTitle": "La Stua",
+      "stuaText": "Un rincón íntimo para cenas románticas junto a la chimenea.",
+      "wineTitle": "L'Anguana del Vin: El Maridaje Perfecto",
+      "wineText": "Cada plato del Restaurante La Žiria encuentra su perfecto compañero en nuestra bodega. Con <b>más de 1,500 etiquetas</b>, L'Anguana del Vin ofrece maridajes diseñados para realzar los sabores de la región, desde los blancos más delicados hasta los tintos más intensos. Aquí, el arte culinario se encuentra con la pasión enológica para una experiencia completa e inolvidable.",
+      "openWinelist": "Abrir la Carta de Vinos",
+      "discoverWinecellar": "Descubre L'Anguana"
+    },
+    "winecellar": {
+      "title": "Bodega L'Anguana del Vin",
+      "heroTitle": "L'Anguana del Vin",
+      "heroSubtitle": "Un Viaje a Través de los Sabores y las Leyendas de los Dolomitas, Donde Cada Botella Cuenta una Historia",
+      "wineTitle": "Un Tesoro de Más de 1,500 Etiquetas",
+      "wineText": "Escondida entre las montañas, L'Anguana del Vin es más que una bodega: es un lugar donde la pasión por el vino se encuentra con el respeto por la tierra. Con más de 1,500 etiquetas y una selección de más de 15,000 botellas, te invitamos a explorar los sabores y tradiciones de la vinicultura italiana. Sergio, nuestro sumiller y anfitrión, siempre está listo para recomendar lo mejor para un viaje enológico único.",
+      "openWinelist": "Abrir la Carta de Vinos",
+      "mythologyTitle": "Mitología y Tradición",
+      "mythologyText": "L'Anguana del Vin toma su nombre de las antiguas leyendas de los Dolomitas, inspiradas en las Anguane, figuras mitológicas vinculadas al agua y la naturaleza misteriosa de las montañas. Se dice que estas encantadoras criaturas, guardianas de secretos y sabiduría ancestral, habitaban manantiales y lagos, protegiendo los lugares sagrados del valle. <br><br> Al igual que las Anguane, nuestra bodega guarda un mundo de tesoros e historias por descubrir: cada botella está cuidadosamente elegida para honrar la belleza salvaje y auténtica de la tierra, ofreciendo a los huéspedes una experiencia que combina mitología, vino y tradición en un encuentro único.",
+      "ctaTitle": "Vive L'Anguana",
+      "ctaSubtitle": "...donde cada copa realza los sabores auténticos del Restaurante La Žiria",
+      "ctaButtonLabel": "Reserva Ahora"
+    },
+    "spaAndPool": {
+      "title": "SPA & Piscina",
+      "heroTitle": "Déjate Mimarte",
+      "heroSubtitle": "Después de un día en la montaña, un momento de relax total en el corazón de los Dolomitas",
+      "poolTitle": "Área de Piscina",
+      "poolText": "Nuestra piscina cubierta, con vistas al jardín y una temperatura de 30°C, está disponible de 7:00 a 8:30 y de 11:00 a 20:00. <br><br> <i>Horarios dedicados a niños y jóvenes (hasta 18 años): 13:30 - 18:30.</i>",
+      "spaTitle": "SPA Privada con Reserva",
+      "spaText": "Nuestra área wellness puede reservarse exclusivamente para tu grupo familiar, con un costo de €40 por dos horas, bajo reserva y disponibilidad.",
+      "featuresTitle": "El Mundo del Bienestar",
+      "featuresSubtitle": "Redescubre tu equilibrio entre naturaleza y relax",
+      "saunaTitle": "Sauna Finlandesa",
+      "saunaText": "Ideal para fortalecer el sistema inmunológico y estimular el corazón y la circulación.",
+      "bagnoTurcoTitle": "Baño Turco",
+      "bagnoTurcoText": "Para activar la circulación y purificar las vías respiratorias.",
+      "bagnoMediterraneoTitle": "Baño Mediterráneo",
+      "bagnoMediterraneoText": "Un baño de calor envolvente para un bienestar total.",
+      "docciaTropicaleTitle": "Ducha Tropical",
+      "docciaTropicaleText": "Gotas suaves y aromas exóticos que relajan y regeneran.",
+      "secchiataSiberianaTitle": "Cubo Siberiano",
+      "secchiataSiberianaText": "El contraste térmico ideal para tonificar y cerrar los poros.",
+      "cascataGhiaccioTitle": "Cascada de Hielo",
+      "cascataGhiaccioText": "Una experiencia refrescante para estimular cuerpo y mente.",
+      "areaRelaxTitle": "Área de Relax",
+      "areaRelaxText": "Disfruta de las tumbonas suspendidas para una pausa regeneradora y relajante.",
+      "piscinaTitle": "Piscina",
+      "piscinaText": "Piscina cubierta a 30°C con vistas al jardín, ideal para nadar y relajarte."
+    },
+    "summer": {
+      "title": "Verano en la Montaña",
+      "hikingTitle": "Senderismo en los Dolomitas",
+      "hikingText": "Descubre una variedad de rutas aptas para todos los niveles, desde paseos panorámicos hasta excursiones más desafiantes. Cada sendero ofrece vistas inolvidables y la oportunidad de reconectar con la naturaleza.",
+      "hikingButtonLabel": "Explora los senderos",
+      "bikingTitle": "Aventuras en Bicicleta de Montaña",
+      "bikingText": "Ya seas un ciclista experimentado o principiante, los Dolomitas ofrecen rutas para todos los niveles de habilidad. En nuestra estructura puedes alquilar una bicicleta de montaña o una e-bike y emprender un viaje emocionante a través de bosques, prados y carreteras de montaña.",
+      "bikingButtonLabel": "Explora las rutas",
+      "climbingTitle": "Vías Ferratas y Escalada",
+      "climbingText": "Los Dolomitas son famosos por sus vías ferratas, sistemas de cables y escaleras que guían a los escaladores por rutas seguras pero emocionantes en las paredes montañosas. Para un desafío mayor, prueba alguna de las muchas opciones de escalada, apta tanto para principiantes como para expertos.",
+      "climbingButtonLabel": "Descubre las vías ferratas",
+      "paraglidingTitle": "Parapente sobre las Cumbres",
+      "paraglidingText": "Experimenta la emoción de volar sobre las montañas en parapente, admirando desde las alturas los valles y lagos. Las empresas locales ofrecen vuelos en tándem con instructores expertos para que puedas relajarte y disfrutar del paisaje. <br><br><i>Información en la recepción</i>",
+      "golfTitle": "Golf con Vistas",
+      "golfText": "Jugar al golf en los Dolomitas es una experiencia única que combina el placer del juego con vistas espectaculares de las montañas. Los campos de golf cercanos ofrecen fairways desafiantes y greens perfectos, enmarcados por increíbles paisajes alpinos. <br><br><i>Información en la recepción</i>",
+      "horsebackRidingTitle": "Excursiones a Caballo",
+      "horsebackRidingText": "Los paseos a caballo son una forma relajante de explorar los Dolomitas. Atraviesa hermosos senderos entre prados y bosques y vive el paisaje montañoso desde una nueva perspectiva. <br><br><i>Información en la recepción</i>"
+    },
+    "winter": {
+      "title": "Invierno en la Montaña",
+      "skiTitle": "Esquí en los Dolomitas",
+      "skiText": "Los Dolomitas ofrecen algunas de las mejores pistas de esquí de Europa, aptas para todos los niveles. Desde descensos técnicos hasta pistas familiares, encontrarás todo lo que necesitas para un día perfecto en la nieve.",
+      "skiButtonLabel": "Área de Esquí Tre Cime",
+      "ciaspoleTitle": "Excursiones con Raquetas de Nieve",
+      "ciaspoleText": "Explora senderos invernales a través de bosques encantados y praderas nevadas. Las excursiones con raquetas de nieve son ideales para quienes buscan una experiencia auténtica en contacto cercano con la naturaleza, lejos de las pistas concurridas.",
+      "ciaspoleButtonLabel": "Explora los senderos",
+      "bikingTitle": "Aventuras en Fat Bike",
+      "bikingText": "¡Descubre la magia del invierno en una fat bike! Con sus ruedas anchas y resistentes, la fat bike te permite afrontar sin problemas los senderos nevados y las carreteras de montaña, incluso en los días más fríos. Ya sea que busques una aventura en el paisaje nevado o una forma divertida de explorar la montaña en invierno, nuestras bicicletas de alquiler son la elección perfecta para disfrutar la temporada fría de manera activa y emocionante. <br><br><i>Información en la recepción</i>",
+      "iceclimbingTitle": "Escalada en Hielo",
+      "iceclimbingText": "Para los amantes de la aventura, los Dolomitas ofrecen increíbles oportunidades para la escalada en hielo. Escala cascadas y paredes heladas bajo la guía de expertos, sumergiéndote en un paisaje invernal espectacular y viviendo una experiencia intensa y única.",
+      "iceclimbingButtonLabel": "Descubre",
+      "dogsleddingTitle": "Trineo con Perros",
+      "dogsleddingText": "El trineo con perros ofrece una experiencia única, permitiéndote explorar la naturaleza nevada de una manera auténtica y aventurera. Déjate guiar por un equipo de huskies y experimenta la magia de esta actividad nórdica. <br><br><i>Información en la recepción</i>"
+    },
+    "vouchers": {
+      "title": "Vales de Regalo",
+      "heroTitle": "Regala una Experiencia Inolvidable",
+      "heroSubtitle": "Regala una Experiencia Inolvidable"
+    }
+  },
+  "offers": {
+    "title": "Nuestras Ofertas Especiales para Ti",
+    "description": "Descubre nuestras ofertas especiales para una estancia inolvidable en los Dolomitas.",
+    "viewAll": "Ver todas",
+    "requestBooking": "Enviar una solicitud sin compromiso",
+    "bookingRequestSubject": "Solicitud de Reserva para la Oferta: {title}",
+    "suggestedOffers": "Otras ofertas que te podrían gustar"
+  }
+}

@@ -50,13 +50,13 @@ export default defineNuxtConfig({
     head: {
       meta: [
         // Open Graph
-        { property: 'og:title', content: 'Vinoteqa' },
+        { property: 'og:title', content: 'Monaco Sport Hotel' },
         { property: 'og:image', content: 'https://www.monacosporthotel.com/screenshot.png' },
         { property: 'og:url', content: 'https://www.monacosporthotel.com/' },
         { property: 'og:type', content: 'website' },
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Vinoteqa' },
+        { name: 'twitter:title', content: 'Monaco Sport Hotel' },
         { property: 'twitter:domain', content: 'monacosporthotel.com' },
         { property: 'twitter:url', content: 'monacosporthotel.com' },
         { name: 'twitter:image', content: 'https://www.monacosporthotel.com/screenshot.png' }
@@ -67,24 +67,44 @@ export default defineNuxtConfig({
   i18n: {
     baseUrl: 'https://www.monacosporthotel.com',
     defaultLocale: 'it',
-    locales: [{
-      code: 'en',
-      iso: 'en',
-      name: 'English',
-      file: 'en.json',
-    },
-    {
-      code: 'de',
-      iso: 'de',
-      name: 'Deutsch',
-      file: 'de.json',
-    },
-    {
-      code: 'it', 
-      iso: 'it',
-      name: 'Italiano',
-      file: 'it.json',
-    }],
+    locales: [
+      {
+        code: 'it', 
+        iso: 'it',
+        name: 'Italiano',
+        file: 'it.json',
+      },
+      {
+        code: 'de',
+        iso: 'de',
+        name: 'Deutsch',
+        file: 'de.json',
+      },
+      {
+        code: 'en',
+        iso: 'en',
+        name: 'English',
+        file: 'en.json',
+      },
+      {
+        code: 'es',
+        iso: 'es',
+        name: 'Español',
+        file: 'es.json',
+      },
+      {
+        code: 'fr',
+        iso: 'fr',
+        name: 'Français',
+        file: 'fr.json',
+      },
+      {
+        code: 'ru', 
+        iso: 'ru',
+        name: 'Русский',
+        file: 'ru.json',
+      }
+    ],
     lazy: false,
     langDir: 'locales/',
     compilation: {
