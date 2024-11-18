@@ -12,7 +12,7 @@ visible: true
 ---
 # Buono regalo: 2 notti per 2 persone
 
-Trattamento mezza pensione e accesso all'area benessere con Spa & Piscina:
+Trattamento mezza pensione e accesso all'area benessere con Spa & Piscina (incluso Pool Set) per tutto il soggiorno:
 
-- **Da Domenica a Giovedì:** €310
-- **Da Venerdì a Sabato:** €320
+- **Da Domenica a Giovedì:** €340
+- **Da Venerdì a Sabato:** €370

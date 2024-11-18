@@ -19,4 +19,6 @@ visible: true
 - Bambini fino a 2 anni (non compiuti) a € 20,00 al giorno;
 - Bambini fino a 12 anni (non compiuti) in camera con i geniroti 3° e 4° letto a € 50,00 al giorno a bambino.
 
+*Offerta valida con prenotazione entro il 31 marzo 2025*
+
 :conditions

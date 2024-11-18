@@ -12,6 +12,6 @@ visible: true
 ---
 # Buono regalo: Day Spa & Cena Gourmet
 
-Ingresso per 2 persone nella nostra area benessere con Spa & Piscina e Cena degustazione (4 portate con 4 calici abbinati).
+Ingresso per 2 persone nella nostra area benessere con Spa & Piscina, inclusi Pool Set e 2 ore di Spa in esclusiva, e Cena degustazione (4 portate con vino in abbinamento).
 
 **Prezzo: € 200,00**
