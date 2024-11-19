@@ -1,31 +1,31 @@
-### Introduzione
+### Introducción
 
-Questa informativa sulla privacy descrive come raccogliamo, utilizziamo e proteggiamo le tue informazioni quando visiti il nostro sito web. Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali.
+Esta política de privacidad describe cómo recopilamos, utilizamos y protegemos tu información cuando visitas nuestro sitio web. Respetamos tu privacidad y nos comprometemos a proteger tus datos personales.
 
-### Informazioni che raccogliamo
+### Información que recopilamos
 
-Utilizziamo Google Analytics per raccogliere informazioni su come i visitatori utilizzano il nostro sito web. Queste informazioni ci aiutano a capire come viene utilizzato il nostro sito web e come possiamo migliorarlo.
+Utilizamos Google Analytics para recopilar información sobre cómo los visitantes utilizan nuestro sitio web. Esta información nos ayuda a entender cómo se utiliza nuestro sitio web y cómo podemos mejorarlo.
 
-Le informazioni raccolte da Google Analytics includono:
+La información recopilada por Google Analytics incluye:
 
-- **Informazioni sul dispositivo:** informazioni sul dispositivo che stai utilizzando, come il tipo di computer o smartphone.
-- **Utilizzo del sito web:** informazioni su come utilizzi il nostro sito web, come le pagine che visiti e quanto tempo trascorri su ciascuna pagina.
-- **Informazioni sulla posizione:** informazioni generali sulla tua posizione, ma non il tuo indirizzo esatto.
+- **Información sobre el dispositivo:** información sobre el dispositivo que estás utilizando, como el tipo de computadora o teléfono inteligente.
+- **Uso del sitio web:** información sobre cómo utilizas nuestro sitio web, como las páginas que visitas y cuánto tiempo pasas en cada página.
+- **Información sobre la ubicación:** información general sobre tu ubicación, pero no tu dirección exacta.
 
-### Come utilizziamo le tue informazioni
+### Cómo utilizamos tu información
 
-Utilizziamo le informazioni raccolte da Google Analytics per:
+Utilizamos la información recopilada por Google Analytics para:
 
-- Migliorare il design e il contenuto del nostro sito web.
-- Capire come le persone utilizzano il nostro sito web.
-- Monitorare il successo delle nostre campagne di marketing.
+- Mejorar el diseño y el contenido de nuestro sitio web.
+- Entender cómo las personas utilizan nuestro sitio web.
+- Supervisar el éxito de nuestras campañas de marketing.
 
-### Condivisione dei dati
+### Compartición de datos
 
-Non condividiamo le tue informazioni personali con terze parti, tranne nei casi previsti dalla legge. Google Analytics potrebbe condividere i tuoi dati con altri servizi Google, ma tali dati sono anonimi e non ti identificano personalmente.
+No compartimos tu información personal con terceros, excepto en los casos previstos por la ley. Google Analytics podría compartir tus datos con otros servicios de Google, pero esos datos son anónimos y no te identifican personalmente.
 
-### I tuoi diritti
+### Tus derechos
 
-Se hai domande o dubbi sulla nostra informativa sulla privacy, contattaci all'indirizzo [info@monacosporthotel.com](mailto:info@monacosporthotel.com).
+Si tienes alguna pregunta o duda sobre nuestra política de privacidad, contáctanos a la dirección [info@monacosporthotel.com](mailto:info@monacosporthotel.com).
 
-_Ultimo aggiornamento: 06/11/2024_
+_Ultima actualización: 06/11/2024_
