@@ -181,7 +181,7 @@ export default {
                 {
                     title: this.$t('footer.explore'),
                     items: [
-                        { name: this.$t('navigation.hotel'), href: '/hotel' },
+                        { name: this.$t('navigation.hotel'), href: this.localePath('/hotel') },
                         { name: this.$t('navigation.restaurant'), href: this.localePath('/ristorante-la-ziria') },
                         { name: this.$t('navigation.winecellar'), href: this.localePath('/anguana-del-vin') },
                         { name: this.$t('navigation.spaAndPool'), href: this.localePath('/spa-and-pool') },
