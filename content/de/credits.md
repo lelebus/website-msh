@@ -6,7 +6,7 @@ Italia
 Tel: +39 0435 420440
 
 E-mail: info@monacosporthotel.com\
-Posta certificata: XXX@legalmail.it\
+Posta certificata: Monacosporthotel1.legalmail@confcommercio.com\
 Sito web: www.monacosporthotel.com
 
 MONACO SPORT HOTEL S.R.L.\
@@ -17,7 +17,7 @@ Codice destinatario: SUBM70N
 
 Rappresentante legale: Sergio De Candido
 
-#### Gestione cantina vini:
+#### Weinkeller-Management:
 
 © [Vinoteqa](https://www.vinoteqa.com)
 
