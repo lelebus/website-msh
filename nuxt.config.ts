@@ -22,20 +22,6 @@ export default defineNuxtConfig({
     }
   ],
 
-  runtimeConfig: {
-    public: {
-      demoBookingPageLink: process.env.DEMO_BOOKING_PAGE,
-      hubspot: {
-        portalId: process.env.HUBSPOT_PORTAL_ID,
-        formId: {
-          de: process.env.HUBSPOT_FORM_ID_DE,
-          en: process.env.HUBSPOT_FORM_ID_EN,
-          it: process.env.HUBSPOT_FORM_ID_IT,
-        }
-      }
-    }
-  },
-
   site: {
     url: 'https://www.monacosporthotel.com',
     defaultLocale: 'it',

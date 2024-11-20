@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    title: 'Vinoteqa',
+    title: 'Monaco Sport Hotel',
     theme: {
       dark: true,
       colors: {
