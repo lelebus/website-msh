@@ -87,22 +87,16 @@ export default {
         title: this.$t('pages.summer.paraglidingTitle'),
         text: this.$t('pages.summer.paraglidingText'),
         imgSrc: '/imgs/summer-paragliding.jpg',
-        buttonLabel: this.$t('pages.winecellar.openWinelist'),
-        buttonLink: 'https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8',
       },
       golf: {
         title: this.$t('pages.summer.golfTitle'),
         text: this.$t('pages.summer.golfText'),
         imgSrc: '/imgs/summer-golf.jpg',
-        buttonLabel: this.$t('pages.winecellar.openWinelist'),
-        buttonLink: 'https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8',
       },
       horsebackRiding: {
         title: this.$t('pages.summer.horsebackRidingTitle'),
         text: this.$t('pages.summer.horsebackRidingText'),
         imgSrc: '/imgs/summer-horseback.jpg',
-        buttonLabel: this.$t('pages.winecellar.openWinelist'),
-        buttonLink: 'https://app.vinoteqa.com/carte/01h08dydtpvr5yzdztjz8t5pf8',
       },
     }
   },
