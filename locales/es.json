@@ -23,6 +23,7 @@
   },
   "ctas": {
     "book": "Reserva Ahora",
+    "bookingRequestSubject": "Solicitud de Reserva",
     "contactUs": "Contáctanos",
     "newsletterTitle": "Recibe Nuestras Ofertas Especiales",
     "newsletterSubtitle": "Suscríbete a nuestro boletín para recibir actualizaciones y ofertas exclusivas.",

@@ -18,9 +18,9 @@
                             <a :href="bookingLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
                             $t('ctas.book') }}</a>
-                            <a :href="contactLink" target="_blank"
+                            <a :href="localePath('/offers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
-                            $t('ctas.contactUs') }}</a>
+                            $t('navigation.offers') }}</a>
                             <a :href="localePath('/vouchers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
                             $t('navigation.vouchers') }}</a>
@@ -54,9 +54,9 @@
                             <a :href="bookingLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
                             $t('ctas.book') }}</a>
-                            <a :href="contactLink" target="_blank"
+                            <a :href="localePath('/offers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
-                            $t('ctas.contactUs') }}</a>
+                            $t('navigation.offers') }}</a>
                             <a :href="localePath('/vouchers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
                             $t('navigation.vouchers') }}</a>
@@ -128,8 +128,7 @@ export default {
             logoSrc: '/logo-full.svg',
             logoAlt: 'Logo Monaco Sport Hotel',
 
-            bookingLink: '#',
-            contactLink: '#',
+            bookingLink: `mailto:info@monacosporthotel.com?subject=${this.$t('ctas.bookingRequestSubject')}`,
             navigation: [
                 { name: this.$t('navigation.hotel'), href: '/hotel' },
                 { name: this.$t('navigation.restaurant'), href: '/ristorante-la-ziria' },
