@@ -204,7 +204,7 @@ export default {
             legalLinks: [
                 {
                     name: 'Sitemap',
-                    href: this.localePath('/sitemap.xml'),
+                    href: '/sitemap.xml',
                 },
                 {
                     name: 'Credits',
