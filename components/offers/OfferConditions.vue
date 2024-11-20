@@ -1,9 +1,13 @@
 <template>
     <div>
-        <ContentRenderer :value="data" class="content" />
+        <ContentRenderer v-if="data" :value="data" class="content" />
     </div>
 </template>
 
 <script setup>
-const { data } = await useAsyncData('offers', () => queryContent('/offers/_conditions').findOne())
+const { locale } = useI18n()
+
+const conditionsPath = locale.value === 'it' ? '/offers/_conditions' : `/${locale.value}/offers/_conditions`
+
+const { data } = await useAsyncData('offers', () => queryContent(conditionsPath).findOne())
 </script>
