@@ -28,4 +28,4 @@ Nous ne partageons pas vos informations personnelles avec des tiers, sauf si la 
 
 Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, contactez-nous à l'adresse [info@monacosporthotel.com](mailto:info@monacosporthotel.com).
 
-_Mise à jour : 06/11/2024_
+_Mise à jour : 22/11/2024_
