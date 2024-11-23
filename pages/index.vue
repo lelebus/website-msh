@@ -13,7 +13,7 @@
       <LatestOffers class="mx-auto max-w-7xl px-6 lg:px-8 py-24 sm:py-32" />
 
       <SectionHeaderWithBackground :title="winecellar.title" :subtitle="winecellar.subtitle"
-        :buttonLabel="winecellar.buttonLabel" :buttonLink="winecellar.buttonLink" :imgSrc="winecellar.imgSrc" />
+        :buttonLabel="winecellar.buttonLabel" :buttonLink="winecellar.buttonLink" :imgSrc="winecellar.imgSrc" :imgAlt="winecellar.imgAlt" />
 
       <Testimonial :title="owners.title" :quote="owners.quote" :signatureImgSrc="owners.signatureImgSrc"
         :signatureAlt="owners.signatureAlt" :imgSrc="owners.imgSrc" :imgAlt="owners.imgAlt" />
