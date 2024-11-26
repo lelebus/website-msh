@@ -10,7 +10,7 @@
             <NuxtLink :to="col.url" class="mt-3 text-lg/6 text-white text-center">
                 <span class="absolute inset-0" />
 
-                <img :src="col.icon" class="w-12 h-12 m-auto invisible md:visible transition-transform duration-500 group-hover:scale-125" />
+                <img :src="col.icon" :alt="'Icon ' + col.title" class="w-12 h-12 m-auto invisible md:visible transition-transform duration-500 group-hover:scale-125" />
                 <div class="text-2xl text-white/90 mt-5 ">{{ col.title }}</div>
             </NuxtLink>
         </div>
