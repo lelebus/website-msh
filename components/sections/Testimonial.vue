@@ -23,7 +23,7 @@
                     </svg>
                     <blockquote class="text-xl/8 font-semibold text-black/90 sm:text-2xl/9">
                         <p>{{ quote }}</p>
-                        <NuxtImg format="webp" loading="lazy" quality="80" sizes="sm:500px md:30vw"
+                        <NuxtImg format="webp" loading="lazy" quality="80" sizes="100vw sm:500px md:30vw"
                             :src="signatureImgSrc" :alt="signatureAlt" class="w-52 mt-5" />
                     </blockquote>
                 </div>
