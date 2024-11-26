@@ -13,7 +13,7 @@
       </video>
     </template>
     <template v-else-if="imgSrc">
-      <NuxtImg format="webp" :src="imgSrc" :alt="imgAlt" class="absolute inset-0 h-full w-full object-cover -z-10" />
+      <NuxtImg format="webp" loading="lazy" quality="80" :src="imgSrc" :alt="imgAlt" class="absolute inset-0 h-full w-full object-cover -z-10" />
     </template>
 
     <!-- copy -->

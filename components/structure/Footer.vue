@@ -3,7 +3,7 @@
         <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-24">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div class="space-y-8">
-                    <NuxtImg format="webp" class="h-32" :src="logoSrc" :alt="logoAlt" />
+                    <NuxtImg format="webp" loading="lazy" quality="80" class="h-32" :src="logoSrc" :alt="logoAlt" />
                     <div class="text-sm/6 text-black/90">
                         <div class="text-base font-semibold">Monaco Sport Hotel ***</div>
                         <div>Via Lungopiave, 60</div>

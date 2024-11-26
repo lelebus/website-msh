@@ -7,7 +7,7 @@
                     <!-- logo -->
                     <div>
                         <NuxtLink :to="localePath('/')">
-                            <NuxtImg format="webp" src="/logo-white.svg" :alt="logoAlt" class="h-24 lg:h-36 p-2.5 mx-auto"
+                            <NuxtImg src="/logo-white.svg" :alt="logoAlt" class="h-24 lg:h-36 p-2.5 mx-auto"
                                 :class="{ 'hidden': showFixedMenu || onlyFixedMenu }" />
                         </NuxtLink>
                     </div>
@@ -17,13 +17,13 @@
                         <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center text-white/95">
                             <a :href="bookingLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
-                            $t('ctas.book') }}</a>
+                                    $t('ctas.book') }}</a>
                             <a :href="localePath('/offers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
-                            $t('navigation.offers') }}</a>
+                                    $t('navigation.offers') }}</a>
                             <a :href="localePath('/vouchers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-white">{{
-                            $t('navigation.vouchers') }}</a>
+                                    $t('navigation.vouchers') }}</a>
                         </div>
 
                         <!-- open menu -->
@@ -39,13 +39,13 @@
 
             <!-- Fixed Menu -->
             <div class="fixed inset-x-0 top-0 z-40 bg-white fixed-menu shadow-md" :class="{
-                            'fixed-menu-active': showFixedMenu || onlyFixedMenu
-                        }">
+                'fixed-menu-active': showFixedMenu || onlyFixedMenu
+            }">
                 <div class="mx-2 lg:mx-8 flex items-center justify-between lg:px-8 p-6">
                     <!-- logo -->
                     <div>
                         <NuxtLink :to="localePath('/')">
-                            <NuxtImg format="webp" src="/logo-min.svg" :alt="logoAlt" class="h-16 px-5 mx-auto" />
+                            <NuxtImg src="/logo-min.svg" :alt="logoAlt" class="h-16 px-5 mx-auto" />
                         </NuxtLink>
                     </div>
                     <div class="flex items-center">
@@ -53,13 +53,13 @@
                         <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center text-black/90">
                             <a :href="bookingLink" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
-                            $t('ctas.book') }}</a>
+                                    $t('ctas.book') }}</a>
                             <a :href="localePath('/offers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
-                            $t('navigation.offers') }}</a>
+                                    $t('navigation.offers') }}</a>
                             <a :href="localePath('/vouchers')" target="_blank"
                                 class=" px-3.5 py-2.5 text-lg font hover:text-black">{{
-                            $t('navigation.vouchers') }}</a>
+                                    $t('navigation.vouchers') }}</a>
                         </div>
 
                         <!-- open menu -->
@@ -78,7 +78,7 @@
             <div class="h-full pb-16 flex flex-col text-center justify-between">
                 <!-- logo -->
                 <NuxtLink :to="localePath('/')">
-                    <NuxtImg format="webp" :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" @click="menuOpen = false" />
+                    <NuxtImg :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" @click="menuOpen = false" />
                 </NuxtLink>
                 <nav class="py-30" aria-label="Global">
                     <div v-for="item in navigation" :key="item.name" class="my-10">
