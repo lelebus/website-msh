@@ -6,7 +6,7 @@
       :videoSrc="hero.videoSrc" @scrollToNextSection="scrollToStart" />
 
     <div id="start" class="content-ct">
-      <div class="py-24 sm:py-32">
+      <div class="pb-24 sm:pb-32">
         <SectionHeader :title="food.title" />
 
         <ContentLxPicture :text="food.text" :imgSrc="food.imgSrc" :imgAlt="food.imgAlt"
