@@ -1,6 +1,6 @@
 <template>
     <div class="relative isolate overflow-hidden bg-gray py-24 sm:py-32 h-[70vh] lg:h-[80vh]">
-        <img :src="imgSrc" :alt="imgAlt" class="absolute inset-0 -z-10 h-full w-full object-cover object-right" />
+        <NuxtImg format="webp" :src="imgSrc" :alt="imgAlt" class="absolute inset-0 -z-10 h-full w-full object-cover object-right" />
         <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/80 via-black/60 lg:via-black/10" />
         <div class="absolute inset-0 -z-10" />
 

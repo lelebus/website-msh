@@ -7,7 +7,7 @@
                     <!-- logo -->
                     <div>
                         <NuxtLink :to="localePath('/')">
-                            <img src="/logo-white.svg" :alt="logoAlt" class="h-24 lg:h-36 p-2.5 mx-auto"
+                            <NuxtImg format="webp" src="/logo-white.svg" :alt="logoAlt" class="h-24 lg:h-36 p-2.5 mx-auto"
                                 :class="{ 'hidden': showFixedMenu || onlyFixedMenu }" />
                         </NuxtLink>
                     </div>
@@ -45,7 +45,7 @@
                     <!-- logo -->
                     <div>
                         <NuxtLink :to="localePath('/')">
-                            <img src="/logo-min.svg" :alt="logoAlt" class="h-16 px-5 mx-auto" />
+                            <NuxtImg format="webp" src="/logo-min.svg" :alt="logoAlt" class="h-16 px-5 mx-auto" />
                         </NuxtLink>
                     </div>
                     <div class="flex items-center">
@@ -78,7 +78,7 @@
             <div class="h-full pb-16 flex flex-col text-center justify-between">
                 <!-- logo -->
                 <NuxtLink :to="localePath('/')">
-                    <img :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" @click="menuOpen = false" />
+                    <NuxtImg format="webp" :src="logoSrc" :alt="logoAlt" :class="'h-32 mx-auto'" @click="menuOpen = false" />
                 </NuxtLink>
                 <nav class="py-30" aria-label="Global">
                     <div v-for="item in navigation" :key="item.name" class="my-10">

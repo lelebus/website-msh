@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 const { locale, locales } = useI18n()

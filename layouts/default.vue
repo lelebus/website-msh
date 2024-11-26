@@ -1,18 +1,18 @@
 <template>
     <Html :lang="$i18n.locale">
-
+    
     <Body>
         <div class="page-ct bg-white">
             <Header />
-
+    
             <main>
                 <slot />
             </main>
-
+    
             <Footer />
         </div>
     </Body>
-
+    
     </Html>
 </template>
 
