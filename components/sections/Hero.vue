@@ -6,10 +6,14 @@
     ">
     <!-- background -->
     <template v-if="videoSrc">
-      <video :src="videoSrc" autoplay muted loop class="absolute inset-0 h-full w-full object-cover -z-10"></video>
+      <video autoplay muted loop class="absolute inset-0 h-full w-full object-cover -z-10">
+        <source :src="videoSrc" type="video/mp4">
+        <track src="/captions/home-en.vtt" kind="subtitles" srclang="en" label="English" default>
+        Your browser does not support the video tag.
+      </video>
     </template>
     <template v-else-if="imgSrc">
-      <img :src="imgSrc" alt="" class="absolute inset-0 h-full w-full object-cover -z-10" />
+      <img :src="imgSrc" :alt="imgAlt" class="absolute inset-0 h-full w-full object-cover -z-10" />
     </template>
 
     <!-- copy -->
@@ -24,7 +28,7 @@
             </span>
 
             <h1 class="mt-10 max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-6xl xl:col-auto">{{
-    title }}</h1>
+              title }}</h1>
           </div>
 
           <div class="mt-6">
@@ -32,7 +36,7 @@
             <div class="mt-10 flex items-center gap-x-6">
               <a v-if="primaryButtonLabel" :href="primaryButtonLink" target="_blank"
                 class="rounded-md bg-msh px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-msh-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-msh">{{
-    primaryButtonLabel }}</a>
+                primaryButtonLabel }}</a>
               <NuxtLink v-if="secondaryButtonLabel" :to="localePath(secondaryButtonLink)"
                 class="text-sm font-semibold leading-6 text-gray-900">{{ secondaryButtonLabel }}<span
                   aria-hidden="true">→</span></NuxtLink>
@@ -91,6 +95,10 @@ export default {
       default: null,
     },
     imgSrc: {
+      type: String,
+      default: null,
+    },
+    imgAlt: {
       type: String,
       default: null,
     },
