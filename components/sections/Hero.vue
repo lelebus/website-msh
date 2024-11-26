@@ -115,3 +115,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+::cue {
+  position: relative;
+  bottom: 0;
+}
+</style>
