@@ -1,13 +1,19 @@
 <template>
-    <div class="page-ct bg-white">
-        <Header />
+    <Html :lang="$i18n.locale">
 
-        <main>
-            <slot />
-        </main>
+    <Body>
+        <div class="page-ct bg-white">
+            <Header />
 
-        <Footer />
-    </div>
+            <main>
+                <slot />
+            </main>
+
+            <Footer />
+        </div>
+    </Body>
+
+    </Html>
 </template>
 
 <script setup>
@@ -24,16 +30,4 @@ useSeoMeta({
 }, {
     tagPriority: 'critical'
 })
-</script>
-
-<script>
-export default {
-    head() {
-        return {
-            htmlAttrs: {
-                lang: this.$i18n.locale
-            }
-        }
-    }
-}
 </script>
