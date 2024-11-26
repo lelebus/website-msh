@@ -18,16 +18,16 @@
                         class="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
                         <div
                             class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
-                            <NuxtImg format="webp" loading="lazy" quality="80" :src="pictures[0].src" :alt="pictures[0].alt" class="block size-full object-cover" />
+                            <NuxtImg format="webp" loading="lazy" quality="80" sizes="sm:500px md:30vw" :src="pictures[0].src" :alt="pictures[0].alt" class="block size-full object-cover" />
                         </div>
                         <div
                             class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
-                            <NuxtImg format="webp" loading="lazy" quality="80" :src="pictures[1].src" :alt="pictures[1].alt" class="block size-full object-cover" />
+                            <NuxtImg format="webp" loading="lazy" quality="80" sizes="sm:500px md:30vw" :src="pictures[1].src" :alt="pictures[1].alt" class="block size-full object-cover" />
                         </div>
                         <div></div>
                         <div
                             class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
-                            <NuxtImg format="webp" loading="lazy" quality="80" :src="pictures[2].src" :alt="pictures[2].alt" class="block size-full object-cover" />
+                            <NuxtImg format="webp" loading="lazy" quality="80" sizes="sm:500px md:30vw" :src="pictures[2].src" :alt="pictures[2].alt" class="block size-full object-cover" />
                         </div>
                     </div>
                 </div>

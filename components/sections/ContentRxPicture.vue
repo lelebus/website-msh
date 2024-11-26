@@ -28,7 +28,7 @@
                 <div class="lg:pl-4">
                     <div
                         class="relative overflow-hidden bg-black/10 px-6 pb-9 pt-80 shadow-2xl sm:px-12 lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                        <NuxtImg format="webp" loading="lazy" quality="80" :src="imgSrc" :alt="imgAlt" class="absolute inset-0 h-full w-full object-cover" />
+                        <NuxtImg format="webp" loading="lazy" quality="80" sizes="sm:500px md:50vw" :src="imgSrc" :alt="imgAlt" class="absolute inset-0 h-full w-full object-cover" />
                     </div>
                 </div>
             </div>

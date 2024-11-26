@@ -23,11 +23,13 @@
                     </svg>
                     <blockquote class="text-xl/8 font-semibold text-black/90 sm:text-2xl/9">
                         <p>{{ quote }}</p>
-                        <NuxtImg format="webp" loading="lazy" quality="80" :src="signatureImgSrc" :alt="signatureAlt" class="w-52 mt-5" />
+                        <NuxtImg format="webp" loading="lazy" quality="80" sizes="sm:500px md:30vw"
+                            :src="signatureImgSrc" :alt="signatureAlt" class="w-52 mt-5" />
                     </blockquote>
                 </div>
                 <div class="col-end-1 w-full lg:row-span-4 lg:w-96 mx-3">
-                    <NuxtImg format="webp" loading="lazy" quality="80" class="bg-grey rounded-xl lg:rounded-xl" :src="imgSrc" :alt="imgAlt" />
+                    <NuxtImg format="webp" loading="lazy" quality="80" sizes="sm:500px md:30vw"
+                        class="bg-grey rounded-xl lg:rounded-xl" :src="imgSrc" :alt="imgAlt" />
                 </div>
             </figure>
         </div>

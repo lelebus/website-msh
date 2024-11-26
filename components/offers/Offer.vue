@@ -22,7 +22,7 @@
                     <div class="pl-32">
                         <div
                             class="relative overflow-hidden bg-black/10 w-full aspect-square shadow-2xl sm:px-12 lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                            <NuxtImg format="webp" loading="lazy" quality="80" :src="getOfferImage2Src(doc)" :alt="doc.title"
+                            <NuxtImg format="webp" loading="lazy" quality="80" sizes="100vw sm:500px md:100vw" :src="getOfferImage2Src(doc)" :alt="doc.title"
                                 class="absolute inset-0 h-full w-full object-cover" />
                         </div>
                     </div>
