@@ -25,7 +25,7 @@
     
                     <div class="md:grid md:grid-cols md:gap-8">
                         <div class="mt-10 md:mt-0">
-                            <h5 class="text-sm/6 font-semibold text-black">{{ navigation[0].title }}</h5>
+                            <h3 class="text-sm/6 font-semibold text-black">{{ navigation[0].title }}</h3>
                             <ul role="list" class="mt-6 space-y-1">
                                 <li v-for="item in navigation[0].items" :key="item.name">
                                     <a :href="item.href" target="_blank" class="text-sm/6 text-black/85 hover:text-black">{{ item.name
@@ -36,7 +36,7 @@
                     </div>
                     <div class="md:grid md:grid-cols md:gap-8">
                         <div class="mt-10 md:mt-0">
-                            <h5 class="text-sm/6 font-semibold text-black">{{ navigation[1].title }}</h5>
+                            <h3 class="text-sm/6 font-semibold text-black">{{ navigation[1].title }}</h3>
                             <ul role="list" class="mt-6 space-y-1">
                                 <li v-for="item in navigation[1].items" :key="item.name">
                                     <a :href="item.href" target="_blank" class="text-sm/6 text-black/85 hover:text-black">{{ item.name
@@ -47,7 +47,7 @@
                     </div>
                     <div class="md:grid md:grid-cols md:gap-8">
                         <div class="mt-10 md:mt-0">
-                            <h5 class="text-sm/6 font-semibold text-black">{{ $t('ctas.contactUs') }}</h5>
+                            <h3 class="text-sm/6 font-semibold text-black">{{ $t('ctas.contactUs') }}</h3>
                             <div class="mt-5 text-sm/6 text-black/80 ">
                                 <div class="flex items-center sm:block">
                                     <span class="text-black/90 font-semibold">E: </span>
