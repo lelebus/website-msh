@@ -8,12 +8,12 @@
     <template v-if="videoSrc">
       <video autoplay muted loop class="absolute inset-0 h-full w-full object-cover -z-10">
         <source :src="videoSrc" type="video/mp4">
-        <track src="/captions/home-en.vtt" kind="subtitles" srclang="en" label="English" default>
+        <track :src="`/captions/home-${$i18n.locale}.vtt`" kind="subtitles" :srclang="$i18n.locale" :label="localeName">
         Your browser does not support the video tag.
       </video>
     </template>
     <template v-else-if="imgSrc">
-      <img :src="imgSrc" :alt="imgAlt" class="absolute inset-0 h-full w-full object-cover -z-10" />
+      <NuxtImg format="webp" :src="imgSrc" :alt="imgAlt" class="absolute inset-0 h-full w-full object-cover -z-10" />
     </template>
 
     <!-- copy -->
@@ -36,7 +36,7 @@
             <div class="mt-10 flex items-center gap-x-6">
               <a v-if="primaryButtonLabel" :href="primaryButtonLink" target="_blank"
                 class="rounded-md bg-msh px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-msh-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-msh">{{
-                primaryButtonLabel }}</a>
+                  primaryButtonLabel }}</a>
               <NuxtLink v-if="secondaryButtonLabel" :to="localePath(secondaryButtonLink)"
                 class="text-sm font-semibold leading-6 text-gray-900">{{ secondaryButtonLabel }}<span
                   aria-hidden="true">→</span></NuxtLink>
@@ -107,5 +107,11 @@ export default {
       default: null,
     },
   },
+
+  computed: {
+    localeName() {
+      return this.$i18n.locales.find(l => l.code === this.$i18n.locale)?.name
+    }
+  }
 }
 </script>
