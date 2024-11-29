@@ -16,8 +16,8 @@ visible: true
 
 ## Sonderaufenthalte:
 
-- **5 Nächte** im Doppelzimmer ab €560 pro Person, Halbpension;
-- **4 Nächte** im Doppelzimmer ab €650 pro Person, Halbpension;
+- **4 Nächte** im Doppelzimmer ab €560 pro Person, Halbpension;
+- **5 Nächte** im Doppelzimmer ab €650 pro Person, Halbpension;
 - Kinder: €60 pro Tag.
 
 **Inklusive Silvester-Galadinner mit musikalischer Begleitung für einen unvergesslichen Abend!**

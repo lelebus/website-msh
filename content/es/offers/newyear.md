@@ -16,8 +16,8 @@ visible: true
 
 ## Estancias especiales:
 
-- **5 noches** en habitación doble a partir de €560 por persona, con media pensión;  
-- **4 noches** en habitación doble a partir de €650 por persona, con media pensión;  
+- **4 noches** en habitación doble a partir de €560 por persona, con media pensión;  
+- **5 noches** en habitación doble a partir de €650 por persona, con media pensión;  
 - Niños: €60 por día.
 
 **Incluye la Cena de Gala de Fin de Año con música en vivo para una noche inolvidable.**

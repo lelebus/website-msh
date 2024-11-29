@@ -16,8 +16,8 @@ visible: true
 
 ## Soggiorni speciali:
 
-- **5 notti** in camera doppia a partire da €560 a persona, trattamento mezza pensione;
-- **4 notti** in camera doppia a partire da €650 a persona, trattamento mezza pensione;
+- **4 notti** in camera doppia a partire da €560 a persona, trattamento mezza pensione;
+- **5 notti** in camera doppia a partire da €650 a persona, trattamento mezza pensione;
 - Bambini: €60 al giorno.
 
 **Inclusa la Cena di Gala di Capodanno con accompagnamento musicale per una serata indimenticabile!**

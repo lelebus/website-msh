@@ -16,8 +16,8 @@ visible: true
 
 ## Séjours spéciaux :
 
-- **5 nuits** en chambre double à partir de **560 € par personne**, en demi-pension ;  
-- **4 nuits** en chambre double à partir de **650 € par personne**, en demi-pension ;  
+- **4 nuits** en chambre double à partir de **560 € par personne**, en demi-pension ;  
+- **5 nuits** en chambre double à partir de **650 € par personne**, en demi-pension ;  
 - Enfants : **60 € par jour**.  
 
 **Dîner de Gala du Nouvel An inclus, accompagné de musique live pour une soirée inoubliable !**

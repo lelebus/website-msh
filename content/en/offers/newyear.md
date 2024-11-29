@@ -16,8 +16,8 @@ visible: true
 
 ## Special Stays:
 
-- **5 nights** in a double room starting from €560 per person, half-board treatment;
-- **4 nights** in a double room starting from €650 per person, half-board treatment;
+- **4 nights** in a double room starting from €560 per person, half-board treatment;
+- **5 nights** in a double room starting from €650 per person, half-board treatment;
 - Children: €60 per day.
 
 **Includes New Year's Eve Gala Dinner with live music for an unforgettable evening!**
