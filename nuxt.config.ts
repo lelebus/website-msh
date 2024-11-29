@@ -1,3 +1,5 @@
+import { defineOrganization } from 'nuxt-schema-org/schema'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
@@ -12,7 +14,8 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
     "nuxt-gtag",
     "@dargmuesli/nuxt-cookie-control",
-    "@nuxt/image"
+    "@nuxt/image",
+    'nuxt-schema-org'
   ],
 
   components: [
@@ -122,6 +125,47 @@ export default defineNuxtConfig({
 
   gtag: {
     enabled: false,
+  },
+
+  schemaOrg: {
+    identity: defineOrganization({
+      // Basic Information
+      name: 'Monaco Sport Hotel',
+      alternateName: 'MSH',
+      description: 'Il Monaco Sport Hotel è immerso nelle Dolomiti Bellunesi a un passo dalla Val Pusteria: relax e avventura tra natura incontaminata, cucina tipica e centro benessere. Perfetto per vacanze tra sci, trekking e paesaggi mozzafiato.',
+      url: 'https://www.monacosporthotel.com',
+      logo: '/logo.svg',
+
+      // Address Information, if applicable
+      address: {
+        '@type': 'PostalAddress',
+        'streetAddress': 'Via Lungopiave 60',
+        'addressLocality': 'Santo Stefano di Cadore',
+        'addressRegion': 'BL',
+        'postalCode': '32045',
+        'addressCountry': 'IT'
+      },
+
+      // Contact Information, if applicable
+      email: 'info@monacosporthotel.com',
+      telephone: '+39 0435 420440',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        'telephone': '+39 0435 420440',
+        'email': 'info@monacosporthotel.com'
+      },
+
+      // Social and External Links, if applicable
+      sameAs: [
+        'https://www.instagram.com/monaco_sport_hotel/',
+        'https://www.facebook.com/monacosporthotel'
+      ],
+
+      // Business Identifiers, if applicable
+      legalName: 'Monaco Sport Hotel',
+      taxID: 'IT00659590251',
+      vatID: 'IT00659590251',
+    })
   },
 
   cookieControl: {
