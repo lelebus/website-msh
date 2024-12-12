@@ -20,6 +20,12 @@
                                 <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
                             </a>
                     </div>
+
+                    <div class="mt-10 md:mt-0">
+                        <a href="/fesr-poster.pdf" target="_blank" class="flex items-center gap-2">
+                            <NuxtImg format="webp" loading="lazy" quality="80" class="h-16" src="fesr-banner.jpg" alt="Progetto finanziato con il PR Veneto FESR 2021-2027" />
+                        </a>
+                    </div>
                 </div>
                 <div class="mt-16 grid grid-cols-2 lg:grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
     
