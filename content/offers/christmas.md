@@ -20,6 +20,8 @@ visible: true
 - **4 notti** in camera doppia a partire da €319 a persona, trattamento mezza pensione;
 - Bambini: €55 al giorno.
 
+#### [Clicca qui per scoprire il menu di Natale!](/offers/ziria-christmas)
+
 :conditions
 
 *Prenota il tuo Bianco Natale con noi e vivi un'esperienza natalizia di relax e benessere tra le Dolomiti!*

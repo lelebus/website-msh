@@ -22,6 +22,8 @@ visible: true
 
 **Inclusa la Cena di Gala di Capodanno con accompagnamento musicale per una serata indimenticabile!**
 
+#### [Clicca qui per scoprire il menu di Capodanno!](/offers/ziria-newyear)
+
 :conditions
 
 *Inizia il nuovo anno in relax e benessere!*
