@@ -1,13 +1,6 @@
 <template>
     <div>
-        <ContentQuery :path="localePath(`/offers`)" :where="{
-            tags: {
-                $in: doc.tags
-            },
-            _id: {
-                $ne: doc._id
-            }
-        }" :sort="{ date: 1 }" :limit="3" v-slot="{ data }">
+        <ContentQuery :path="localePath(`/offers`)" :where="filters" :sort="{ date: 1 }" :limit="3" v-slot="{ data }">
             <div v-if="data.length > 0">
                 <div class="flex items-center py-10">
                     <h4 class="text-3xl md:text-4xl font-bold mr-auto">{{ $t('offers.suggestedOffers') }}</h4>
@@ -36,6 +29,22 @@ export default {
         doc: {
             type: Object,
             required: true
+        }
+    },
+    computed: {
+        filters() {
+            return {
+                visible: true,
+                date: {
+                    $gte: new Date(),
+                },
+                tags: {
+                    $in: this.doc.tags
+                },
+                _id: {
+                    $ne: this.doc._id
+                }
+            }
         }
     }
 }
