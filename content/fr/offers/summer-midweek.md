@@ -6,13 +6,13 @@ tags:
   - restaurant
   - spa
   - summer
-date: 2025-09-28T06:03:07.000Z
+date: 2025-06-30T06:03:07.000Z
 visible: true
 ---
 
 # Spécial Été
 
-*Offre valable du 1er juin au 31 septembre (uniquement du lundi au jeudi)*
+*Offre valable du 1er juin au 30 juin (uniquement du lundi au jeudi)*
 
 Réservez votre séjour en semaine (du lundi au jeudi) et profitez d'une expérience exclusive pour votre famille !
 

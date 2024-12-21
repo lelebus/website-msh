@@ -6,13 +6,13 @@ tags:
   - restaurant
   - spa
   - summer
-date: 2025-09-28T06:03:07.000Z
+date: 2025-06-30T06:03:07.000Z
 visible: true
 ---
 
 # Summer Special
 
-*Offer valid from June 1 to September 31 (only from Monday to Thursday)*
+*Offer valid from June 1 to June 30 (only from Monday to Thursday)*
 
 Book your midweek stay (from Monday to Thursday) and enjoy an exclusive experience for your family!
 

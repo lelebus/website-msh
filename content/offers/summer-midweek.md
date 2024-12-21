@@ -6,13 +6,13 @@ tags:
   - restaurant
   - spa
   - summer
-date: 2025-09-28T06:03:07.000Z
+date: 2025-06-30T06:03:07.000Z
 visible: true
 ---
 
 # Speciale Estate
 
-*Offerta valida dal 1 giugno al 31 settembre (solo da lunedì a giovedì)*
+*Offerta valida dal 1 giugno al 30 giugno (solo da lunedì a giovedì)*
 
 Prenota il tuo soggiorno infrasettimanale (da lunedì a giovedì) e approfitta di un'esperienza esclusiva per la tua famiglia!
 

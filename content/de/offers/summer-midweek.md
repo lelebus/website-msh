@@ -6,13 +6,13 @@ tags:
   - restaurant
   - spa
   - summer
-date: 2025-09-28T06:03:07.000Z
+date: 2025-06-30T06:03:07.000Z
 visible: true
 ---
 
 # Sommer Spezialangebot
 
-*Angebot gültig vom 1. Juni bis zum 31. September (nur von Montag bis Donnerstag)*
+*Angebot gültig vom 1. Juni bis zum 30. Juni (nur von Montag bis Donnerstag)*
 
 Buche deinen Wochentagsaufenthalt (von Montag bis Donnerstag) und profitiere von einem exklusiven Erlebnis für deine Familie!
 
