@@ -12,7 +12,7 @@ visible: true
 
 # Gönn dir eine Pause und erlebe unvergessliche Momente zwischen Natur und Komfort
 
-*Angebot gültig bis zum 8. Dezember*
+*Angebot gültig bis zum 8. Dezember mit Buchung __bis zum 31. Oktober__*
 
 Genieße einen besonderen Aufenthalt in unseren gemütlichen Zimmern, eingebettet in die Schönheit der herbstlichen Berge. Ob du Entspannung suchst, Abenteuer in der Natur oder einfach einen Ort zum Abschalten – unser Hotel bietet dir alles, was du brauchst.
 

@@ -12,7 +12,7 @@ visible: true
 
 # Prenditi una pausa e vivi momenti indimenticabili tra natura e comfort
 
-*Offerta valida fino all'8 dicembre*
+*Offerta valida fino all'8 dicembre con prenotazione __entro il 31 ottobre__*
 
 Goditi un soggiorno speciale nelle nostre accoglienti camere, immerso nella bellezza della montagna autunnale. Che tu stia cercando relax, avventure all'aria aperta o semplicemente un luogo dove staccare la spina, il nostro hotel ti offre tutto ciò di cui hai bisogno.
 

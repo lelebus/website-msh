@@ -12,7 +12,7 @@ visible: true
 
 # Take a Break and Experience Unforgettable Moments Amid Nature and Comfort
 
-*Offer valid until December 8*
+*Offer valid until December 8 with booking __by October 31st__*
 
 Enjoy a special stay in our cozy rooms, surrounded by the beauty of the autumn mountains. Whether you're seeking relaxation, outdoor adventures, or simply a place to unwind, our hotel offers everything you need.
 
