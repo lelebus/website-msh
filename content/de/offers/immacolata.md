@@ -6,7 +6,7 @@ tags:
   - restaurant
   - spa
   - winter
-date: 2024-12-08T06:03:07.000Z
+date: 2025-12-08T06:03:07.000Z
 visible: true
 ---
 
@@ -18,9 +18,9 @@ Genieße einen besonderen Aufenthalt in unseren gemütlichen Zimmern, eingebette
 
 ## Sonderaufenthalte:
 
-- **2 Nächte** im Doppelzimmer ab €180 pro Person, Halbpension;
-- **3 Nächte** im Doppelzimmer ab €240 pro Person, Halbpension;
-- Kinder: €55 pro Tag.
+- **3 Nächte** im Doppelzimmer ab €249 pro Person, Halbpension;
+- Kinder bis 12 Jahre (nicht vollendet): €50 pro Tag, 3. und 4. Bett im Zimmer mit den Eltern
+- Kinder bis 1 Jahr (nicht vollendet): €20 pro Tag.
 
 :conditions
 

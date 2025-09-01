@@ -1,12 +1,12 @@
 ---
-title: Puente de San Ambrosio e Inmaculada
+title: Vacaciones de San Ambrosio e Inmaculada
 description: Un breve refugio en la montaña para recargarse antes de las fiestas
 tags:
   - hotel
   - restaurant
   - spa
   - winter
-date: 2024-12-08T06:03:07.000Z
+date: 2025-12-08T06:03:07.000Z
 visible: true
 ---
 
@@ -18,9 +18,9 @@ Disfruta de una estancia especial en nuestras acogedoras habitaciones, rodeado p
 
 ## Estancias especiales:
 
-- **2 noches** en habitación doble a partir de €180 por persona, con media pensión;  
-- **3 noches** en habitación doble a partir de €240 por persona, con media pensión;  
-- Niños: €55 por día.
+- **3 noches** en habitación doble a partir de €249 por persona, con media pensión;
+- Niños hasta 12 años (no cumplidos): €50 por día, 3ª y 4ª cama en habitación con los padres
+- Niños hasta 1 año (no cumplido): €20 por día.
 
 :conditions
 

@@ -6,7 +6,7 @@ tags:
   - restaurant
   - spa
   - winter
-date: 2024-12-08T06:03:07.000Z
+date: 2025-12-08T06:03:07.000Z
 visible: true
 ---
 
@@ -18,9 +18,9 @@ Enjoy a special stay in our cozy rooms, surrounded by the beauty of the autumn m
 
 ## Special Stays:
 
-- **2 nights** in a double room starting from €180 per person, half-board treatment;
-- **3 nights** in a double room starting from €240 per person, half-board treatment;
-- Children: €55 per day.
+- **3 nights** in a double room starting from €249 per person, half-board treatment;
+- Children up to 12 years (not completed): €50 per day, 3rd and 4th bed in room with parents
+- Children up to 1 year (not completed): €20 per day.
 
 :conditions
 
