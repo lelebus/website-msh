@@ -1,24 +1,25 @@
 ---
-title: Blanca Navidad 2024
+title: Blanca Navidad 2025
 description: Vive la magia de la Navidad en la montaña
 tags:
   - hotel
   - restaurant
   - spa
   - winter
-date: 2024-12-22T06:03:07.000Z
+date: 2025-12-22T06:03:07.000Z
 visible: true
 ---
 
 # Especial Navidad
 
-*Oferta válida del 22 al 26 de diciembre*
+*Oferta válida del 22 al 26 de diciembre con reserva __hasta el 31 de octubre__*
 
 ## Estancias especiales:
 
 - **3 noches** en habitación doble a partir de €249 por persona, con media pensión;
 - **4 noches** en habitación doble a partir de €319 por persona, con media pensión;
-- Niños: €55 por día.
+- Niños hasta 12 años (no cumplidos): €50 por día, 3ª y 4ª cama en habitación con los padres
+- Niños hasta 1 año (no cumplido): €20 por día.
 
 :conditions
 
