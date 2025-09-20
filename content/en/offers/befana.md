@@ -6,19 +6,20 @@ tags:
   - restaurant
   - spa
   - winter
-date: 2025-01-02T06:03:07.000Z
+date: 2026-01-02T06:03:07.000Z
 visible: true
 ---
 
 # Special Epiphany Package
 
-*Offer valid from January 2 to January 7, 2025*
+*Offer valid from January 2 to January 7, 2026 with booking __by October 31__*
 
 ## Special Stays:
 
-- **3 nights** in a double room starting at €270 per person, half-board treatment;
-- **4 nights** in a double room starting at €340 per person, half-board treatment;
-- Children: €55 per day.
+- **3 nights** in a double room starting at €279 per person, half-board treatment;
+- **4 nights** in a double room starting at €349 per person, half-board treatment;
+- Children up to 12 years (not completed): €60 per day, 3rd and 4th bed in room with parents
+- Children up to 1 year (not completed): €20 per day.
 
 :conditions
 

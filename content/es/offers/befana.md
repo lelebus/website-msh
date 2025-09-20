@@ -6,19 +6,20 @@ tags:
   - restaurant
   - spa
   - winter
-date: 2025-01-02T06:03:07.000Z
+date: 2026-01-02T06:03:07.000Z
 visible: true
 ---
 
 # Paquete Especial para la Epifanía
 
-*Oferta válida del 2 al 7 de enero de 2025*
+*Oferta válida del 2 al 7 de enero de 2026 con reserva __hasta el 31 de octubre__*
 
 ## Estancias especiales:
 
-- **3 noches** en habitación doble a partir de €270 por persona, con media pensión;
-- **4 noches** en habitación doble a partir de €340 por persona, con media pensión;
-- Niños: €55 por día.
+- **3 noches** en habitación doble a partir de €279 por persona, con media pensión;
+- **4 noches** en habitación doble a partir de €349 por persona, con media pensión;
+- Niños hasta 12 años (no cumplidos): €60 al día, 3ª y 4ª cama en habitación con los padres
+- Niños hasta 1 año (no cumplido): €20 al día.
 
 :conditions
 
