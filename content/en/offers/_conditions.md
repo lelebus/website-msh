@@ -15,7 +15,7 @@ Access our exclusive SPA and pool area with the Pool Set, which includes a bathr
 - **€12 per person** if booked in advance;
 - **€15 per person** if requested on-site;
 - **€6 for children** (€7 on-site), including only the body towel.
-- **Private SPA for families**: 2 hours at €40 per family (available by reservation and subject to availability; access reserved for adults)
+- **Private SPA for families**: 2 hours at €45 per family (available by reservation and subject to availability; access reserved for adults)
 
 **Pool Hours:**
 - **Opening**: 7:00 AM - 8:30 AM and 11:00 AM - 8:00 PM  
@@ -25,7 +25,7 @@ Access our exclusive SPA and pool area with the Pool Set, which includes a bathr
 
 The **exclusive SPA** is available by reservation, offering a private experience for your family only:
 
-- **2 hours of private SPA** at **€40** per family (by reservation and subject to availability)  
+- **2 hours of private SPA** at **€45** per family (by reservation and subject to availability)  
 - **Adults-only access**
 
 **Available Time Slots:**

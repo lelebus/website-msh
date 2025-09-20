@@ -15,7 +15,7 @@ Accédez à notre espace exclusif SPA et piscine avec le Pool Set, comprenant pe
 - **12 € par personne** si réservé à l'avance ;
 - **15 € par personne** si demandé sur place ;
 - **6 € pour les enfants** (7 € sur place), comprenant uniquement la serviette de bain.
-- **SPA privé pour les familles** : 2 heures à **40 € par famille** (disponible sur réservation et selon disponibilité ; accès réservé aux adultes).  
+- **SPA privé pour les familles** : 2 heures à **45 € par famille** (disponible sur réservation et selon disponibilité ; accès réservé aux adultes).  
 
 **Horaires de la piscine :**
 - **Ouverture** : 7h00 - 8h30 et 11h00 - 20h00  
@@ -25,7 +25,7 @@ Accédez à notre espace exclusif SPA et piscine avec le Pool Set, comprenant pe
 
 La **SPA exclusive** est disponible sur réservation, pour une expérience réservée uniquement à votre famille :
 
-- **2 heures de SPA privé** à **40 €** par famille (sur réservation et selon disponibilité).  
+- **2 heures de SPA privé** à **45 €** par famille (sur réservation et selon disponibilité).  
 - **Accès réservé aux adultes**  
 
 **Plages horaires disponibles :**
