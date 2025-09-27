@@ -12,13 +12,13 @@ visible: false
 
 Zugang zu unserem exklusiven SPA-Bereich und Pool mit dem Pool-Set, das Bademantel, Handtuch und Hausschuhe umfasst. Sie können im Voraus buchen oder direkt im Hotel kaufen:
 
-- **€12 pro Person**, wenn im Voraus gebucht;
-- **€15 pro Person**, wenn vor Ort angefragt;
+- **€13 pro Person**, wenn im Voraus gebucht;
+- **€16 pro Person**, wenn vor Ort angefragt;
 - **€6 für Kinder** (€7 vor Ort), nur Handtuch inklusive.
 - **Private SPA für Familien**: 2 Stunden für **€45 pro Familie** (auf Anfrage und je nach Verfügbarkeit; Zugang nur für Erwachsene)  
 
 **Poolzeiten:**
-- **Öffnungszeiten**: 7:00 - 8:30 und 11:00 - 20:00  
+- **Öffnungszeiten**: 7:00 - 8:30 und 11:00 - 20:10  
 - **Kinderzeiten**: 13:30 - 18:30 (Badekappe optional)  
 
 ### Exklusive SPA

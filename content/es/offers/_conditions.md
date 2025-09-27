@@ -12,13 +12,13 @@ visible: false
 
 Accede a nuestra exclusiva zona de SPA y piscina con el Pool Set, que incluye albornoz, toalla de cuerpo y zapatillas. Puedes reservar con antelación o comprar directamente en el hotel:
 
-- **€12 por persona** si se reserva con antelación;  
-- **€15 por persona** si se solicita en el hotel;  
+- **€13 por persona** si se reserva con antelación;  
+- **€16 por persona** si se solicita en el hotel;  
 - **€6 para niños** (€7 en el hotel), incluye solo la toalla de cuerpo.  
 - **SPA privado para familias**: 2 horas por €45 por unidad familiar (disponible bajo reserva y según disponibilidad; acceso reservado para adultos)  
 
 **Horarios de la Piscina:**  
-- **Apertura**: 7:00 - 8:30 y 11:00 - 20:00  
+- **Apertura**: 7:00 - 8:30 y 11:00 - 20:10  
 - **Horario para niños**: 13:30 - 18:30 (gorro opcional)  
 
 ### SPA Exclusivo

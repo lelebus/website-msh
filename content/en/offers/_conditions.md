@@ -12,13 +12,13 @@ visible: false
 
 Access our exclusive SPA and pool area with the Pool Set, which includes a bathrobe, body towel, and slippers. You can book in advance or purchase directly at the hotel:
 
-- **€12 per person** if booked in advance;
-- **€15 per person** if requested on-site;
+- **€13 per person** if booked in advance;
+- **€16 per person** if requested on-site;
 - **€6 for children** (€7 on-site), including only the body towel.
 - **Private SPA for families**: 2 hours at €45 per family (available by reservation and subject to availability; access reserved for adults)
 
 **Pool Hours:**
-- **Opening**: 7:00 AM - 8:30 AM and 11:00 AM - 8:00 PM  
+- **Opening**: 7:00 AM - 8:30 AM and 11:00 AM - 8:10 PM  
 - **Children's Hours**: 1:30 PM - 6:30 PM (swim cap optional)  
 
 ### Exclusive SPA

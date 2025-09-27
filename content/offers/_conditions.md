@@ -12,13 +12,13 @@ visible: false
 
 Accedi alla nostra esclusiva area SPA e piscina con il Pool Set, che include accappatoio, telo corpo e ciabattine. Puoi prenotare in anticipo o acquistare direttamente in hotel:
 
-- **€12 per persona** se prenotato in anticipo;
-- **€15 per persona** se richiesto in struttura;
+- **€13 per persona** se prenotato in anticipo;
+- **€16 per persona** se richiesto in struttura;
 - **€6 per bambini** (€7 in struttura), incluso solo il telo corpo.
 - **SPA privata per famiglie**: 2 ore a €45 per nucleo familiare (disponibile su prenotazione e in base alla disponibilità; accesso riservato agli adulti)  
 
 **Orari Piscina:**
-- **Apertura**: 7:00 - 8:30 e 11:00 - 20:00  
+- **Apertura**: 7:00 - 8:30 e 11:00 - 20:10  
 - **Orario bambini**: 13:30 - 18:30 (cuffia facoltativa)  
 
 ### SPA Esclusiva
