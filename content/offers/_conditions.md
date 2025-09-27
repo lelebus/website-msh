@@ -10,7 +10,9 @@ visible: false
 
 ### SPA & Piscina
 
-Accedi alla nostra esclusiva area SPA e piscina con il Pool Set, che include accappatoio, telo corpo e ciabattine. Puoi prenotare in anticipo o acquistare direttamente in hotel:
+L'accesso all'area benessere è consentito esclusivamente con l'utilizzo dei nostri Pool Set, che includono accappatoio e telo corpo. Per gli ospiti adulti, che noleggiano il set, un paio di ciabattine con il nostro logo in omaggio.
+
+Puoi prenotare il tuo set in anticipo o acquistarlo direttamente in hotel:
 
 - **€13 per persona** se prenotato in anticipo;
 - **€16 per persona** se richiesto in struttura;
