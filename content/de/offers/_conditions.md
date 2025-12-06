@@ -7,6 +7,7 @@ visible: false
 - **Zugang zum Innenpool**  
 - **Kostenloser Parkplatz**  
 - **Kostenloses Wi-Fi** im gesamten Gebäude  
+- **SKY TV** im Zimmer (12 Kanäle)
 
 ### SPA & Pool
 

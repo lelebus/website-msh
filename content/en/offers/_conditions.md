@@ -7,6 +7,7 @@ visible: false
 - **Access to the indoor pool**  
 - **Free parking**  
 - **Free Wi-Fi** throughout the property  
+- **SKY TV** in room (12 channels)
 
 ### SPA & Pool
 

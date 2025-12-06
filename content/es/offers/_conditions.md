@@ -7,6 +7,7 @@ visible: false
 - **Acceso a la piscina interior**  
 - **Aparcamiento gratuito**  
 - **Wi-Fi gratuito** en toda la instalación  
+- **SKY TV** en habitación (12 canales)
 
 ### SPA y Piscina
 
