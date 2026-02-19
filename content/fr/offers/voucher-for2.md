@@ -14,6 +14,7 @@ visible: true
 
 # Bon cadeau : Day Spa, Dîner Gourmet et nuitée
 
-1 nuit pour deux personnes avec dîner dégustation (4 plats avec vin assorti) et accès à l'area bien-être avec Spa & Piscine, incluant Pool Set et 2 heures de Spa en exclusivité.
+1 nuit pour deux personnes avec dîner dégustation (4 plats avec vin assorti) et accès à l'espace bien-être avec Spa & Piscine, incluant Pool Set et 2 heures de Spa en exclusivité.
 
-**Prix : 310,00 €**
+**Prix du dimanche au jeudi : 340,00 €**
+**Prix du vendredi au samedi : 370,00 €**

@@ -16,4 +16,5 @@ visible: true
 
 1 notte per due persone con cena degustazione (4 portate con vino in abbinamento) e accesso all'area benessere con Spa & Piscina, inclusi Pool Set e 2 ore di Spa in esclusiva.
 
-**Prezzo: € 310,00**
+**Prezzo da domenica a giovedì: € 340,00**
+**Prezzo da venerdì a sabato: € 370,00**

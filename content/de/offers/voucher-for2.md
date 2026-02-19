@@ -16,4 +16,5 @@ visible: true
 
 1 Nacht für zwei Personen mit Degustationsdinner (4 Gänge mit Weinbegleitung) und Zugang zum Wellnessbereich mit Spa & Pool, inklusive Pool-Set und 2 Stunden exklusivem Spa-Zugang.
 
-**Preis: € 310,00**
+**Preis von Sonntag bis Donnerstag: € 340,00**
+**Preis von Freitag bis Samstag: € 370,00**

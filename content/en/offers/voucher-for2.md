@@ -16,4 +16,5 @@ visible: true
 
 1 night for two with a tasting dinner (4 courses with wine pairing) and access to the wellness area with Spa & Pool, including Pool Set and 2 hours of exclusive Spa access.
 
-**Price: €310.00**
+**Price Sunday to Thursday: € 340,00**
+**Price Friday to Saturday: € 370,00**
