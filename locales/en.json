@@ -51,6 +51,7 @@
     "weather": "Weather"
   },
   "pages": {
+    "locationBannerText": "Monaco Sport Hotel welcomes you to the <a href=\"https://www.dolomitivalcomelico.it/\" target=\"_blank\" rel=\"noopener noreferrer\">Val Comelico</a>, a Dolomite valley described as «a paradise among the rocks»: authentic nature on the border with Austria, close to Sappada, 15 minutes from the Drei Zinnen ski resort, 45 minutes from Misurina, and about an hour from <a href=\"https://cortinadampezzo.it/en/\" target=\"_blank\" rel=\"noopener noreferrer\">Cortina d'Ampezzo</a>, host city of Milano-Cortina 2026.",
     "home": {
       "heroTitle": "The Heart of the Mountains, the Quiet of the Soul",
       "heroSubtitle": "An Alpine Elegance Retreat in the Heart of the Dolomites",
@@ -151,7 +152,7 @@
     "winter": {
       "title": "Winter in the Mountains",
       "skiTitle": "Skiing in the Dolomites",
-      "skiText": "Monaco Sport Hotel is located in the land of the Tre Cime, just 15 minutes from the <a href=\"https://www.dreizinnen.com\" target=\"_blank\" rel=\"noopener noreferrer\">Drei Zinnen ski resort</a> and 45 minutes from Misurina. The Dolomites offer some of the best ski slopes in Europe, suitable for all levels. From technical descents to family-friendly runs, you’ll find everything you need for a perfect day on the snow.",
+      "skiText": "The Dolomites offer some of the best ski slopes in Europe, suitable for all levels. From technical descents to family-friendly runs, you’ll find everything you need for a perfect day on the snow.",
       "skiButtonLabel": "Tre Cime Ski Area",
       "ciaspoleTitle": "Snowshoeing Excursions",
       "ciaspoleText": "Explore winter trails through enchanted forests and snowy meadows. Snowshoeing is ideal for those seeking an authentic experience in close contact with nature, away from crowded slopes.",

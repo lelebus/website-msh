@@ -51,6 +51,7 @@
     "weather": "Météo"
   },
   "pages": {
+    "locationBannerText": "Le Monaco Sport Hotel vous accueille dans le <a href=\"https://www.dolomitivalcomelico.it/\" target=\"_blank\" rel=\"noopener noreferrer\">Val Comelico</a>, une vallée dolomitique décrite comme « un paradis entre les rochers » : nature authentique à la frontière autrichienne, proche de Sappada, à 15 minutes du domaine skiable Drei Zinnen, à 45 minutes de Misurina et à environ une heure de <a href=\"https://cortinadampezzo.it/en/\" target=\"_blank\" rel=\"noopener noreferrer\">Cortina d'Ampezzo</a>, ville hôte de Milano-Cortina 2026.",
     "home": {
       "heroTitle": "Le cœur de la montagne, la quiétude de l'âme",
       "heroSubtitle": "Un refuge d'élégance alpine au cœur des Dolomites",
@@ -151,7 +152,7 @@
     "winter": {
       "title": "Hiver à la Montagne",
       "skiTitle": "Ski dans les Dolomites",
-      "skiText": "Le Monaco Sport Hotel se situe dans la terre des 3 Cime, à seulement 15 minutes du <a href=\"https://www.dreizinnen.com\" target=\"_blank\" rel=\"noopener noreferrer\">domaine skiable Drei Zinnen</a> et à 45 minutes de Misurina. Les Dolomites offrent certaines des meilleures pistes de ski d'Europe, adaptées à tous les niveaux. Des descentes techniques aux pistes familiales, vous trouverez tout ce qu'il vous faut pour une journée parfaite sur la neige.",
+      "skiText": "Les Dolomites offrent certaines des meilleures pistes de ski d'Europe, adaptées à tous les niveaux. Des descentes techniques aux pistes familiales, vous trouverez tout ce qu'il vous faut pour une journée parfaite sur la neige.",
       "skiButtonLabel": "Domaine Tre Cime",
       "ciaspoleTitle": "Randonnées en Raquettes",
       "ciaspoleText": "Découvrez des sentiers d'hiver à travers des forêts enchantées et des prairies enneigées. Les randonnées en raquettes sont idéales pour ceux qui recherchent une expérience authentique en pleine nature, loin des pistes bondées.",

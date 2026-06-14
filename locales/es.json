@@ -51,6 +51,7 @@
     "weather": "Clima"
   },
   "pages": {
+    "locationBannerText": "El Monaco Sport Hotel le da la bienvenida al <a href=\"https://www.dolomitivalcomelico.it/\" target=\"_blank\" rel=\"noopener noreferrer\">Val Comelico</a>, un valle dolomítico descrito como «un paraíso entre las rocas»: naturaleza auténtica en la frontera con Austria, cerca de Sappada, a 15 minutos de la estación de esquí Drei Zinnen, a 45 minutos de Misurina y a aproximadamente una hora de <a href=\"https://cortinadampezzo.it/en/\" target=\"_blank\" rel=\"noopener noreferrer\">Cortina d'Ampezzo</a>, sede olímpica de Milano-Cortina 2026.",
     "home": {
       "heroTitle": "El Corazón de las Montañas, la Quietud del Alma",
       "heroSubtitle": "Un Retiro de Elegancia Alpina en el Corazón de los Dolomitas",
@@ -151,7 +152,7 @@
     "winter": {
       "title": "Invierno en la Montaña",
       "skiTitle": "Esquí en los Dolomitas",
-      "skiText": "El Monaco Sport Hotel se encuentra en la tierra de las Tre Cime, a solo 15 minutos de la <a href=\"https://www.dreizinnen.com\" target=\"_blank\" rel=\"noopener noreferrer\">estación de esquí Drei Zinnen</a> y a 45 minutos de Misurina. Los Dolomitas ofrecen algunas de las mejores pistas de esquí de Europa, aptas para todos los niveles. Desde descensos técnicos hasta pistas familiares, encontrarás todo lo que necesitas para un día perfecto en la nieve.",
+      "skiText": "Los Dolomitas ofrecen algunas de las mejores pistas de esquí de Europa, aptas para todos los niveles. Desde descensos técnicos hasta pistas familiares, encontrarás todo lo que necesitas para un día perfecto en la nieve.",
       "skiButtonLabel": "Área de Esquí Tre Cime",
       "ciaspoleTitle": "Excursiones con Raquetas de Nieve",
       "ciaspoleText": "Explora senderos invernales a través de bosques encantados y praderas nevadas. Las excursiones con raquetas de nieve son ideales para quienes buscan una experiencia auténtica en contacto cercano con la naturaleza, lejos de las pistas concurridas.",

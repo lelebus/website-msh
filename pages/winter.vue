@@ -5,6 +5,8 @@
       :secondaryButtonLink="hero.secondaryButtonLink" :imgSrc="hero.imgSrc" @scrollToNextSection="scrollToStart" />
 
     <div id="start" class="content-ct">
+      <InformativeBanner :text="$t('pages.locationBannerText')" />
+
       <ContentRxPicture :title="ski.title" :text="ski.text" :imgSrc="ski.imgSrc" :imgAlt="ski.title"
         :primaryButtonLabel="ski.buttonLabel" :primaryButtonLink="ski.buttonLink"
         class="py-12 sm:py-16 border-b border-solid border-black/40" />

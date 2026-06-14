@@ -51,6 +51,7 @@
     "weather": "Meteo"
   },
   "pages": {
+    "locationBannerText": "Il Monaco Sport Hotel vi accoglie nella <a href=\"https://www.dolomitivalcomelico.it/\" target=\"_blank\" rel=\"noopener noreferrer\">Val Comelico</a>, la valle dolomitica descritta come «un paradiso tra le rocce»: natura autentica al confine con l'Austria, vicina a Sappada, a 15 minuti dal comprensorio sciistico Drei Zinnen, a 45 minuti da Misurina e a circa un'ora da <a href=\"https://cortinadampezzo.it/\" target=\"_blank\" rel=\"noopener noreferrer\">Cortina d'Ampezzo</a>, sede olimpica di Milano-Cortina 2026.",
     "home": {
       "heroTitle": "Il cuore della montagna, la quiete dell'anima",
       "heroSubtitle": "Un rifugio di eleganza alpina nel cuore delle Dolomiti",
@@ -151,7 +152,7 @@
     "winter": {
       "title": "Inverno in Montagna",
       "skiTitle": "Sci nelle Dolomiti",
-      "skiText": "Il Monaco Sport Hotel si trova nella terra delle 3 Cime, a soli 15 minuti dal <a href=\"https://www.dreizinnen.com\" target=\"_blank\" rel=\"noopener noreferrer\">comprensorio sciistico Drei Zinnen</a> e a 45 minuti da Misurina. Le Dolomiti offrono alcune delle migliori piste da sci d'Europa, adatte a tutti i livelli. Dalle discese tecniche alle piste per famiglie, troverai tutto ciò che serve per una giornata perfetta sulla neve.",
+      "skiText": "Le Dolomiti offrono alcune delle migliori piste da sci d'Europa, adatte a tutti i livelli. Dalle discese tecniche alle piste per famiglie, troverai tutto ciò che serve per una giornata perfetta sulla neve.",
       "skiButtonLabel": "Comprensorio Tre Cime",
       "ciaspoleTitle": "Escursioni con le Ciaspole",
       "ciaspoleText": "Scopri sentieri invernali attraverso boschi incantati e praterie innevate. Le escursioni con le ciaspole sono l'ideale per chi cerca un'esperienza autentica a contatto con la natura, lontano dalle piste affollate.",

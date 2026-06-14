@@ -51,6 +51,7 @@
     "weather": "Wetter"
   },
   "pages": {
+    "locationBannerText": "Das Monaco Sport Hotel heißt Sie im <a href=\"https://www.dolomitivalcomelico.it/\" target=\"_blank\" rel=\"noopener noreferrer\">Val Comelico</a> willkommen, einem Dolomital, das als «Paradies zwischen den Felsen» beschrieben wird: unberührte Natur an der Grenze zu Österreich, nahe Sappada, 15 Minuten vom Skigebiet Drei Zinnen, 45 Minuten von Misurina und etwa eine Stunde von <a href=\"https://cortinadampezzo.it/en/\" target=\"_blank\" rel=\"noopener noreferrer\">Cortina d'Ampezzo</a>, Austragungsort der Olympia Milano-Cortina 2026.",
     "home": {
       "heroTitle": "Das Herz der Berge, die Ruhe der Seele",
       "heroSubtitle": "Ein Refugium alpiner Eleganz im Herzen der Dolomiten",
@@ -151,7 +152,7 @@
     "winter": {
       "title": "Winter in den Bergen",
       "skiTitle": "Skifahren in den Dolomiten",
-      "skiText": "Das Monaco Sport Hotel liegt im Land der Drei Zinnen, nur 15 Minuten vom <a href=\"https://www.dreizinnen.com\" target=\"_blank\" rel=\"noopener noreferrer\">Skigebiet Drei Zinnen</a> und 45 Minuten von Misurina entfernt. Die Dolomiten bieten einige der besten Skipisten Europas, geeignet für alle Könnerstufen. Von technisch anspruchsvollen Abfahrten bis zu familienfreundlichen Pisten findest du alles, was du für einen perfekten Tag im Schnee brauchst.",
+      "skiText": "Die Dolomiten bieten einige der besten Skipisten Europas, geeignet für alle Könnerstufen. Von technisch anspruchsvollen Abfahrten bis zu familienfreundlichen Pisten findest du alles, was du für einen perfekten Tag im Schnee brauchst.",
       "skiButtonLabel": "Skigebiet Drei Zinnen",
       "ciaspoleTitle": "Schneeschuhwanderungen",
       "ciaspoleText": "Entdecke Winterwanderwege durch verzauberte Wälder und schneebedeckte Wiesen. Schneeschuhwanderungen sind ideal für diejenigen, die ein authentisches Naturerlebnis abseits der überfüllten Pisten suchen.",
