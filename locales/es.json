@@ -1,7 +1,7 @@
 {
   "msh": {
     "title": "Monaco Sport Hotel - 3* en los Dolomitas",
-    "description": "Monaco Sport Hotel, ubicado en los Dolomitas de Belluno, cerca del Valle de Pusteria: relajación y aventura en plena naturaleza, cocina tradicional y un centro de bienestar. Perfecto para vacaciones de esquí, senderismo y paisajes impresionantes."
+    "description": "Monaco Sport Hotel, en la tierra de las 3 Cimas (Tre Cime), en los Dolomitas de Belluno: a 45 minutos de Misurina y a 15 minutos de la estación de esquí Drei Zinnen. Relajación y aventura en plena naturaleza, cocina tradicional y centro de bienestar."
   },
   "common": {
     "menu": "Menú",
@@ -55,7 +55,7 @@
       "heroTitle": "El Corazón de las Montañas, la Quietud del Alma",
       "heroSubtitle": "Un Retiro de Elegancia Alpina en el Corazón de los Dolomitas",
       "missionTitle": "Naturaleza y Refinamiento en los Dolomitas",
-      "missionText": "En el Monaco Sport Hotel, la elegancia se encuentra con la esencia pura de las montañas. Cada experiencia está diseñada para rejuvenecer tu cuerpo y mente, sumergiéndote en una atmósfera de paz y autenticidad, donde la naturaleza es la protagonista.",
+      "missionText": "En el Monaco Sport Hotel, en la tierra de las Tre Cime, la elegancia se encuentra con la esencia pura de las montañas. Situado a 45 minutos de Misurina y a solo 15 minutos de la estación de esquí Drei Zinnen, cada experiencia está diseñada para rejuvenecer tu cuerpo y mente, sumergiéndote en una atmósfera de paz y autenticidad, donde la naturaleza es la protagonista.",
       "winecellarTitle": "L'Anguana del Vin",
       "winecellarText": "Más de 2,600 etiquetas seleccionadas para un viaje enológico único. Descubre vinos extraordinarios guiado por nuestra experiencia.",
       "winecellarButtonLabel": "Descubre la Bodega"
@@ -151,7 +151,7 @@
     "winter": {
       "title": "Invierno en la Montaña",
       "skiTitle": "Esquí en los Dolomitas",
-      "skiText": "Los Dolomitas ofrecen algunas de las mejores pistas de esquí de Europa, aptas para todos los niveles. Desde descensos técnicos hasta pistas familiares, encontrarás todo lo que necesitas para un día perfecto en la nieve.",
+      "skiText": "El Monaco Sport Hotel se encuentra en la tierra de las Tre Cime, a solo 15 minutos de la <a href=\"https://www.dreizinnen.com\" target=\"_blank\" rel=\"noopener noreferrer\">estación de esquí Drei Zinnen</a> y a 45 minutos de Misurina. Los Dolomitas ofrecen algunas de las mejores pistas de esquí de Europa, aptas para todos los niveles. Desde descensos técnicos hasta pistas familiares, encontrarás todo lo que necesitas para un día perfecto en la nieve.",
       "skiButtonLabel": "Área de Esquí Tre Cime",
       "ciaspoleTitle": "Excursiones con Raquetas de Nieve",
       "ciaspoleText": "Explora senderos invernales a través de bosques encantados y praderas nevadas. Las excursiones con raquetas de nieve son ideales para quienes buscan una experiencia auténtica en contacto cercano con la naturaleza, lejos de las pistas concurridas.",

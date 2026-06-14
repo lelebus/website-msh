@@ -1,7 +1,7 @@
 {
   "msh": {
     "title": "Monaco Sport Hotel - 3* nelle Dolomiti",
-    "description": "Monaco Sport Hotel, immerso nelle Dolomiti Bellunesi a un passo dalla Val Pusteria: relax e avventura tra natura incontaminata, cucina tipica e centro benessere. Perfetto per vacanze tra sci, trekking e paesaggi mozzafiato.",
+    "description": "Monaco Sport Hotel nella terra delle Tre Cime, nelle Dolomiti Bellunesi: a 45 minuti da Misurina e a 15 minuti dal comprensorio sciistico Drei Zinnen. Relax e avventura tra natura incontaminata, cucina tipica e centro benessere.",
   },
   "common": {
     "menu": "Menu",
@@ -55,7 +55,7 @@
       "heroTitle": "Il cuore della montagna, la quiete dell'anima",
       "heroSubtitle": "Un rifugio di eleganza alpina nel cuore delle Dolomiti",
       "missionTitle": "Natura e Raffinatezza tra le Dolomiti",
-      "missionText": "Al Monaco Sport Hotel, l'eleganza incontra l'essenza pura della montagna. Qui ogni esperienza è pensata per rigenerare corpo e mente, immergendoti in un'atmosfera di pace e autenticità, dove la natura è protagonista.",
+      "missionText": "Al Monaco Sport Hotel, nella terra delle Tre Cime, l'eleganza incontra l'essenza pura della montagna. Situato a 45 minuti da Misurina e a soli 15 minuti dal comprensorio sciistico Drei Zinnen, ogni esperienza è pensata per rigenerare corpo e mente, immergendoti in un'atmosfera di pace e autenticità, dove la natura è protagonista.",
       "winecellarTitle": "L'Anguana del Vin",
       "winecellarText": "Oltre 2600 etichette selezionate per un viaggio enologico unico. Scopri vini straordinari, guidato dalla nostra esperienza.",
       "winecellarButtonLabel": "Scopri la Cantina"
@@ -151,7 +151,7 @@
     "winter": {
       "title": "Inverno in Montagna",
       "skiTitle": "Sci nelle Dolomiti",
-      "skiText": "Le Dolomiti offrono alcune delle migliori piste da sci d'Europa, adatte a tutti i livelli. Dalle discese tecniche alle piste per famiglie, troverai tutto ciò che serve per una giornata perfetta sulla neve.",
+      "skiText": "Il Monaco Sport Hotel si trova nella terra delle 3 Cime, a soli 15 minuti dal <a href=\"https://www.dreizinnen.com\" target=\"_blank\" rel=\"noopener noreferrer\">comprensorio sciistico Drei Zinnen</a> e a 45 minuti da Misurina. Le Dolomiti offrono alcune delle migliori piste da sci d'Europa, adatte a tutti i livelli. Dalle discese tecniche alle piste per famiglie, troverai tutto ciò che serve per una giornata perfetta sulla neve.",
       "skiButtonLabel": "Comprensorio Tre Cime",
       "ciaspoleTitle": "Escursioni con le Ciaspole",
       "ciaspoleText": "Scopri sentieri invernali attraverso boschi incantati e praterie innevate. Le escursioni con le ciaspole sono l'ideale per chi cerca un'esperienza autentica a contatto con la natura, lontano dalle piste affollate.",
